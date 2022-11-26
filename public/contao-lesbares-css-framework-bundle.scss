@@ -1,0 +1,138 @@
+@media(min-width:1024px){ .nichtAufDesktopAnzeigen { display: none !important; } }
+@media(max-width:1023px){ .nichtAufMobilAnzeigen { display: none !important; } }
+.verstecken { display: none; }
+.InhaltDarfUeberElementHinauslaufen { overflow: visible; }
+.zweispaltig { columns: 2; gap: 20px; 
+	@media(max-width:1023px){ columns: 1; gap: 0; }
+}
+//************************************************************* BREITE *************************************************************//
+.BreiteXS 	{ max-width: 100%; width: 600px;  --article_inside_width: 600px; margin: auto; }
+.BreiteS 	{ max-width: 100%; width: 900px;  --article_inside_width: 900px; margin: auto; }
+.BreiteL 	{ max-width: 100%; width: 1200px; --article_inside_width: 1200px; margin: auto; }
+.BreiteXL 	{ max-width: 100%; width: 1400px; --article_inside_width: 1400px; margin: auto; }
+.BreiteXXL 	{ max-width: 100%; width: 1500px; --article_inside_width: 1500px; margin: auto; }
+.BreiteXXXL { max-width: 100%; width: 1700px; --article_inside_width: 1700px; margin: auto; }
+.BreiteM 	{ max-width: 100%; width: var(--article_inside_width); margin-left: auto; margin-right: auto; }
+.BreiteKopfUndFußzeile { width: var(--header_footer_width); --article_inside_width: var(--header_footer_width); margin-left: auto; margin-right: auto; max-width: 100%; }
+.volleBreite { --article_inside_width: 100%; 
+	& > * { padding-right: 0; padding-left: 0; }
+}
+//************************************************************* ABSTÄNDE *************************************************************//
+.keinAbstand, .ohneAbstand, .Abstand0, .mod_article .AbstandText0 .rte 	{ padding: 0px; }
+.AbstandXXS, #container .mod_article .AbstandTextXXS .rte 				{ padding: 10px; }
+.AbstandXS, #container .mod_article .AbstandTextXS .rte 				{ padding: 20px; }
+.AbstandS, #container .mod_article .AbstandTextS .rte 					{ padding: 40px; @media(max-width:767px){ padding: 30px 10px; } }
+.AbstandM, #container .mod_article .AbstandTextM .rte 					{ padding: 60px; @media(max-width:767px){ padding: 30px 10px; } }
+.AbstandL, #container .mod_article .AbstandTextL .rte 					{ padding: 100px; @media(max-width:767px){ padding: 30px 10px; } }
+.AbstandXL, #container .mod_article .AbstandTextXL .rte 				{ padding: 130px; @media(max-width:767px){ padding: 30px 10px; } }
+.AbstandXXL, #container .mod_article .AbstandTextXXL .rte 				{ padding: 150px; @media(max-width:767px){ padding: 30px 10px; } }
+.AbstandXXXL, #container .mod_article .AbstandTextXXXL .rte				{ padding: 200px; @media(max-width:767px){ padding: 30px 10px; } }
+.AbstandXXXXL, #container .mod_article .AbstandTextXXXXL .rte			{ padding: 250px; @media(max-width:767px){ padding: 30px 10px; } }
+
+.AbstandOben0, #container .mod_article .AbstandTextOben0 .rte 			{ padding-top: 0px; }
+.AbstandObenXXS, #container .mod_article .AbstandTextObenXXS .rte 		{ padding-top: 10px; }
+.AbstandObenXS, #container .mod_article .AbstandTextObenXS .rte 		{ padding-top: 20px; }
+.AbstandObenS, #container .mod_article .AbstandTextObenS .rte 			{ padding-top: 40px; @media(max-width:767px){ padding-top: 20px; } }
+.AbstandObenM, #container .mod_article .AbstandTextObenM .rte 			{ padding-top: 60px; @media(max-width:767px){ padding-top: 20px; } }
+.AbstandObenL, #container .mod_article .AbstandTextObenL .rte 			{ padding-top: 100px; @media(max-width:767px){ padding-top: 20px; } }
+.AbstandObenXL, #container .mod_article .AbstandTextObenXL .rte 		{ padding-top: 130px; @media(max-width:767px){ padding-top: 20px; } }
+.AbstandObenXXL, #container .mod_article .AbstandTextObenXXL .rte 		{ padding-top: 150px; @media(max-width:767px){ padding-top: 20px; } }
+.AbstandObenXXXL, #container .mod_article .AbstandTextObenXXXL .rte		{ padding-top: 200px; @media(max-width:767px){ padding-top: 20px; } }
+
+.AbstandRechts0, #container .mod_article .AbstandTextRechts0 .rte 		{ padding-right: 0px; }
+.AbstandRechtsXXS, #container .mod_article .AbstandTextRechtsXXS .rte 	{ padding-right: 10px; }
+.AbstandRechtsXS, #container .mod_article .AbstandTextRechtsXS .rte 	{ padding-right: 20px; }
+.AbstandRechtsS, #container .mod_article .AbstandTextRechtsS .rte 		{ padding-right: 40px; @media(max-width:767px){ padding-right: 20px; } }
+.AbstandRechtsM, #container .mod_article .AbstandTextRechtsM .rte 		{ padding-right: 60px; @media(max-width:767px){ padding-right: 20px; } }
+.AbstandRechtsL, #container .mod_article .AbstandTextRechtsL .rte 		{ padding-right: 100px; @media(max-width:767px){ padding-right: 20px; } }
+.AbstandRechtsXL, #container .mod_article .AbstandTextRechtsXL .rte 	{ padding-right: 130px; @media(max-width:767px){ padding-right: 20px; } }
+.AbstandRechtsXXL, #container .mod_article .AbstandTextRechtsXXL .rte 	{ padding-right: 150px; @media(max-width:767px){ padding-right: 20px; } }
+.AbstandRechtsXXXL, #container .mod_article .AbstandTextRechtsXXXL .rte	{ padding-right: 200px; @media(max-width:767px){ padding-right: 20px; } }
+
+.AbstandUnten0, #container .mod_article .AbstandTextUnten0 .rte 		{ padding-bottom: 0px; }
+.AbstandUntenXXS, #container .mod_article .AbstandTextUntenXXS .rte 	{ padding-bottom: 10px; }
+.AbstandUntenXS, #container .mod_article .AbstandTextUntenXS .rte 		{ padding-bottom: 20px; }
+.AbstandUntenS, #container .mod_article .AbstandTextUntenS .rte 		{ padding-bottom: 40px; @media(max-width:767px){ padding-bottom: 20px; } }
+.AbstandUntenM, #container .mod_article .AbstandTextUntenM .rte 		{ padding-bottom: 60px; @media(max-width:767px){ padding-bottom: 20px; } }
+.AbstandUntenL, #container .mod_article .AbstandTextUntenL .rte 		{ padding-bottom: 100px; @media(max-width:767px){ padding-bottom: 20px; } }
+.AbstandUntenXL, #container .mod_article .AbstandTextUntenXL .rte 		{ padding-bottom: 130px; @media(max-width:767px){ padding-bottom: 20px; } }
+.AbstandUntenXXL, #container .mod_article .AbstandTextUntenXXL .rte 	{ padding-bottom: 150px; @media(max-width:767px){ padding-bottom: 20px; } }
+.AbstandUntenXXXL, #container .mod_article .AbstandTextUntenXXXL .rte	{ padding-bottom: 200px; @media(max-width:767px){ padding-bottom: 20px; } }
+
+.AbstandLinks0, #container .mod_article .AbstandTextLinks0 .rte 		{ padding-left: 0px; }
+.AbstandLinksXXS, #container .mod_article .AbstandTextLinksXXS .rte 	{ padding-left: 10px; }
+.AbstandLinksXS, #container .mod_article .AbstandTextLinksXS .rte 		{ padding-left: 20px; }
+.AbstandLinksS, #container .mod_article .AbstandTextLinksS .rte 		{ padding-left: 40px; @media(max-width:767px){ padding-left: 20px; } }
+.AbstandLinksM, #container .mod_article .AbstandTextLinksM .rte 		{ padding-left: 60px; @media(max-width:767px){ padding-left: 20px; } }
+.AbstandLinksL, #container .mod_article .AbstandTextLinksL .rte 		{ padding-left: 100px; @media(max-width:767px){ padding-left: 20px; } }
+.AbstandLinksXL, #container .mod_article .AbstandTextLinksXL .rte 		{ padding-left: 130px; @media(max-width:767px){ padding-left: 20px; } }
+.AbstandLinksXXL, #container .mod_article .AbstandTextLinksXXL .rte 	{ padding-left: 150px; @media(max-width:767px){ padding-left: 20px; } }
+.AbstandLinksXXXL, #container .mod_article .AbstandTextLinksXXXL .rte 	{ padding-left: 200px; @media(max-width:767px){ padding-left: 20px; } }
+
+body #wrapper .rs-columns {
+	&.Spaltenabstand0 { 	--columns_margin: 0px; }
+	&.SpaltenabstandXXS { 	--columns_margin: 10px; }
+	&.SpaltenabstandXS { 	--columns_margin: 20px; }
+	&.SpaltenabstandS { 	--columns_margin: 30px; }
+	&.SpaltenabstandL { 	--columns_margin: 50px; }
+	&.SpaltenabstandXL {   	--columns_margin: 60px; }
+	&.SpaltenabstandXXL {  	--columns_margin: 70px; }
+	&.SpaltenabstandXXXL {  --columns_margin: 80px; }
+	&.SpaltenhoeheGleich .rs-column > * { min-height: 100%; }
+}
+.horizontalerSpaltenabstandL > * { column-gap: 50px; }
+//************************************************************* FARBEN *************************************************************//
+.Hintergrund1 { background-color: var(--primary_color); color: #fff; }
+.Hintergrund2 { background-color: var(--bg_color2); }
+.Hintergrund3 { background-color: var(--bg_color3); }
+.Hintergrund4 { background-color: var(--bg_color4); }
+.HintergrundWeiß { background-color: #fff; color: var(--font_color); }
+.HintergrundSchwarz { background-color: #000; }
+.HintergrundDunkelGrau { background-color: #1b2125; }
+.HintergrundHellGrau { background-color: #f8f8f8; }
+
+.HintergrundTextWeiß .rte { background-color: #fff; }
+
+.LinkfarbeSchwarz a, .mod_article .LinkfarbeSchwarz a { color: #000; }
+.LinkfarbeWeiß a, .mod_article .LinkfarbeWeiß a { color: #fff; }
+//************************************************************* BILDER *************************************************************//
+.BildRahmen img { border: 1px solid var(--border_color); }
+.BildRahmenVerschoben img { 
+	// Code
+}
+.BildRahmenInFarbe img { border: 1px solid var(--primary_color); }
+.BildVolleHoehe {
+	figure { height: 100%;
+		img { min-height: 100%; object-fit: cover; }
+	}
+}
+.BildRund img { border-radius: var(--border_radius); }
+.BiderÜberlappen {
+	// Code
+}
+
+//************************************************************* FORMULARE *************************************************************//
+fieldset.Spaltenanzahl2,
+fieldset.Spaltenanzahl3,
+fieldset.Spaltenanzahl4,
+fieldset.Spaltenanzahl5 {
+	padding: 0;
+	border: 0;
+	column-gap: 10px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	@media(max-width:767px){ grid-template-columns: repeat(1, 1fr); }
+}
+fieldset.Spaltenanzahl3 { grid-template-columns: repeat(3, 1fr); }
+fieldset.Spaltenanzahl4 { grid-template-columns: repeat(4, 1fr); }
+fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
+//************************************************************* KACHELN *************************************************************//
+//************************************************************* FLÄCHEN *************************************************************//
+.rundeEcken { border-radius: var(--border_radius, 10px) ; }
+.rundeEckeUntenLinks 	{ border-bottom-left-radius: var(--border_radius, 10px) ; }
+.rundeEckeObenLinks 	{ border-top-left-radius: var(--border_radius, 10px) ; }
+.rundeEckeUntenRechts 	{ border-bottom-right-radius: var(--border_radius, 10px) ; }
+.rundeEckeObenRechts 	{ border-top-right-radius: var(--border_radius, 10px) ; }
+
+.Rahmen { border: 1px solid var(--border_color); }
+.RahmenInFarbe { border: 1px solid var(--primary_color); }
