@@ -1,5 +1,5 @@
 # lesbares CSS Framework
-This bundle is still under construction.
+Für den Benutzer einfach verständliche CSS Klassen, welche in den Listenansichten übersichtlich dargestellt werden.
 
 <img width="1496" alt="Bildschirm­foto 2022-11-26 um 09 03 07" src="https://user-images.githubusercontent.com/6552484/204078839-833a896d-247e-48b0-8803-cb0537fffeae.png">
 
