@@ -21,7 +21,7 @@
     "require": {
         "php": "^8.0",
         "contao/core-bundle": "^4.13 || ^5.0",
-        "heimseiten/contao-article-list-with-css-classes-and-ids-bundle": "^1.0"
+        "heimseiten/contao-article-list-with-css-classes-and-ids-bundle": "dev-main"
     },
     "require-dev": {
         "contao/manager-plugin": "^2.3.1",
