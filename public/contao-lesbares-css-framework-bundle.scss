@@ -17,6 +17,8 @@
 .volleBreite { --article_inside_width: 100%; 
 	& > * { padding-right: 0; padding-left: 0; }
 }
+//************************************************************* HÖHE *************************************************************//
+.volleHöhe { height: 100vh; }
 //************************************************************* ABSTÄNDE *************************************************************//
 .keinAbstand, .ohneAbstand, .Abstand0, .mod_article .AbstandText0 .rte 	{ padding: 0px; }
 .AbstandXXS, #container .mod_article .AbstandTextXXS .rte 				{ padding: 10px; }
