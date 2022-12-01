@@ -108,7 +108,7 @@ fieldset.Spaltenanzahl4,
 fieldset.Spaltenanzahl5 {
 	padding: 0;
 	border: 0;
-	column-gap: var(--form_gap);
+	column-gap: var(--form_gap, 10px);
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	@media(max-width:767px){ grid-template-columns: repeat(1, 1fr); }
