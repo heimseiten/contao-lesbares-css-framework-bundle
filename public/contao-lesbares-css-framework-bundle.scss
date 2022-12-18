@@ -184,10 +184,10 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 	}
 }
 	
-.ce_cp_grid_start.Kacheln, .rs-columns.Kacheln {
+.ce_cp_grid_start.Kacheln > .grid_start, .rs-columns.Kacheln > .rs-column {
 	padding-left: 0;
 	padding-right: 0;
-	& > .grid_start > *, & > .rs-column > * {
+	& > *, & > * {
 	    border: 1px solid var(--border_color);
 	    padding: 20px 20px;
 	    background: #f8f8f8;
