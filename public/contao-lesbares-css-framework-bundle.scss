@@ -193,7 +193,7 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 .mod_article.HintergrundWeiß .ce_cp_grid_start.Kacheln > .grid_start > *,
 .mod_article.HintergrundWeiß .rs-columns.Kacheln > .rs-column > *,
 .mod_article:nth-child(even) .ce_cp_grid_start.Kacheln > .grid_start > *,
-.mod_article:nth-child(even) .mod_article.HintergrundWeiß .rs-columns.Kacheln > .rs-column > * { background: #f8f8f8; }
+.mod_article:nth-child(even) .rs-columns.Kacheln > .rs-column > * { background: #f8f8f8; }
 .mod_article:nth-child(odd) .ce_cp_grid_start.Kacheln > .grid_start > *,
 .mod_article:nth-child(odd) .rs-columns.Kacheln > .rs-column > *,
 .mod_article.HintergrundHellGrau .ce_cp_grid_start.Kacheln > .grid_start > *,
