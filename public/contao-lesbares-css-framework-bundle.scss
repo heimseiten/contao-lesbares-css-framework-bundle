@@ -203,14 +203,18 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 
 .mod_article.HintergrundWeiß .ce_cp_grid_start.Kacheln > .grid_start > *,
 .mod_article.HintergrundWeiß .rs-columns.Kacheln > .rs-column > *,
+.mod_article.HintergrundWeiß.Kacheln > *,
 .mod_article:nth-child(even) .ce_cp_grid_start.Kacheln > .grid_start > *,
 .mod_article:nth-child(even) .rs-columns.Kacheln > .rs-column > *, 
-.mod_article:nth-child(even) .content-text.Kachel { background: #f8f8f8; }
+.mod_article:nth-child(even) .content-text.Kachel,
+.mod_article.Kacheln:nth-child(even) > * { background: #f8f8f8; }
 .mod_article:nth-child(odd) .content-text.Kachel,
 .mod_article:nth-child(odd) .ce_cp_grid_start.Kacheln > .grid_start > *,
 .mod_article:nth-child(odd) .rs-columns.Kacheln > .rs-column > *,
+.mod_article.Kacheln:nth-child(odd) > *,
 .mod_article.HintergrundHellGrau .ce_cp_grid_start.Kacheln > .grid_start > *,
-.mod_article.HintergrundHellGrau .rs-columns.Kacheln > .rs-column > * { background: #fff; }
+.mod_article.HintergrundHellGrau .rs-columns.Kacheln > .rs-column > *, 
+.mod_article.HintergrundHellGrau.Kacheln > * { background: #fff; }
 //************************************************************* BUTTON *************************************************************//
 body #wrapper .ButtonAufGleicherHöhe {
 	padding-bottom: 55px;
