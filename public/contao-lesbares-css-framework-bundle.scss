@@ -190,6 +190,13 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
     padding: 20px 20px;
     background: #f8f8f8;
 }
+
+.content-text.Kachel {
+	border: 1px solid #ddd;
+	padding: 20px;
+	background: #f8f8f8;
+}
+
 .mod_article.HintergrundWeiß .ce_cp_grid_start.Kacheln > .grid_start > *,
 .mod_article.HintergrundWeiß .rs-columns.Kacheln > .rs-column > *,
 .mod_article:nth-child(even) .ce_cp_grid_start.Kacheln > .grid_start > *,
