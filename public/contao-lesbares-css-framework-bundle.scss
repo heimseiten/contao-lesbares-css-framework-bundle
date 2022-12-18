@@ -211,6 +211,14 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 .mod_article.HintergrundHellGrau .ce_cp_grid_start.Kacheln > .grid_start > *,
 .mod_article.HintergrundHellGrau .rs-columns.Kacheln > .rs-column > * { background: #fff; }
 //************************************************************* BUTTON *************************************************************//
+.ButtonAufGleicherHöhe {
+	padding-bottom: 55px;
+	a { 
+		position: absolute; 
+		bottom: 20px;
+		right: 0;
+	}
+}
 html body .content-text {
 	&.LinkAlsButton, &.kursiverLinkAlsButton { 
 		&.Buttonfarbe 		{ --button_color: var(--secondary_color); }
