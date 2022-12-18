@@ -153,6 +153,7 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 		max-width: 100%;
 		margin: var(--margin);
 		background-color: #fff;
+		border-radius: 5px;
 		//border-radius: .5rem;
 		//box-shadow: 0 .5rem 1rem rgba(28,38,78,.15);
 		border: 1px solid var(--border_color, #ddd);
