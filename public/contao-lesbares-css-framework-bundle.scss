@@ -113,6 +113,7 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 	}
 }
 .BildRund img { border-radius: var(--border_radius); }
+.BildKreis img { border-radius: 50%; }
 .BiderÜberlappen {
 	// Code
 }
