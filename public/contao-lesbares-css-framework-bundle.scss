@@ -143,8 +143,8 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 .RahmenUnten { border-bottom: 1px solid var(--border_color); margin-bottom: var(--article_space_top, 60px); }
 .RahmenLinks { border-left: 1px solid var(--border_color); }
 .RahmenRechts { border-right: 1px solid var(--border_color); }
-.RahmenInFarbe { border-color: var(--primary_color); }
-.RahmenInFarbe2 { border-color: var(--secondary_color); }
+.Rahmenfarbe { border-color: var(--primary_color); }
+.Rahmenfarbe2 { border-color: var(--secondary_color); }
 //************************************************************* KACHELN *************************************************************//
 body .mod_article.Kacheln {
 	--card_width: 375px;
