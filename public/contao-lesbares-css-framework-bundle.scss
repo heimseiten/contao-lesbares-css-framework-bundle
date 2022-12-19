@@ -260,7 +260,7 @@ html body .content-text {
 			display: inline-block; 
 			background-color: var(--secondary_color); 
 			&:hover { 
-				background-color: var(--primary_color); 
+				background-color: transparent;
 				color: var(--secondary_color);
 				border-color: var(--secondary_color);
 			}
