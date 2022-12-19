@@ -231,9 +231,10 @@ body #wrapper .ButtonAufGleicherHöhe {
 }
 html body .content-text {
 	&.LinkAlsButton, &.LinkAlsButton2, &.kursiverLinkAlsButton { 
+		position: relative;
 		&:not(.kursiverLinkAlsButton) .rte strong a,
-    	&:not(.kursiverLinkAlsButton) .rte a strong { font-weight: var(--font_width_strong); }
-	    &:not(.kursiverLinkAlsButton) .rte a, 
+		&:not(.kursiverLinkAlsButton) .rte a strong { font-weight: var(--font_width_strong); }
+		&:not(.kursiverLinkAlsButton) .rte a, 
 		&:not(.LinkAlsButton) .rte em a,
 		&:not(.LinkAlsButton) .rte a em,
 		&:not(.LinkAlsButton):not(.kursiverLinkAlsButton) em { 
@@ -246,7 +247,7 @@ html body .content-text {
 			border: 1px solid var(--button_border_color); 
 			border-radius: var(--button_border_radius); 
 			text-decoration: none; 
-        	padding: .25rem 2rem;
+			padding: .25rem 2rem;
 			line-height: 1.4;
 			transition: all 0.25s ease-in-out;
 			&:before { display: none; }
