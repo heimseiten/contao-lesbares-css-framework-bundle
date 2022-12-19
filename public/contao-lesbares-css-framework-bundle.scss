@@ -141,7 +141,7 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 .Rahmen { border: 1px solid var(--border_color); }
 .RahmenInFarbe { border: 1px solid var(--primary_color); }
 //************************************************************* KACHELN *************************************************************//
-.mod_article.Kacheln {
+body .mod_article.Kacheln {
 	--card_width: 375px;
 	--margin: 20px;
 	margin: auto;
