@@ -88,7 +88,7 @@ body .vertikalerSpaltenabstandL > * { row-gap: 50px; }
 body .vertikalerSpaltenabstandXL > * { row-gap: 100px; @media(max-width:1023px){ gap: 20px; } }
 body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px){ gap: 20px; } }
 //************************************************************* FARBEN *************************************************************//
-.Hintergrund1 { background-color: var(--primary_color); color: #fff; }
+.Hintergrund1, .Hintergrund { background-color: var(--primary_color); color: #fff; }
 .Hintergrund2 { background-color: var(--bg_color2); }
 .Hintergrund3 { background-color: var(--bg_color3); }
 .Hintergrund4 { background-color: var(--bg_color4); }
