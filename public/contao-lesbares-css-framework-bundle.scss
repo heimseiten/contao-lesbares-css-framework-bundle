@@ -198,7 +198,12 @@ body .mod_article.Kacheln {
 	}
 }
 	
-.ce_cp_grid_start.Kacheln, .rs-columns.Kacheln {
+.ce_cp_grid_start.Kacheln, 
+.ce_cp_grid_start.KachelnWeiß, 
+.ce_cp_grid_start.KachelnGrau, 
+.rs-columns.Kacheln, 
+.rs-columns.KachelnGrau,
+.rs-columns.KachelnWeiß {
 	padding-left: 0;
 	padding-right: 0;
 	& > .grid_start > *, & > .rs-column > * {
@@ -207,6 +212,15 @@ body .mod_article.Kacheln {
 		background: #f8f8f8;
 		border-radius: 3px;
 	}
+	&.KachelnWeiß > .grid_start > *, &.KachelnWeiß > .rs-column > * { background: #fff; }
+	&.KachelnGrau > .grid_start > *, &.KachelnGrau > .rs-column > * { background: #f8f8f8; }
+}
+
+.content-text.Kachel {
+	border: 1px solid #ddd;
+	padding: 20px;
+	background: #f8f8f8;
+	border-radius: 3px;
 }
 
 .content-text.Kachel {
