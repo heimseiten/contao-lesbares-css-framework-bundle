@@ -23,6 +23,7 @@
 body #wrapper .keinAbstand, body #wrapper .ohneAbstand, body #wrapper .Abstand0, .mod_article body #wrapper .AbstandText0 .rte 	{ padding: 0px; }
 body #wrapper .AbstandXXS, #container .mod_article .AbstandTextXXS .rte 		{ padding: 10px; }
 body #wrapper .AbstandXS, #container .mod_article .AbstandTextXS .rte 			{ padding: 20px; }
+body #wrapper .AbstandMS, #container .mod_article .AbstandTextMS .rte 			{ padding: 25px; }
 body #wrapper .AbstandS, #container .mod_article .AbstandTextS .rte 			{ padding: 40px; @media(max-width:767px){ padding: 30px 10px; } }
 body #wrapper .AbstandM, #container .mod_article .AbstandTextM .rte 			{ padding: 60px; @media(max-width:767px){ padding: 30px 10px; } }
 body #wrapper .AbstandL, #container .mod_article .AbstandTextL .rte 			{ padding: 100px; @media(max-width:767px){ padding: 30px 10px; } }
@@ -34,6 +35,7 @@ body #wrapper .AbstandXXXXL, #container .mod_article .AbstandTextXXXXL .rte		{ p
 body #wrapper .AbstandOben0, #container .mod_article .AbstandTextOben0 .rte 		{ padding-top: 0px; }
 body #wrapper .AbstandObenXXS, #container .mod_article .AbstandTextObenXXS .rte 	{ padding-top: 10px; }
 body #wrapper .AbstandObenXS, #container .mod_article .AbstandTextObenXS .rte 		{ padding-top: 20px; }
+body #wrapper .AbstandObenMS, #container .mod_article .AbstandTextObenMS .rte 		{ padding-top: 25px; }
 body #wrapper .AbstandObenS, #container .mod_article .AbstandTextObenS .rte 		{ padding-top: 40px; @media(max-width:767px){ padding-top: 20px; } }
 body #wrapper .AbstandObenM, #container .mod_article .AbstandTextObenM .rte 		{ padding-top: 60px; @media(max-width:767px){ padding-top: 20px; } }
 body #wrapper .AbstandObenL, #container .mod_article .AbstandTextObenL .rte 		{ padding-top: 100px; @media(max-width:767px){ padding-top: 20px; } }
@@ -44,6 +46,7 @@ body #wrapper .AbstandObenXXXL, #container .mod_article .AbstandTextObenXXXL .rt
 body #wrapper .AbstandRechts0, #container .mod_article .AbstandTextRechts0 .rte 	{ padding-right: 0px; }
 body #wrapper .AbstandRechtsXXS, #container .mod_article .AbstandTextRechtsXXS .rte 	{ padding-right: 10px; }
 body #wrapper .AbstandRechtsXS, #container .mod_article .AbstandTextRechtsXS .rte 	{ padding-right: 20px; }
+body #wrapper .AbstandRechtsMS, #container .mod_article .AbstandTextRechtsMS .rte 	{ padding-right: 25px; }
 body #wrapper .AbstandRechtsS, #container .mod_article .AbstandTextRechtsS .rte 	{ padding-right: 40px; @media(max-width:767px){ padding-right: 20px; } }
 body #wrapper .AbstandRechtsM, #container .mod_article .AbstandTextRechtsM .rte 	{ padding-right: 60px; @media(max-width:767px){ padding-right: 20px; } }
 body #wrapper .AbstandRechtsL, #container .mod_article .AbstandTextRechtsL .rte 	{ padding-right: 100px; @media(max-width:767px){ padding-right: 20px; } }
@@ -54,6 +57,7 @@ body #wrapper .AbstandRechtsXXXL, #container .mod_article .AbstandTextRechtsXXXL
 body #wrapper .AbstandUnten0, #container .mod_article .AbstandTextUnten0 .rte 		{ padding-bottom: 0px; }
 body #wrapper .AbstandUntenXXS, #container .mod_article .AbstandTextUntenXXS .rte 	{ padding-bottom: 10px; }
 body #wrapper .AbstandUntenXS, #container .mod_article .AbstandTextUntenXS .rte 	{ padding-bottom: 20px; }
+body #wrapper .AbstandUntenMS, #container .mod_article .AbstandTextUntenMS .rte 	{ padding-bottom: 25px; }
 body #wrapper .AbstandUntenS, #container .mod_article .AbstandTextUntenS .rte 		{ padding-bottom: 40px; @media(max-width:767px){ padding-bottom: 20px; } }
 body #wrapper .AbstandUntenM, #container .mod_article .AbstandTextUntenM .rte 		{ padding-bottom: 60px; @media(max-width:767px){ padding-bottom: 20px; } }
 body #wrapper .AbstandUntenL, #container .mod_article .AbstandTextUntenL .rte 		{ padding-bottom: 100px; @media(max-width:767px){ padding-bottom: 20px; } }
@@ -64,6 +68,7 @@ body #wrapper .AbstandUntenXXXL, #container .mod_article .AbstandTextUntenXXXL .
 body #wrapper .AbstandLinks0, #container .mod_article .AbstandTextLinks0 .rte 		{ padding-left: 0px; }
 body #wrapper .AbstandLinksXXS, #container .mod_article .AbstandTextLinksXXS .rte 	{ padding-left: 10px; }
 body #wrapper .AbstandLinksXS, #container .mod_article .AbstandTextLinksXS .rte 	{ padding-left: 20px; }
+body #wrapper .AbstandLinksMS, #container .mod_article .AbstandTextLinksMS .rte 	{ padding-left: 25px; }
 body #wrapper .AbstandLinksS, #container .mod_article .AbstandTextLinksS .rte 		{ padding-left: 40px; @media(max-width:767px){ padding-left: 20px; } }
 body #wrapper .AbstandLinksM, #container .mod_article .AbstandTextLinksM .rte 		{ padding-left: 60px; @media(max-width:767px){ padding-left: 20px; } }
 body #wrapper .AbstandLinksL, #container .mod_article .AbstandTextLinksL .rte 		{ padding-left: 100px; @media(max-width:767px){ padding-left: 20px; } }
@@ -73,6 +78,7 @@ body #wrapper .AbstandLinksXXXL, #container .mod_article .AbstandTextLinksXXXL .
 //************************************************************* SPALTEN *************************************************************//
 //************************************************************* SPALTEN *************************************************************//
 body .SpaltenabstandS > * { gap: 10px; }
+body .SpaltenabstandMS > * { gap: 15px; }
 body .SpaltenabstandM > * { gap: 20px; }
 body .SpaltenabstandL > * { gap: 50px; }
 body .SpaltenabstandXL > * { gap: 100px; @media(max-width:1023px){ gap: 20px; } }
