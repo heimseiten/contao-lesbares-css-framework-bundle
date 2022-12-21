@@ -97,6 +97,13 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 .HintergrundDunkelgrau { background-color: #1b2125; }
 .HintergrundGrau { background-color: #f8f8f8; }
 
+.Hintergrund1, .Hintergrund2, .Hintergrund3, .Hintergrund4, .Hintergrund {
+	.content-text .rte, .ce_list, .accordion {
+		ul li:before { background: #fff; }
+		ol li:before { color: #fff; }
+	}
+}
+
 .HintergrundTextWeiß .rte { background-color: #fff; }
 
 .LinkfarbeSchwarz a, .mod_article .LinkfarbeSchwarz a { color: #000; }
