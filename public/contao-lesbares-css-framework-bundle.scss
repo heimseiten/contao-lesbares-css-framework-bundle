@@ -137,6 +137,12 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 		img { min-height: 100%; object-fit: cover; }
 	}
 }
+
+.BildLinks img, .BildMitte img, .BildRechts img { display: inline-block; }
+.BildLinks figure { text-align: left; }
+.BildMitte figure { text-align: center; }
+.BildRechts figure { text-align: right; }
+
 .BildRund img { border-radius: var(--border_radius); }
 .BildKreis img { border-radius: 50%; }
 .BiderÜberlappen {
