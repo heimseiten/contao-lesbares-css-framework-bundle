@@ -94,28 +94,19 @@ body .vertikalerSpaltenabstandL > * { row-gap: 50px; }
 body .vertikalerSpaltenabstandXL > * { row-gap: 100px; @media(max-width:1023px){ gap: 20px; } }
 body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px){ gap: 20px; } }
 //************************************************************* FARBEN *************************************************************//
-.Hintergrund1, .Hintergrund { background-color: var(--primary_color); color: #fff; 
-	svg.icon, svg { fill: #fff; }
-}
-.Hintergrund2 { background-color: var(--bg_color2); color: #fff; 
-	svg.icon, svg { fill: #fff; }
-}
-.Hintergrund3 { background-color: var(--bg_color3); color: #fff; 
-	svg.icon, svg { fill: #fff; }
-}
-.Hintergrund4 { background-color: var(--bg_color4); color: #fff; 
-	svg.icon, svg { fill: #fff; }
-}
+.Hintergrund1, .Hintergrund { background-color: var(--primary_color); }
+.Hintergrund2 { background-color: var(--bg_color2); }
+.Hintergrund3 { background-color: var(--bg_color3); }
+.Hintergrund4 { background-color: var(--bg_color4); }
 .HintergrundWeiß { background-color: #fff; color: var(--font_color); }
-.HintergrundSchwarz { background-color: #000; color: #fff; 
-	svg.icon, svg { fill: #fff; }
-}
-.HintergrundDunkelgrau { background-color: #1b2125; color: #fff; 
-	svg.icon, svg { fill: #fff; }
-}
+.HintergrundSchwarz { background-color: #000; }
+.HintergrundDunkelgrau { background-color: #1b2125; }
 .HintergrundGrau { background-color: #f8f8f8; }
 
 .Hintergrund1, .Hintergrund2, .Hintergrund3, .Hintergrund4, .Hintergrund {
+	color: #fff;
+	a { color: #fff; }
+	svg.icon, svg { fill: #fff; }
 	.content-text .rte, .ce_list, .accordion {
 		ul li:before { background: #fff; }
 		ol li:before { color: #fff; }
