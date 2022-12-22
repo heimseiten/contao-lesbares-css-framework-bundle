@@ -291,12 +291,12 @@ html body .content-text {
 			line-height: 1.4;
 			transition: all 0.25s ease-in-out;
 			&:before { display: none; }
-    	}
-		.rte a:hover { 
-			background: var(--button_color_hover); 
-			color: var(--button_font_color_hover);
-			border-color: var(--button_border_color_hover);
-		}
+			&:hover { 
+				background: var(--button_color_hover); 
+				color: var(--button_font_color_hover);
+				border-color: var(--button_border_color_hover);
+			}
+    		}
 	}
 	&.LinkAlsButton2 { 
 		&:not(.kursiverLinkAlsButton) .rte a, 
