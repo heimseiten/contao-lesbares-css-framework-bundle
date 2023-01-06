@@ -267,8 +267,7 @@ html body .content-text {
 		&:not(.kursiverLinkAlsButton) .rte a strong { font-weight: var(--font_width_strong); }
 		&:not(.kursiverLinkAlsButton) .rte a, 
 		&:not(.LinkAlsButton) .rte em a,
-		&:not(.LinkAlsButton) .rte a em,
-		&:not(.LinkAlsButton):not(.kursiverLinkAlsButton) em { 
+		&:not(.LinkAlsButton) .rte a em { 
 			display: inline-block; 
 			background: #fff;
 			color: var(--button_font_color);
@@ -292,8 +291,7 @@ html body .content-text {
 	&.LinkAlsButton2 { 
 		&:not(.kursiverLinkAlsButton) .rte a, 
 		&:not(.LinkAlsButton) .rte em a,
-		&:not(.LinkAlsButton) .rte a em,
-		&:not(.LinkAlsButton):not(.kursiverLinkAlsButton) em { 
+		&:not(.LinkAlsButton) .rte a em { 
 			display: inline-block; 
 			background-color: var(--secondary_color); 
 			&:hover { 
