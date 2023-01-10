@@ -226,6 +226,10 @@ body .mod_article.Kacheln {
 		padding: 20px 20px;
 		background: #f8f8f8;
 		border-radius: 3px;
+		@media(max-width:1023px){  
+			margin-left: 20px;
+			margin-right: 20px;
+		}
 	}
 	&.KachelnWeiß > .grid_start > *, &.KachelnWeiß > .rs-column > * { background: #fff; }
 	&.KachelnGrau > .grid_start > *, &.KachelnGrau > .rs-column > * { background: #f8f8f8; }
