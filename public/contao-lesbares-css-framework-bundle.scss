@@ -118,6 +118,12 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 
 .LinkfarbeSchwarz a, .mod_article .LinkfarbeSchwarz a { color: #000; }
 .LinkfarbeWeiß a, .mod_article .LinkfarbeWeiß a { color: #fff; }
+//************************************************************* TEXT *************************************************************//
+.TextRahmen .rte {
+	padding: 0.25rem 2rem;
+	line-height: 1.4;
+	border: 1px solid var(--primary_color);
+}
 //************************************************************* BILDER *************************************************************//
 .BildRahmen img { border: 1px solid var(--border_color); }
 .BildRahmenVerschoben img { 
