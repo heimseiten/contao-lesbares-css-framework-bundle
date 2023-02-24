@@ -15,7 +15,7 @@
 .BreiteXXXL	{ max-width: 100%; width: 1700px; --article_inside_width: 1700px; margin: auto; }
 .BreiteM 	{ max-width: 100%; width: var(--article_inside_width, 1024px); margin-left: auto; margin-right: auto; }
 .BreiteKopfUndFußzeile { width: var(--header_footer_width); --article_inside_width: var(--header_footer_width); margin-left: auto; margin-right: auto; max-width: 100%; }
-.volleBreite { --article_inside_width: 100%; 
+.mod_article.volleBreite { --article_inside_width: 100%; 
 	& > * { padding-right: 0; padding-left: 0; }
 }
 //************************************************************* HÖHE *************************************************************//
