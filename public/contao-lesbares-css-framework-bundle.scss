@@ -103,7 +103,6 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 .HintergrundSchwarz { background-color: #000; }
 .HintergrundDunkelgrau { background-color: #1b2125; }
 .HintergrundGrau { background-color: #f8f8f8; }
-
 .Hintergrund1, .Hintergrund2, .Hintergrund3, .Hintergrund4, .Hintergrund {
 	color: #fff;
 	a { color: #fff; }
@@ -113,8 +112,16 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 		ol li:before { color: #fff; }
 	}
 }
-
 .HintergrundTextWeiß .rte { background-color: #fff; }
+
+.Schriftfarbe1, .Schriftfarbe { color: var(--primary_color); }
+.Schriftfarbe2 { color: var(--secondary_color); }
+.Schriftfarbe3 { color: var(--tertiary_color); }
+.Schriftfarbe4 { color: var(--quaternary_color); }
+.SchriftfarbeWeiß { color: #fff; color: var(--font_color); }
+.SchriftfarbeSchwarz { color: #000; }
+.SchriftfarbeDunkelgrau { color: #1b2125; }
+.SchriftfarbeGrau { color: #f8f8f8; }
 
 .LinkfarbeSchwarz a, .mod_article .LinkfarbeSchwarz a { color: #000; }
 .LinkfarbeWeiß a, .mod_article .LinkfarbeWeiß a { color: #fff; }
