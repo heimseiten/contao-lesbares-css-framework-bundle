@@ -172,7 +172,11 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 .rundeEckeUntenRechts 	{ border-bottom-right-radius: var(--border_radius, 10px) ; }
 .rundeEckeObenRechts 	{ border-top-right-radius: var(--border_radius, 10px) ; }
 
-.Rahmen { border: 1px solid var(--border_color); }
+.Rahmen, .Rahmen1 { border: 1px solid var(--primary_color); }
+.Rahmen2 { border: 1px solid var(--secondary_color); }
+.Rahmen3 { border: 1px solid var(--tertiary_color); }
+.Rahmen4 { border: 1px solid var(--quaternary_color); }
+
 .RahmenOben { border-top: 1px solid var(--border_color); margin-top: var(--article_space_top, 60px); }
 .RahmenUnten { border-bottom: 1px solid var(--border_color); margin-bottom: var(--article_space_top, 60px); }
 .RahmenLinks { border-left: 1px solid var(--border_color); }
