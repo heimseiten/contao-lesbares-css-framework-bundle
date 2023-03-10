@@ -133,6 +133,15 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 .Listensymbolfarbe4 li::marker { color: var(--quaternary_color); }
 .ListensymbolfarbeWeiß li::marker { color: #fff; }
 .ListensymbolfarbeSchwarz li::marker { color: #000; }
+//************************************************************* LISTEN *************************************************************//
+.ListensymbolKreis li { list-style: circle; }
+.ListensymbolPunkt li { list-style: disc; }
+.ListensymbolBuchstaben li { list-style: lower-alpha; }
+.ListensymbolGroßbuchstaben li { list-style: upper-alpha; }
+.ListensymbolQuadrat li { list-style: square; }
+.ListensymbolRömischeZahlen li { list-style: upper-roman; }
+.ListensymbolStrich li::marker { content: '-  '; }
+.ListensymbolLangerStrich li::marker { content: '—  '; }
 //************************************************************* TEXT *************************************************************//
 .TextRahmen .rte {
 	padding: 0.25rem 2rem;
