@@ -94,37 +94,64 @@ body .vertikalerSpaltenabstandL > * { row-gap: 50px; }
 body .vertikalerSpaltenabstandXL > * { row-gap: 100px; @media(max-width:1023px){ gap: 20px; } }
 body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px){ gap: 20px; } }
 //************************************************************* FARBEN *************************************************************//
-.Hintergrund1, .Hintergrund { background-color: var(--primary_color); }
-.Hintergrund2 { background-color: var(--bg_color2); }
-.Hintergrund3 { background-color: var(--bg_color3); }
-.Hintergrund4 { background-color: var(--bg_color4); }
-.HintergrundWeiß { background-color: #fff; color: var(--font_color); }
-.HintergrundSchwarz { background-color: #000; }
-.HintergrundDunkelgrau { background-color: #1b2125; }
-.HintergrundGrau { background-color: #f8f8f8; }
-.Hintergrund1, .Hintergrund2, .Hintergrund3, .Hintergrund4, .Hintergrund {
-	color: #fff;
+.fettSchriftfarbeWeiß strong, .ÜberschriftfarbeWeiß :is(h1, h2, h3, h4, h5, h6) { color: #fff; }
+.SchriftfarbeWeiß { color: #fff;
 	a { color: #fff; }
 	svg.icon, svg { fill: #fff; }
-	.content-text .rte, .ce_list, .accordion {
+	&.content-text .rte, &.ce_list, &.accordion {
 		ul li:before { background: #fff; }
 		ol li:before { color: #fff; }
 	}
 }
-.HintergrundTextWeiß .rte { background-color: #fff; }
-
-
-.Schriftfarbe1, .fettSchriftfarbe1 strong, .Überschriftfarbe1 :is(h1, h2, h3, h4, h5, h6) { color: var(--primary_color); }
+.fettSchriftfarbe1 strong, .Überschriftfarbe1 :is(h1, h2, h3, h4, h5, h6) { color: var(--primary_color); }
+.Schriftfarbe1 { color: var(--primary_color);
+	a { color: var(--primary_color); }
+	svg.icon, svg { fill: var(--primary_color); }
+	&.content-text .rte, &.ce_list, &.accordion {
+		ul li:before { background: var(--primary_color); }
+		ol li:before { color: var(--primary_color); }
+	}
+}
 .Schriftfarbe2, .fettSchriftfarbe2 strong, .Überschriftfarbe2 :is(h1, h2, h3, h4, h5, h6) { color: var(--secondary_color); }
 .Schriftfarbe3, .fettSchriftfarbe3 strong, .Überschriftfarbe3 :is(h1, h2, h3, h4, h5, h6) { color: var(--tertiary_color); }
 .Schriftfarbe4, .fettSchriftfarbe4 strong, .Überschriftfarbe4 :is(h1, h2, h3, h4, h5, h6) { color: var(--quaternary_color); }
-.SchriftfarbeWeiß, 	.fettSchriftfarbeWeiß strong,		.ÜberschriftfarbeWeiß :is(h1, h2, h3, h4, h5, h6) { color: #fff; }
-.SchriftfarbeSchwarz, 	.fettSchriftfarbeSchwarz strong,	.ÜberschriftfarbeSchwarz :is(h1, h2, h3, h4, h5, h6) { color: #000; }
-.SchriftfarbeDunkelgrau,.fettSchriftfarbeDunkelgrau strong,	.ÜberschriftfarbeDunkelgrau :is(h1, h2, h3, h4, h5, h6) { color: #1b2125; }
-.SchriftfarbeGrau, 	.fettSchriftfarbeGrau strong,		.ÜberschriftfarbeGrau :is(h1, h2, h3, h4, h5, h6) { color: #f8f8f8; }
+
+.SchriftfarbeSchwarz, .fettSchriftfarbeSchwarz strong, .ÜberschriftfarbeSchwarz :is(h1, h2, h3, h4, h5, h6) { color: #000; }
+.SchriftfarbeDunkelgrau, .fettSchriftfarbeDunkelgrau strong, .ÜberschriftfarbeDunkelgrau :is(h1, h2, h3, h4, h5, h6) { color: #1b2125; }
+.SchriftfarbeGrau, .fettSchriftfarbeGrau strong, .ÜberschriftfarbeGrau :is(h1, h2, h3, h4, h5, h6) { color: #f8f8f8; }
 
 .LinkfarbeSchwarz a, .mod_article .LinkfarbeSchwarz a { color: #000; }
 .LinkfarbeWeiß a, .mod_article .LinkfarbeWeiß a { color: #fff; }
+
+.Hintergrund1 { background-color: var(--primary_color); }
+.Hintergrund2 { background-color: var(--secondary_color); }
+.Hintergrund3 { background-color: var(--tertiary_color); }
+.Hintergrund4 { background-color: var(--quaternary_color); }
+.HintergrundWeiß { background-color: #fff; color: var(--font_color); }
+.HintergrundSchwarz { background-color: #000; }
+.HintergrundDunkelgrau { background-color: #1b2125; }
+.HintergrundGrau { background-color: #f8f8f8; }
+
+.HintergrundTextWeiß .rte { background-color: #fff; }
+
+.Listensymbolfarbe1 {
+	&.content-text .rte, &.ce_list, &.accordion {
+		ul li:before { background: var(--primary_color); }
+		ol li:before { color: var(--primary_color); }
+	}
+}
+.Listensymbolfarbe2 {
+	&.content-text .rte, &.ce_list, &.accordion {
+		ul li:before { background: var(--secondary_color); }
+		ol li:before { color: var(--secondary_color); }
+	}
+}
+.ListensymbolfarbeWeiß {
+	&.content-text .rte, &.ce_list, &.accordion {
+		ul li:before { background: #fff; }
+		ol li:before { color: #fff; }
+	}
+}
 //************************************************************* TEXT *************************************************************//
 .TextRahmen .rte {
 	padding: 0.25rem 2rem;
