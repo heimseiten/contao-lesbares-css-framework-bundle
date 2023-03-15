@@ -113,12 +113,12 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 .SchriftfarbeDunkelgrau, .fettSchriftfarbeDunkelgrau strong, .ÜberschriftfarbeDunkelgrau :is(h1, h2, h3, h4, h5, h6) { color: #1b2125; }
 .SchriftfarbeGrau, .fettSchriftfarbeGrau strong, .ÜberschriftfarbeGrau :is(h1, h2, h3, h4, h5, h6) { color: #f8f8f8; }
 
-.Linkfarbe1 a { color: var(--primary_color); }
-.Linkfarbe2 a { color: var(--secondary_color); }
-.Linkfarbe3 a { color: var(--tertiary_color); }
-.Linkfarbe4 a { color: var(--quaternary_color); }
-.LinkfarbeSchwarz a { color: #000; }
-.LinkfarbeWeiß a { color: #fff; }
+.Linkfarbe1 a, .Linkfarbe1 a svg, .Linkfarbe1 a svg.icon { color: var(--primary_color); fill: var(--primary_color); }
+.Linkfarbe2 a, .Linkfarbe2 a svg, .Linkfarbe2 a svg.icon { color: var(--secondary_color); fill: var(--secondary_color); }
+.Linkfarbe3 a, .Linkfarbe3 a svg, .Linkfarbe3 a svg.icon { color: var(--tertiary_color); fill: var(--tertiary_color); }
+.Linkfarbe4 a, .Linkfarbe4 a svg, .Linkfarbe4 a svg.icon { color: var(--quaternary_color); fill: var(--quaternary_color); }
+.LinkfarbeSchwarz a, .LinkfarbeSchwarz a svg, .LinkfarbeSchwarz a svg.icon { color: #000; }
+.LinkfarbeWeiß a, .LinkfarbeWeiß a svg, .LinkfarbeWeiß a svg.icon { color: #fff; }
 
 .Hintergrund1 { background-color: var(--primary_color); }
 .Hintergrund2 { background-color: var(--secondary_color); }
