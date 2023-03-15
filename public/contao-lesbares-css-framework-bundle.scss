@@ -113,8 +113,12 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 .SchriftfarbeDunkelgrau, .fettSchriftfarbeDunkelgrau strong, .ÜberschriftfarbeDunkelgrau :is(h1, h2, h3, h4, h5, h6) { color: #1b2125; }
 .SchriftfarbeGrau, .fettSchriftfarbeGrau strong, .ÜberschriftfarbeGrau :is(h1, h2, h3, h4, h5, h6) { color: #f8f8f8; }
 
-.LinkfarbeSchwarz a, .mod_article .LinkfarbeSchwarz a { color: #000; }
-.LinkfarbeWeiß a, .mod_article .LinkfarbeWeiß a { color: #fff; }
+.Linkfarbe1 a { color: var(--primary_color); }
+.Linkfarbe2 a { color: var(--secondary_color); }
+.Linkfarbe3 a { color: var(--tertiary_color); }
+.Linkfarbe4 a { color: var(--quaternary_color); }
+.LinkfarbeSchwarz a { color: #000; }
+.LinkfarbeWeiß a { color: #fff; }
 
 .Hintergrund1 { background-color: var(--primary_color); }
 .Hintergrund2 { background-color: var(--secondary_color); }
