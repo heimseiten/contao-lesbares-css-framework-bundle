@@ -153,6 +153,7 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 	line-height: 1.4;
 	border: 1px solid var(--primary_color);
 }
+.LinkOhneUnterstrich a { text-decoration: none; }
 //************************************************************* BILDER *************************************************************//
 .BildRahmen img { border: 1px solid var(--border_color); }
 .BildRahmenVerschoben img { 
