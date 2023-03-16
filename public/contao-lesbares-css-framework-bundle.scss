@@ -96,12 +96,12 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 //************************************************************* FARBEN *************************************************************//
 .fettSchriftfarbeWeiß strong, .ÜberschriftfarbeWeiß :is(h1, h2, h3, h4, h5, h6) { color: #fff; }
 .SchriftfarbeWeiß { color: #fff;
-	a { color: #fff; }
+	a, :is(h1, h2, h3, h4, h5, h6) { color: #fff; }
 	svg.icon, svg { fill: #fff; }
 }
 .fettSchriftfarbe1 strong, .Überschriftfarbe1 :is(h1, h2, h3, h4, h5, h6) { color: var(--primary_color); }
 .Schriftfarbe1 { color: var(--primary_color);
-	a { color: var(--primary_color); }
+	a, :is(h1, h2, h3, h4, h5, h6) { color: var(--primary_color); }
 	svg.icon, svg { fill: var(--primary_color); }
 }
 
