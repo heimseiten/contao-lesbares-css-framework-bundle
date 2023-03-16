@@ -99,19 +99,44 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 	a, :is(h1, h2, h3, h4, h5, h6) { color: #fff; }
 	svg.icon, svg { fill: #fff; }
 }
+.fettSchriftfarbeSchwarz strong, .ÜberschriftfarbeSchwarz :is(h1, h2, h3, h4, h5, h6) { color: #000; }
+.SchriftfarbeSchwarz { color: #000;
+	a, :is(h1, h2, h3, h4, h5, h6) { color: #000; }
+	svg.icon, svg { fill: #000; }
+}
+
+.fettSchriftfarbeGrau strong, .ÜberschriftfarbeGrau :is(h1, h2, h3, h4, h5, h6) { color: #f8f8f8; }
+.SchriftfarbeGrau { color: #f8f8f8;
+	a, :is(h1, h2, h3, h4, h5, h6) { color: #f8f8f8; }
+	svg.icon, svg { fill: #f8f8f8; }
+}
+
+.fettSchriftfarbeDunkelgrau strong, .ÜberschriftfarbeDunkelgrau :is(h1, h2, h3, h4, h5, h6) { color: #1b2125; }
+.SchriftfarbeDunkelgrau { color: #1b2125;
+	a, :is(h1, h2, h3, h4, h5, h6) { color: #1b2125; }
+	svg.icon, svg { fill: #1b2125; }
+}
+
 .fettSchriftfarbe1 strong, .Überschriftfarbe1 :is(h1, h2, h3, h4, h5, h6) { color: var(--primary_color); }
 .Schriftfarbe1 { color: var(--primary_color);
 	a, :is(h1, h2, h3, h4, h5, h6) { color: var(--primary_color); }
 	svg.icon, svg { fill: var(--primary_color); }
 }
-
-.Schriftfarbe2, .fettSchriftfarbe2 strong, .Überschriftfarbe2 :is(h1, h2, h3, h4, h5, h6) { color: var(--secondary_color); }
-.Schriftfarbe3, .fettSchriftfarbe3 strong, .Überschriftfarbe3 :is(h1, h2, h3, h4, h5, h6) { color: var(--tertiary_color); }
-.Schriftfarbe4, .fettSchriftfarbe4 strong, .Überschriftfarbe4 :is(h1, h2, h3, h4, h5, h6) { color: var(--quaternary_color); }
-
-.SchriftfarbeSchwarz, .fettSchriftfarbeSchwarz strong, .ÜberschriftfarbeSchwarz :is(h1, h2, h3, h4, h5, h6) { color: #000; }
-.SchriftfarbeDunkelgrau, .fettSchriftfarbeDunkelgrau strong, .ÜberschriftfarbeDunkelgrau :is(h1, h2, h3, h4, h5, h6) { color: #1b2125; }
-.SchriftfarbeGrau, .fettSchriftfarbeGrau strong, .ÜberschriftfarbeGrau :is(h1, h2, h3, h4, h5, h6) { color: #f8f8f8; }
+.fettSchriftfarbe2 strong, .Überschriftfarbe2 :is(h1, h2, h3, h4, h5, h6) { color: var(--secondary_color); }
+.Schriftfarbe2 { color: var(--secondary_color);
+	a, :is(h1, h2, h3, h4, h5, h6) { color: var(--secondary_color); }
+	svg.icon, svg { fill: var(--secondary_color); }
+}
+.fettSchriftfarbe3 strong, .Überschriftfarbe3 :is(h1, h2, h3, h4, h5, h6) { color: var(--tertiary_color); }
+.Schriftfarbe3 { color: var(--tertiary_color);
+	a, :is(h1, h2, h3, h4, h5, h6) { color: var(--tertiary_color); }
+	svg.icon, svg { fill: var(--tertiary_color); }
+}
+.fettSchriftfarbe4 strong, .Überschriftfarbe4 :is(h1, h2, h3, h4, h5, h6) { color: var(--quaternary_color); }
+.Schriftfarbe4 { color: var(--quaternary_color);
+	a, :is(h1, h2, h3, h4, h5, h6) { color: var(--quaternary_color); }
+	svg.icon, svg { fill: var(--quaternary_color); }
+}
 
 .Linkfarbe1 a, .Linkfarbe1 a svg, .Linkfarbe1 a svg.icon { color: var(--primary_color); fill: var(--primary_color); }
 .Linkfarbe2 a, .Linkfarbe2 a svg, .Linkfarbe2 a svg.icon { color: var(--secondary_color); fill: var(--secondary_color); }
