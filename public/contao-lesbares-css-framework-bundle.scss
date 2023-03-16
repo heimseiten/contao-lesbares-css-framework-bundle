@@ -147,6 +147,7 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 .ListensymbolRömischeZahlen li { list-style: upper-roman; }
 .ListensymbolStrich li::marker { content: '-  '; }
 .ListensymbolLangerStrich li::marker { content: '—  '; }
+.ListensymbolSpitzeAnführungszeichen li::marker { content: '»  '; }
 //************************************************************* TEXT *************************************************************//
 .TextRahmen .rte {
 	padding: 0.25rem 2rem;
