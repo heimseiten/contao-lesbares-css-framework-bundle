@@ -191,12 +191,12 @@ fieldset.Spaltenanzahl4 { grid-template-columns: repeat(4, 1fr); }
 fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 //************************************************************* FLÄCHEN *************************************************************//
 .rundeEcken { border-radius: var(--border_radius, 10px) ; }
-.rundeEckeUntenLinks 	{ border-bottom-left-radius: var(--border_radius, 10px) ; }
-.rundeEckeObenLinks 	{ border-top-left-radius: var(--border_radius, 10px) ; }
-.rundeEckeUntenRechts 	{ border-bottom-right-radius: var(--border_radius, 10px) ; }
-.rundeEckeObenRechts 	{ border-top-right-radius: var(--border_radius, 10px) ; }
+.rundeEckeUntenLinks { border-bottom-left-radius: var(--border_radius, 10px) ; }
+.rundeEckeObenLinks { border-top-left-radius: var(--border_radius, 10px) ; }
+.rundeEckeUntenRechts { border-bottom-right-radius: var(--border_radius, 10px) ; }
+.rundeEckeObenRechts { border-top-right-radius: var(--border_radius, 10px) ; }
 
-.Rahmen, .Rahmen1 { border: 1px solid var(--primary_color); }
+.Rahmen1 { border: 1px solid var(--primary_color); }
 .Rahmen2 { border: 1px solid var(--secondary_color); }
 .Rahmen3 { border: 1px solid var(--tertiary_color); }
 .Rahmen4 { border: 1px solid var(--quaternary_color); }
@@ -205,8 +205,6 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 .RahmenUnten { border-bottom: 1px solid var(--border_color); margin-bottom: var(--article_space_top, 60px); }
 .RahmenLinks { border-left: 1px solid var(--border_color); }
 .RahmenRechts { border-right: 1px solid var(--border_color); }
-.Rahmenfarbe { border-color: var(--primary_color); }
-.Rahmenfarbe2 { border-color: var(--secondary_color); }
 //************************************************************* KACHELN *************************************************************//
 body .mod_article.Kacheln {
 	--card_width: 375px;
