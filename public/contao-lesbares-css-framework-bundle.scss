@@ -2,7 +2,7 @@
 @media(max-width:1023px){ .nichtAufMobilAnzeigen { display: none !important; } }
 .verstecken { display: none; }
 .InhaltDarfUeberElementHinauslaufen { overflow: visible; }
-.zweispaltig { columns: 2; gap: 20px; 
+.content-text.zweispaltig { columns: 2; gap: 20px; 
 	@media(max-width:1023px){ columns: 1; gap: 0; }
 }
 .mod_article > .volleBreite { padding-left: 0; padding-right: 0; }
