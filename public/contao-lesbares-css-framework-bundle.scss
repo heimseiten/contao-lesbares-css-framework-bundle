@@ -143,14 +143,14 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 .LinkfarbeSchwarz a, .LinkfarbeSchwarz a svg, .LinkfarbeSchwarz a svg.icon { color: #000; }
 .LinkfarbeWeiß a, .LinkfarbeWeiß a svg, .LinkfarbeWeiß a svg.icon { color: #fff; }
 
-.Hintergrund1 { background-color: var(--primary_color); }
-.Hintergrund2 { background-color: var(--secondary_color); }
-.Hintergrund3 { background-color: var(--tertiary_color); }
-.Hintergrund4 { background-color: var(--quaternary_color); }
-.HintergrundWeiß { background-color: #fff; color: var(--font_color); }
-.HintergrundSchwarz { background-color: #000; }
-.HintergrundDunkelgrau { background-color: #1b2125; }
-.HintergrundGrau { background-color: #f8f8f8; }
+.Hintergrund1, .fettHintergrund1 strong { background-color: var(--primary_color); }
+.Hintergrund2, .fettHintergrund2 strong { background-color: var(--secondary_color); }
+.Hintergrund3, .fettHintergrund3 strong { background-color: var(--tertiary_color); }
+.Hintergrund4, .fettHintergrund4 strong { background-color: var(--quaternary_color); }
+.HintergrundWeiß, .fettHintergrundWeiß strong { background-color: #fff; color: var(--font_color); }
+.HintergrundSchwarz, .fettHintergrundSchwarz strong { background-color: #000; }
+.HintergrundDunkelgrau, .fettHintergrundDunkelgrau strong { background-color: #1b2125; }
+.HintergrundGrau, .fettHintergrundGrau strong { background-color: #f8f8f8; }
 
 .HintergrundTextWeiß .rte { background-color: #fff; }
 
@@ -180,6 +180,7 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 .LinkOhneUnterstrich a { text-decoration: none; }
 .kursivGroßbuchstaben strong, .fettGroßbuchstaben strong { text-transform: uppercase; }
 .fetteSchriftKlein strong, .kursiveSchriftKlein em { font-size: .7em; }
+.fettBlock strong { display: block; }
 //************************************************************* BILDER *************************************************************//
 .BildRahmen img { border: 1px solid var(--border_color); }
 .BildRahmenVerschoben img { 
