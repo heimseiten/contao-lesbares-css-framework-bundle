@@ -411,7 +411,8 @@ html body .content-text {
 		&:not(.LinkAlsButton) .rte em a,
 		&:not(.LinkAlsButton) .rte a em,
 		&.fetterTextAlsButton .rte strong { 
-			display: inline-block; 
+			cursor: pointer;
+			display: inline-block;
 			background: #fff;
 			color: var(--button_font_color);
 			font-size: var(--button_font_size); 
