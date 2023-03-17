@@ -178,7 +178,8 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 	border: 1px solid var(--primary_color);
 }
 .LinkOhneUnterstrich a { text-decoration: none; }
-.fettGroßbuchstaben strong { text-transform: uppercase; }
+.kursivGroßbuchstaben strong, .fettGroßbuchstaben strong { text-transform: uppercase; }
+.fetteSchriftKlein strong, .kursiveSchriftKlein em { font-size: .7em; }
 //************************************************************* BILDER *************************************************************//
 .BildRahmen img { border: 1px solid var(--border_color); }
 .BildRahmenVerschoben img { 
