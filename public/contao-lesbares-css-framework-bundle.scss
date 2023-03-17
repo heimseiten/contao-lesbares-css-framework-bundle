@@ -403,14 +403,14 @@ button.SchaltflächeInvertieren {
 	}
 }
 html body .content-text {
-	&.LinkAlsButton, &.LinkAlsButton2, &.kursiverLinkAlsButton, &.fetterTextAlsButton { 
+	&.LinkAlsButton, &.LinkAlsButton2, &.kursiverLinkAlsButton, &.fettAlsButton { 
 		position: relative;
 		&:not(.kursiverLinkAlsButton) .rte strong a,
 		&:not(.kursiverLinkAlsButton) .rte a strong { font-weight: var(--font_width_strong); }
 		&:not(.kursiverLinkAlsButton) .rte a, 
 		&:not(.LinkAlsButton) .rte em a,
 		&:not(.LinkAlsButton) .rte a em,
-		&.fetterTextAlsButton .rte strong { 
+		&.fettAlsButton .rte strong { 
 			cursor: pointer;
 			display: inline-block;
 			background: #fff;
@@ -432,11 +432,11 @@ html body .content-text {
 			}
     		}
 	}
-	&.LinkAlsButton2, &.fetterTextAlsButton2 { 
+	&.LinkAlsButton2, &.fettAlsButton2 { 
 		&:not(.kursiverLinkAlsButton) .rte a, 
 		&:not(.LinkAlsButton) .rte em a,
 		&:not(.LinkAlsButton) .rte a em,
-		&.fetterTextAlsButton2 .rte strong { 
+		&.fettAlsButton2 .rte strong { 
 			display: inline-block; 
 			background-color: var(--secondary_color); 
 			&:hover { 
