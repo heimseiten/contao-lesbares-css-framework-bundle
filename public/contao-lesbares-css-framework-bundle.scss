@@ -233,6 +233,7 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 	line-height: 1.4;
 	border: 1px solid var(--primary_color);
 }
+.TextAusrichtungRechts { text-align: right; }
 .LinkOhneUnterstrich a { text-decoration: none; }
 .kursivGroßbuchstaben strong, .fettGroßbuchstaben strong { text-transform: uppercase; }
 .fettKlein strong, .kursivKlein em, .SchriftKlein { font-size: .7em; }
