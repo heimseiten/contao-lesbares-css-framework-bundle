@@ -222,6 +222,8 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 .ListensymbolfarbeSchwarz li::marker { color: #000; }
 //************************************************************* LINKS *************************************************************//
 .LinkOhneUnterstrich a { text-decoration: none; }
+.LinkMitUnterstrich a { text-decoration: underline; }
+.LinkUnterstrichBeiBerührung a:hover { text-decoration: underline; }
 
 .Linkfarbe1 a, .Linkfarbe1 a svg, .Linkfarbe1 a svg.icon { color: var(--primary_color); fill: var(--primary_color); }
 .Linkfarbe2 a, .Linkfarbe2 a svg, .Linkfarbe2 a svg.icon { color: var(--secondary_color); fill: var(--secondary_color); }
