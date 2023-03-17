@@ -390,6 +390,15 @@ body #wrapper .ButtonAufGleicherHöhe {
 		right: 20px;
 	}
 }
+button.SchaltflächeInvertieren {
+	background-color: var(--primary_color);
+	color: #fff;
+	border: 1px solid var(--primary_color);
+	&:hover { 
+		background: #fff;
+		color: var(--primary_color);
+	}
+}
 html body .content-text {
 	&.LinkAlsButton, &.LinkAlsButton2, &.kursiverLinkAlsButton, &.fetterTextAlsButton { 
 		position: relative;
