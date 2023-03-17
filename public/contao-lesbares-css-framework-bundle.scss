@@ -192,13 +192,6 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 	svg.icon, svg { fill: var(--quaternary_color); }
 }
 
-.Linkfarbe1 a, .Linkfarbe1 a svg, .Linkfarbe1 a svg.icon { color: var(--primary_color); fill: var(--primary_color); }
-.Linkfarbe2 a, .Linkfarbe2 a svg, .Linkfarbe2 a svg.icon { color: var(--secondary_color); fill: var(--secondary_color); }
-.Linkfarbe3 a, .Linkfarbe3 a svg, .Linkfarbe3 a svg.icon { color: var(--tertiary_color); fill: var(--tertiary_color); }
-.Linkfarbe4 a, .Linkfarbe4 a svg, .Linkfarbe4 a svg.icon { color: var(--quaternary_color); fill: var(--quaternary_color); }
-.LinkfarbeSchwarz a, .LinkfarbeSchwarz a svg, .LinkfarbeSchwarz a svg.icon { color: #000; }
-.LinkfarbeWeiß a, .LinkfarbeWeiß a svg, .LinkfarbeWeiß a svg.icon { color: #fff; }
-
 .Hintergrund1, .fettHintergrund1 strong { background-color: var(--primary_color); }
 .Hintergrund2, .fettHintergrund2 strong { background-color: var(--secondary_color); }
 .Hintergrund3, .fettHintergrund3 strong { background-color: var(--tertiary_color); }
@@ -209,13 +202,6 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 .HintergrundGrau, .fettHintergrundGrau strong { background-color: #f8f8f8; }
 
 .HintergrundTextWeiß .rte { background-color: #fff; }
-
-.Listensymbolfarbe1 li::marker { color: var(--primary_color); }
-.Listensymbolfarbe2 li::marker { color: var(--secondary_color); }
-.Listensymbolfarbe3 li::marker { color: var(--tertiary_color); }
-.Listensymbolfarbe4 li::marker { color: var(--quaternary_color); }
-.ListensymbolfarbeWeiß li::marker { color: #fff; }
-.ListensymbolfarbeSchwarz li::marker { color: #000; }
 //************************************************************* LISTEN *************************************************************//
 .ListensymbolPunkt li { list-style: disc; }
 .ListensymbolKleinerPunkt li::marker { content: '•  '; }
@@ -227,6 +213,22 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 .ListensymbolStrich li::marker { content: '-  '; }
 .ListensymbolLangerStrich li::marker { content: '—  '; }
 .ListensymbolSpitzeAnführungszeichen li::marker { content: '»  '; }
+
+.Listensymbolfarbe1 li::marker { color: var(--primary_color); }
+.Listensymbolfarbe2 li::marker { color: var(--secondary_color); }
+.Listensymbolfarbe3 li::marker { color: var(--tertiary_color); }
+.Listensymbolfarbe4 li::marker { color: var(--quaternary_color); }
+.ListensymbolfarbeWeiß li::marker { color: #fff; }
+.ListensymbolfarbeSchwarz li::marker { color: #000; }
+//************************************************************* LINKS *************************************************************//
+.LinkOhneUnterstrich a { text-decoration: none; }
+
+.Linkfarbe1 a, .Linkfarbe1 a svg, .Linkfarbe1 a svg.icon { color: var(--primary_color); fill: var(--primary_color); }
+.Linkfarbe2 a, .Linkfarbe2 a svg, .Linkfarbe2 a svg.icon { color: var(--secondary_color); fill: var(--secondary_color); }
+.Linkfarbe3 a, .Linkfarbe3 a svg, .Linkfarbe3 a svg.icon { color: var(--tertiary_color); fill: var(--tertiary_color); }
+.Linkfarbe4 a, .Linkfarbe4 a svg, .Linkfarbe4 a svg.icon { color: var(--quaternary_color); fill: var(--quaternary_color); }
+.LinkfarbeSchwarz a, .LinkfarbeSchwarz a svg, .LinkfarbeSchwarz a svg.icon { color: #000; }
+.LinkfarbeWeiß a, .LinkfarbeWeiß a svg, .LinkfarbeWeiß a svg.icon { color: #fff; }
 //************************************************************* TEXT *************************************************************//
 .TextRahmen .rte {
 	padding: 0.25rem 2rem;
@@ -234,7 +236,6 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 	border: 1px solid var(--primary_color);
 }
 .TextAusrichtungRechts { text-align: right; }
-.LinkOhneUnterstrich a { text-decoration: none; }
 .kursivGroßbuchstaben strong, .fettGroßbuchstaben strong { text-transform: uppercase; }
 .fettKlein strong, .kursivKlein em, .SchriftKlein { font-size: .7em; }
 .fettBlock strong { display: block; }
