@@ -192,14 +192,14 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 	svg.icon, svg { fill: var(--quaternary_color); }
 }
 
-.Hintergrund1, .fettHintergrund1 strong { background-color: var(--primary_color); }
-.Hintergrund2, .fettHintergrund2 strong { background-color: var(--secondary_color); }
-.Hintergrund3, .fettHintergrund3 strong { background-color: var(--tertiary_color); }
-.Hintergrund4, .fettHintergrund4 strong { background-color: var(--quaternary_color); }
-.HintergrundWeiß, .fettHintergrundWeiß strong { background-color: #fff; color: var(--font_color); }
-.HintergrundSchwarz, .fettHintergrundSchwarz strong { background-color: #000; }
-.HintergrundDunkelgrau, .fettHintergrundDunkelgrau strong { background-color: #1b2125; }
-.HintergrundGrau, .fettHintergrundGrau strong { background-color: #f8f8f8; }
+#wrapper .Hintergrund1, .fettHintergrund1 strong { background-color: var(--primary_color); }
+#wrapper .Hintergrund2, .fettHintergrund2 strong { background-color: var(--secondary_color); }
+#wrapper .Hintergrund3, .fettHintergrund3 strong { background-color: var(--tertiary_color); }
+#wrapper .Hintergrund4, .fettHintergrund4 strong { background-color: var(--quaternary_color); }
+#wrapper .HintergrundWeiß, .fettHintergrundWeiß strong { background-color: #fff; color: var(--font_color); }
+#wrapper .HintergrundSchwarz, .fettHintergrundSchwarz strong { background-color: #000; }
+#wrapper .HintergrundDunkelgrau, .fettHintergrundDunkelgrau strong { background-color: #1b2125; }
+#wrapper .HintergrundGrau, .fettHintergrundGrau strong { background-color: #f8f8f8; }
 
 .HintergrundTextWeiß .rte { background-color: #fff; }
 //************************************************************* LISTEN *************************************************************//
