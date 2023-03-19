@@ -225,6 +225,13 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 .LinkMitUnterstrich a { text-decoration: underline; }
 .LinkUnterstrichBeiBerührung a:hover { text-decoration: underline; }
 
+.LinkGrößeXXS a { font-size: .55em; }
+.LinkGrößeXS a { font-size: .7em; }
+.LinkGrößeS a { font-size: .85em; }
+.LinkGrößeL a { font-size: 1.3em; }
+.LinkGrößeXL a { font-size: 1.6em; }
+.LinkGrößeXXL a { font-size: 2em; }
+
 .Linkfarbe1 a, .Linkfarbe1 a svg, .Linkfarbe1 a svg.icon { color: var(--primary_color); fill: var(--primary_color); }
 .Linkfarbe2 a, .Linkfarbe2 a svg, .Linkfarbe2 a svg.icon { color: var(--secondary_color); fill: var(--secondary_color); }
 .Linkfarbe3 a, .Linkfarbe3 a svg, .Linkfarbe3 a svg.icon { color: var(--tertiary_color); fill: var(--tertiary_color); }
@@ -415,7 +422,6 @@ html body .content-text {
 			display: inline-block;
 			background: #fff;
 			color: var(--button_font_color);
-			font-size: var(--button_font_size); 
 			font-weight: var(--button_font_weight); 
 			font-style: normal; 
 			border: 1px solid var(--button_border_color); 
