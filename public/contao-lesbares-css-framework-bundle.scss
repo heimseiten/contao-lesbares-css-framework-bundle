@@ -430,12 +430,16 @@ html body .content-text {
 			padding: .25rem 2rem;
 			line-height: 1.4;
 			transition: all 0.25s ease-in-out;
-			svg { fill: var(--button_font_color); }
+			svg, svg.icon { 
+				fill: var(--button_font_color); 
+				transition: all 0.25s ease-in-out;
+			}
 			&:before { display: none; }
 			&:hover { 
 				background: var(--button_color_hover); 
 				color: var(--button_font_color_hover);
 				border-color: var(--button_border_color_hover);
+				svg, svg.icon { fill: var(--button_font_color_hover); }
 			}
     		}
 	}
