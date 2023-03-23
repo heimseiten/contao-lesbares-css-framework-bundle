@@ -1,6 +1,7 @@
 @media(min-width:1024px){ .nichtAufDesktopAnzeigen { display: none !important; } }
 @media(max-width:1023px){ .nichtAufMobilAnzeigen { display: none !important; } }
 .verstecken { display: none; }
+.zentrieren { text-align: center; }
 .InhaltDarfUeberElementHinauslaufen { overflow: visible; }
 .zweispaltig { columns: 2; gap: 20px; 
 	@media(max-width:1023px){ columns: 1; gap: 0; }
@@ -21,6 +22,9 @@
 //************************************************************* HÖHE *************************************************************//
 .volleHöhe { height: 100vh; }
 //************************************************************* ABSTÄNDE *************************************************************//
+.ÜberschriftAbstandOben0 { :is(h1, h2, h3, h4, h5, h6) { margin-top: 0; } }
+.ÜberschriftAbstandUnten0 { :is(h1, h2, h3, h4, h5, h6) { margin-bottom: 0; } }
+
 body #wrapper .keinAbstand, body #wrapper .ohneAbstand, body #wrapper .Abstand0, .mod_article body #wrapper .AbstandText0 .rte, .AbstandBild0 figure { padding: 0px; }
 body #wrapper .AbstandXXS, #container .mod_article .AbstandTextXXS .rte, .AbstandBildXXS figure { padding: 10px; }
 body #wrapper .AbstandXS, #container .mod_article .AbstandTextXS .rte, .AbstandBildXS figure { padding: 20px; }
