@@ -175,31 +175,31 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 	svg.icon, svg { fill: #1b2125; }
 }
 
-.fettSchriftfarbe1 strong, .kursivSchriftfarbe1 em, .Überschriftfarbe1 :is(h1, h2, h3, h4, h5, h6) { color: var(--primary_color); }
-.Schriftfarbe1 { color: var(--primary_color);
-	a, :is(h1, h2, h3, h4, h5, h6) { color: var(--primary_color); }
-	svg.icon, svg { fill: var(--primary_color); }
+.fettSchriftfarbe1 strong, .kursivSchriftfarbe1 em, .Überschriftfarbe1 :is(h1, h2, h3, h4, h5, h6) { color: var(--color_1); }
+.Schriftfarbe1 { color: var(--color_1);
+	a, :is(h1, h2, h3, h4, h5, h6) { color: var(--color_1); }
+	svg.icon, svg { fill: var(--color_1); }
 }
-.fettSchriftfarbe2 strong, .kursivSchriftfarbe2 em, .Überschriftfarbe2 :is(h1, h2, h3, h4, h5, h6) { color: var(--secondary_color); }
-.Schriftfarbe2 { color: var(--secondary_color);
-	a, :is(h1, h2, h3, h4, h5, h6) { color: var(--secondary_color); }
-	svg.icon, svg { fill: var(--secondary_color); }
+.fettSchriftfarbe2 strong, .kursivSchriftfarbe2 em, .Überschriftfarbe2 :is(h1, h2, h3, h4, h5, h6) { color: var(--color_2); }
+.Schriftfarbe2 { color: var(--color_2);
+	a, :is(h1, h2, h3, h4, h5, h6) { color: var(--color_2); }
+	svg.icon, svg { fill: var(--color_2); }
 }
-.fettSchriftfarbe3 strong, .kursivSchriftfarbe3 em, .Überschriftfarbe3 :is(h1, h2, h3, h4, h5, h6) { color: var(--tertiary_color); }
-.Schriftfarbe3 { color: var(--tertiary_color);
-	a, :is(h1, h2, h3, h4, h5, h6) { color: var(--tertiary_color); }
-	svg.icon, svg { fill: var(--tertiary_color); }
+.fettSchriftfarbe3 strong, .kursivSchriftfarbe3 em, .Überschriftfarbe3 :is(h1, h2, h3, h4, h5, h6) { color: var(--color_3); }
+.Schriftfarbe3 { color: var(--color_3);
+	a, :is(h1, h2, h3, h4, h5, h6) { color: var(--color_3); }
+	svg.icon, svg { fill: var(--color_3); }
 }
-.fettSchriftfarbe4 strong, .kursivSchriftfarbe4 em, .Überschriftfarbe4 :is(h1, h2, h3, h4, h5, h6) { color: var(--quaternary_color); }
-.Schriftfarbe4 { color: var(--quaternary_color);
-	a, :is(h1, h2, h3, h4, h5, h6) { color: var(--quaternary_color); }
-	svg.icon, svg { fill: var(--quaternary_color); }
+.fettSchriftfarbe4 strong, .kursivSchriftfarbe4 em, .Überschriftfarbe4 :is(h1, h2, h3, h4, h5, h6) { color: var(--color_4); }
+.Schriftfarbe4 { color: var(--color_4);
+	a, :is(h1, h2, h3, h4, h5, h6) { color: var(--color_4); }
+	svg.icon, svg { fill: var(--color_4); }
 }
 
-#wrapper .Hintergrund1, .fettHintergrund1 strong { background-color: var(--primary_color); }
-#wrapper .Hintergrund2, .fettHintergrund2 strong { background-color: var(--secondary_color); }
-#wrapper .Hintergrund3, .fettHintergrund3 strong { background-color: var(--tertiary_color); }
-#wrapper .Hintergrund4, .fettHintergrund4 strong { background-color: var(--quaternary_color); }
+#wrapper .Hintergrund1, .fettHintergrund1 strong { background-color: var(--color_1); }
+#wrapper .Hintergrund2, .fettHintergrund2 strong { background-color: var(--color_2); }
+#wrapper .Hintergrund3, .fettHintergrund3 strong { background-color: var(--color_3); }
+#wrapper .Hintergrund4, .fettHintergrund4 strong { background-color: var(--color_4); }
 #wrapper .HintergrundWeiß, .fettHintergrundWeiß strong { background-color: #fff; color: var(--font_color); }
 #wrapper .HintergrundSchwarz, .fettHintergrundSchwarz strong { background-color: #000; }
 #wrapper .HintergrundDunkelgrau, .fettHintergrundDunkelgrau strong { background-color: #1b2125; }
@@ -218,10 +218,10 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 .ListensymbolLangerStrich li::marker { content: '—  '; }
 .ListensymbolSpitzeAnführungszeichen li::marker { content: '»  '; }
 
-.Listensymbolfarbe1 li::marker { color: var(--primary_color); }
-.Listensymbolfarbe2 li::marker { color: var(--secondary_color); }
-.Listensymbolfarbe3 li::marker { color: var(--tertiary_color); }
-.Listensymbolfarbe4 li::marker { color: var(--quaternary_color); }
+.Listensymbolfarbe1 li::marker { color: var(--color_1); }
+.Listensymbolfarbe2 li::marker { color: var(--color_2); }
+.Listensymbolfarbe3 li::marker { color: var(--color_3); }
+.Listensymbolfarbe4 li::marker { color: var(--color_4); }
 .ListensymbolfarbeWeiß li::marker { color: #fff; }
 .ListensymbolfarbeSchwarz li::marker { color: #000; }
 //************************************************************* LINKS *************************************************************//
@@ -236,17 +236,17 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 .LinkGrößeXL a { font-size: 1.6em; }
 .LinkGrößeXXL a { font-size: 2em; }
 
-.Linkfarbe1 a, .Linkfarbe1 a svg, .Linkfarbe1 a svg.icon { color: var(--primary_color); fill: var(--primary_color); }
-.Linkfarbe2 a, .Linkfarbe2 a svg, .Linkfarbe2 a svg.icon { color: var(--secondary_color); fill: var(--secondary_color); }
-.Linkfarbe3 a, .Linkfarbe3 a svg, .Linkfarbe3 a svg.icon { color: var(--tertiary_color); fill: var(--tertiary_color); }
-.Linkfarbe4 a, .Linkfarbe4 a svg, .Linkfarbe4 a svg.icon { color: var(--quaternary_color); fill: var(--quaternary_color); }
+.Linkfarbe1 a, .Linkfarbe1 a svg, .Linkfarbe1 a svg.icon { color: var(--color_1); fill: var(--color_1); }
+.Linkfarbe2 a, .Linkfarbe2 a svg, .Linkfarbe2 a svg.icon { color: var(--color_2); fill: var(--color_2); }
+.Linkfarbe3 a, .Linkfarbe3 a svg, .Linkfarbe3 a svg.icon { color: var(--color_3); fill: var(--color_3); }
+.Linkfarbe4 a, .Linkfarbe4 a svg, .Linkfarbe4 a svg.icon { color: var(--color_4); fill: var(--color_4); }
 .LinkfarbeSchwarz a, .LinkfarbeSchwarz a svg, .LinkfarbeSchwarz a svg.icon { color: #000; }
 .LinkfarbeWeiß a, .LinkfarbeWeiß a svg, .LinkfarbeWeiß a svg.icon { color: #fff; }
 //************************************************************* TEXT *************************************************************//
 .TextRahmen .rte {
 	padding: 0.25rem 2rem;
 	line-height: 1.4;
-	border: 1px solid var(--primary_color);
+	border: 1px solid var(--color_1);
 }
 .TextAusrichtungRechts { text-align: right; }
 .kursivGroßbuchstaben strong, .fettGroßbuchstaben strong { text-transform: uppercase; }
@@ -263,7 +263,7 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 .BildRahmenVerschoben img { 
 	// Code
 }
-.BildRahmenInFarbe img { border: 1px solid var(--primary_color); }
+.BildRahmenInFarbe img { border: 1px solid var(--color_1); }
 .BildVolleHoehe {
 	figure { height: 100%;
 		img { min-height: 100%; object-fit: cover; }
@@ -299,10 +299,10 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 .rundeEckeUntenRechts { border-bottom-right-radius: var(--border_radius, 10px) ; }
 .rundeEckeObenRechts { border-top-right-radius: var(--border_radius, 10px) ; }
 
-.Rahmen1 { border: 1px solid var(--primary_color); }
-.Rahmen2 { border: 1px solid var(--secondary_color); }
-.Rahmen3 { border: 1px solid var(--tertiary_color); }
-.Rahmen4 { border: 1px solid var(--quaternary_color); }
+.Rahmen1 { border: 1px solid var(--color_1); }
+.Rahmen2 { border: 1px solid var(--color_2); }
+.Rahmen3 { border: 1px solid var(--color_3); }
+.Rahmen4 { border: 1px solid var(--color_4); }
 
 .RahmenOben { border-top: 1px solid var(--border_color); margin-top: var(--article_space_top, 60px); }
 .RahmenUnten { border-bottom: 1px solid var(--border_color); margin-bottom: var(--article_space_top, 60px); }
@@ -405,12 +405,12 @@ body #wrapper .ButtonAufGleicherHöhe {
 	}
 }
 button.SchaltflächeInvertieren {
-	background-color: var(--primary_color);
+	background-color: var(--color_1);
 	color: #fff;
-	border: 1px solid var(--primary_color);
+	border: 1px solid var(--color_1);
 	&:hover { 
 		background: #fff;
-		color: var(--primary_color);
+		color: var(--color_1);
 	}
 }
 html body .content-text {
@@ -453,11 +453,11 @@ html body .content-text {
 		&:not(.LinkAlsButton) .rte a em,
 		&.fettAlsButton2 .rte strong { 
 			display: inline-block; 
-			background-color: var(--secondary_color); 
+			background-color: var(--color_2); 
 			&:hover { 
 				background-color: transparent;
-				color: var(--secondary_color);
-				border-color: var(--secondary_color);
+				color: var(--color_2);
+				border-color: var(--color_2);
 			}
 		}
 	}
