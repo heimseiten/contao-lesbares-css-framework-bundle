@@ -251,6 +251,7 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 .TextAusrichtungRechts { text-align: right; }
 .kursivGroßbuchstaben strong, .fettGroßbuchstaben strong { text-transform: uppercase; }
 .fettKlein strong, .kursivKlein em, .SchriftKlein { font-size: .7em; }
+.fettKleinNichtFett strong, .kursivKleinNichtKursiv em { font-size: .7em; font-weight: var(--font_weight, normal); font-style: normal; }
 .fettBlock strong { display: block; }
 .ZeilenhöheXS { line-height: 1; }
 .ZeilenhöheS { line-height: 1.2; }
