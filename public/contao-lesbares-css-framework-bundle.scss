@@ -1,7 +1,6 @@
 @media(min-width:1024px){ .nichtAufDesktopAnzeigen { display: none !important; } }
 @media(max-width:1023px){ .nichtAufMobilAnzeigen { display: none !important; } }
 .verstecken { display: none; }
-.zentrieren { text-align: center; }
 .InhaltDarfUeberElementHinauslaufen { overflow: visible; }
 .zweispaltig { columns: 2; gap: 20px; 
 	@media(max-width:1023px){ columns: 1; gap: 0; }
@@ -259,6 +258,9 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 .ZeilenhöheL { line-height: 1.6; }
 .ZeilenhöheXL { line-height: 1.8; }
 .ZeilenhöheXXL { line-height: 2; }
+.zentriert { text-align: center; }
+.aufDesktopZentriert { text-align: center; @media(max-width:1023px){ text-align: left; } }
+.aufMobilZentriert { @media(max-width:1023px){ text-align: center; } }
 //************************************************************* BILDER *************************************************************//
 .BildRahmen img { border: 1px solid var(--border_color); }
 .BildRahmenVerschoben img { 
