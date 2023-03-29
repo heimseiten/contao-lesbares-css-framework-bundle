@@ -7,16 +7,25 @@
 }
 .mod_article > .volleBreite { padding-left: 0; padding-right: 0; width: 100%; }
 //************************************************************* BREITE *************************************************************//
-.mod_article .Breite1, .Breite1 { max-width: 100%; width: 150px; margin: auto; }
-.mod_article .Breite2, .Breite2 { max-width: 100%; width: 250px; margin: auto; }
-.mod_article .Breite3, .Breite3 { max-width: 100%; width: 400px; margin: auto; }
-.mod_article .Breite4, .Breite4 { max-width: 100%; width: 600px; margin: auto; }
-.mod_article .Breite5, .Breite5 { max-width: 100%; width: 900px; margin: auto; }
-.mod_article .Breite6, .Breite6 { max-width: 100%; width: 1200px; margin: auto; }
-.mod_article .Breite7, .Breite7 { max-width: 100%; width: 1400px; margin: auto; }
-.mod_article .Breite8, .Breite8 { max-width: 100%; width: 1500px; margin: auto; }
-.mod_article .Breite9, .Breite9 { max-width: 100%; width: 1700px; margin: auto; }
-.mod_article .Breite10, .Breite10 { max-width: 100%; width: 1850px; margin: auto; }
+.mod_article .Breite1, .mod_article.Breite1 > *, .Breite1 { max-width: 100%; width: 100px; margin: auto; }
+.mod_article .Breite2, .mod_article.Breite2 > *, .Breite2 { max-width: 100%; width: 200px; margin: auto; }
+.mod_article .Breite3, .mod_article.Breite3 > *, .Breite3 { max-width: 100%; width: 300px; margin: auto; }
+.mod_article .Breite4, .mod_article.Breite4 > *, .Breite4 { max-width: 100%; width: 400px; margin: auto; }
+.mod_article .Breite5, .mod_article.Breite5 > *, .Breite5 { max-width: 100%; width: 500px; margin: auto; }
+.mod_article .Breite6, .mod_article.Breite6 > *, .Breite6 { max-width: 100%; width: 600px; margin: auto; }
+.mod_article .Breite7, .mod_article.Breite7 > *, .Breite7 { max-width: 100%; width: 700px; margin: auto; }
+.mod_article .Breite8, .mod_article.Breite8 > *, .Breite8 { max-width: 100%; width: 800px; margin: auto; }
+.mod_article .Breite9, .mod_article.Breite9 > *, .Breite9 { max-width: 100%; width: 900px; margin: auto; }
+.mod_article .Breite10, .mod_article.Breite10 > *, .Breite10 { max-width: 100%; width: 1000px; margin: auto; }
+.mod_article .Breite11, .mod_article.Breite11 > *, .Breite11 { max-width: 100%; width: 1100px; margin: auto; }
+.mod_article .Breite12, .mod_article.Breite12 > *, .Breite12 { max-width: 100%; width: 1200px; margin: auto; }
+.mod_article .Breite13, .mod_article.Breite13 > *, .Breite13 { max-width: 100%; width: 1300px; margin: auto; }
+.mod_article .Breite14, .mod_article.Breite14 > *, .Breite14 { max-width: 100%; width: 1400px; margin: auto; }
+.mod_article .Breite15, .mod_article.Breite15 > *, .Breite15 { max-width: 100%; width: 1500px; margin: auto; }
+.mod_article .Breite16, .mod_article.Breite16 > *, .Breite16 { max-width: 100%; width: 1600px; margin: auto; }
+.mod_article .Breite17, .mod_article.Breite17 > *, .Breite17 { max-width: 100%; width: 1700px; margin: auto; }
+.mod_article .Breite18, .mod_article.Breite18 > *, .Breite18 { max-width: 100%; width: 1800px; margin: auto; }
+.mod_article .Breite19, .mod_article.Breite19 > *, .Breite19 { max-width: 100%; width: 1900px; margin: auto; }
 
 .mod_article.volleBreite { --article_inside_width: 100%; 
 	& > * { padding-right: 0; padding-left: 0; }
