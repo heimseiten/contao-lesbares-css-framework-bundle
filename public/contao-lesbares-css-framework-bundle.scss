@@ -27,7 +27,7 @@
 .mod_article .Breite18, .mod_article.Breite18 > * { max-width: 100%; width: 1800px; margin: auto; }
 .mod_article .Breite19, .mod_article.Breite19 > * { max-width: 100%; width: 1900px; margin: auto; }
 
-.mod_article.volleBreite { --article_inside_width: 100%; 
+.mod_article.volleBreite { --content_width: 100%; 
 	& > * { padding-right: 0; padding-left: 0; }
 }
 //************************************************************* HÖHE *************************************************************//
