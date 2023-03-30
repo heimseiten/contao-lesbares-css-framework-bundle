@@ -394,10 +394,16 @@ body .mod_article.Kacheln {
 
 .Kachel {
 	border: 1px solid #ddd;
-	padding: 20px;
+	padding: 1.5em;
 	background: #f8f8f8;
 	border-radius: 3px;
 }
+.mod_article.HintergrundGrau .Kachel,
+.abg1 .mod_article:nth-child(odd) .Kachel,
+.abg2 .mod_article:nth-child(even) .Kachel { background: #fff; }
+.mod_article.HintergrundWeiß .Kachel,
+.abg1 .mod_article:nth-child(even) .Kachel,
+.abg2 .mod_article:nth-child(odd) .Kachel { background: #f8f8f8; }
 
 .mod_article.HintergrundWeiß .ce_cp_grid_start.Kacheln > .grid_start > *,
 .mod_article.HintergrundWeiß .rs-columns.Kacheln > .rs-column > *,
