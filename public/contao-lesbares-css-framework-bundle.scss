@@ -392,14 +392,7 @@ body .mod_article.Kacheln {
 	&.KachelnGrau > .grid_start > *, &.KachelnGrau > .rs-column > * { background: #f8f8f8; }
 }
 
-.content-text.Kachel {
-	border: 1px solid #ddd;
-	padding: 20px;
-	background: #f8f8f8;
-	border-radius: 3px;
-}
-
-.content-text.Kachel {
+.Kachel {
 	border: 1px solid #ddd;
 	padding: 20px;
 	background: #f8f8f8;
