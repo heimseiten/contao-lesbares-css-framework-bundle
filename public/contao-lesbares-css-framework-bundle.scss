@@ -218,6 +218,7 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 
 .HintergrundTextWeiß .rte { background-color: #fff; }
 //************************************************************* LISTEN *************************************************************//
+.ListeAbstand0 ul { margin: 0; }
 .ListensymbolPunkt li { list-style: disc; }
 .ListensymbolKleinerPunkt li::marker { content: '•  '; }
 .ListensymbolKreis li { list-style: circle; }
