@@ -217,6 +217,11 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 #wrapper .HintergrundGrau, .fettHintergrundGrau strong { background-color: #f8f8f8; }
 
 .HintergrundTextWeiß .rte { background-color: #fff; }
+
+.Iconfarbe1 svg { fill: var(--color_1); }
+.Iconfarbe2 svg { fill: var(--color_2); }
+.Iconfarbe3 svg { fill: var(--color_3); }
+.Iconfarbe4 svg { fill: var(--color_4); }
 //************************************************************* LISTEN *************************************************************//
 .ListeAbstand0 ul { margin: 0; }
 .ListensymbolPunkt li { list-style: disc; }
