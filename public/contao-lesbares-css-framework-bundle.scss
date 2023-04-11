@@ -5,7 +5,8 @@
 .zweispaltig { columns: 2; gap: 20px; 
 	@media(max-width:1023px){ columns: 1; gap: 0; }
 }
-.mod_article > .volleBreite { padding-left: 0; padding-right: 0; width: 100%; }
+.mod_article > .volleBreite:not(.content-table) { padding-left: 0; padding-right: 0; width: 100%; }
+.mod_article > .volleBreite.content-table table { width: 100%; }
 //************************************************************* BREITE *************************************************************//
 .mod_article .Breite1, .mod_article.Breite1 > * { max-width: 100%; width: 100px; margin: auto; }
 .mod_article .Breite2, .mod_article.Breite2 > * { max-width: 100%; width: 200px; margin: auto; }
