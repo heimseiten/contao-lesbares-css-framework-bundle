@@ -335,8 +335,6 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 .rs-columns.Kacheln, 
 .rs-columns.KachelnGrau,
 .rs-columns.KachelnWeiß {
-	padding-left: 0;
-	padding-right: 0;
 	& > .rs-column > * {
 		border: 1px solid var(--border_color);
 		padding: 20px 20px;
