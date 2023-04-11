@@ -439,3 +439,15 @@ html body .content-text {
 		}
 	}
 }
+.IconButton { font-size: 0; 
+	a:before { background: transparent; } 
+	a svg { 
+		width: 30px; 
+		height: 30px; 
+		border-radius: 50%; 
+		margin-right: 10px;
+		transition: all 0.25s ease-in-out;
+		&:hover { transform: rotate(45deg); }
+	}
+	svg, svg.icon { fill: var(--primary_color); }
+}
