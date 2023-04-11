@@ -411,10 +411,12 @@ body .mod_article.Kacheln {
 .abg1 .mod_article:nth-child(even) .Kachel,
 .abg2 .mod_article:nth-child(odd) .Kachel { background: #f8f8f8; }
 
-.mod_article.HintergrundWeiß .ce_cp_grid_start.Kacheln > .grid_start > *,
+.abg1 .mod_article:nth-child(even) .rs-columns.Kacheln > .rs-column > *,
+.abg2 .mod_article:nth-child(odd) .rs-columns.Kacheln > .rs-column > *,
 .mod_article.HintergrundWeiß .rs-columns.Kacheln > .rs-column > *,
 .mod_article.HintergrundWeiß.Kacheln > * { background: #f8f8f8; }
-.mod_article.HintergrundGrau .ce_cp_grid_start.Kacheln > .grid_start > *,
+.abg1 .mod_article:nth-child(odd) .rs-columns.Kacheln > .rs-column > *,
+.abg2 .mod_article:nth-child(even) .rs-columns.Kacheln > .rs-column > *,
 .mod_article.HintergrundGrau .rs-columns.Kacheln > .rs-column > *, 
 .mod_article.HintergrundGrau.Kacheln > * { background: #fff; }
 //************************************************************* BUTTON *************************************************************//
