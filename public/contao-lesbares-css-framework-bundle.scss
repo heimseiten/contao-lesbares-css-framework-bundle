@@ -449,5 +449,5 @@ html body .content-text {
 		transition: all 0.25s ease-in-out;
 		&:hover { transform: rotate(45deg); }
 	}
-	svg, svg.icon { fill: var(--primary_color); }
+	svg, svg.icon { fill: var(--color_1); }
 }
