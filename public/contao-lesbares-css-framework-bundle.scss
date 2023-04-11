@@ -336,7 +336,7 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 .rs-columns.KachelnWeiß {
 	padding-left: 0;
 	padding-right: 0;
-	& > .grid_start > *, & > .rs-column > * {
+	& > .rs-column > * {
 		border: 1px solid var(--border_color);
 		padding: 20px 20px;
 		background: #f8f8f8;
@@ -347,8 +347,8 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 			margin-right: 20px;
 		}
 	}
-	&.KachelnWeiß > .grid_start > *, &.KachelnWeiß > .rs-column > * { background: #fff; }
-	&.KachelnGrau > .grid_start > *, &.KachelnGrau > .rs-column > * { background: #f8f8f8; }
+	&.KachelnWeiß > .rs-column > * { background: #fff; }
+	&.KachelnGrau > .rs-column > * { background: #f8f8f8; }
 }
 
 .Kachel {
