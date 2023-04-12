@@ -358,21 +358,20 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 	background: #f8f8f8;
 	border-radius: 3px;
 }
-.mod_article.HintergrundGrau .Kachel,
+
 .abg1 .mod_article:nth-child(odd) .Kachel,
-.abg2 .mod_article:nth-child(even) .Kachel { background: #fff; }
-.mod_article.HintergrundWeiß .Kachel,
+.abg2 .mod_article:nth-child(even) .Kachel,
+#wrapper .mod_article.HintergrundGrau .Kachel { background: #fff; }
 .abg1 .mod_article:nth-child(even) .Kachel,
-.abg2 .mod_article:nth-child(odd) .Kachel { background: #f8f8f8; }
+.abg2 .mod_article:nth-child(odd) .Kachel,
+#wrapper .mod_article.HintergrundWeiß .Kachel { background: #f8f8f8; }
 
 .abg1 .mod_article:nth-child(even) .rs-columns.Kacheln > .rs-column > *,
 .abg2 .mod_article:nth-child(odd) .rs-columns.Kacheln > .rs-column > *,
-.mod_article.HintergrundWeiß .rs-columns.Kacheln > .rs-column > *,
-.mod_article.HintergrundWeiß.Kacheln > * { background: #f8f8f8; }
+#wrapper .mod_article.HintergrundWeiß .rs-columns.Kacheln > .rs-column > * { background: #f8f8f8; }
 .abg1 .mod_article:nth-child(odd) .rs-columns.Kacheln > .rs-column > *,
 .abg2 .mod_article:nth-child(even) .rs-columns.Kacheln > .rs-column > *,
-.mod_article.HintergrundGrau .rs-columns.Kacheln > .rs-column > *, 
-.mod_article.HintergrundGrau.Kacheln > * { background: #fff; }
+#wrapper .mod_article.HintergrundGrau .rs-columns.Kacheln > .rs-column > * { background: #fff; }
 //************************************************************* BUTTON *************************************************************//
 body #wrapper .ButtonAufGleicherHöhe {
 	padding-bottom: 55px;
