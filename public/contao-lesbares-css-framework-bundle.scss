@@ -309,6 +309,7 @@ fieldset.Spaltenanzahl5 {
 	border: 0;
 	column-gap: var(--form_gap, 10px);
 	display: grid;
+	align-items: end;
 	grid-template-columns: repeat(2, 1fr);
 	@media(max-width:767px){ grid-template-columns: repeat(1, 1fr); }
 }
