@@ -148,6 +148,62 @@ body #wrapper .AbstandAußenLinksL { margin-left: 100px; @media(max-width:767px)
 body #wrapper .AbstandAußenLinksXL { margin-left: 130px; @media(max-width:767px){ padding-left: 20px; } }
 body #wrapper .AbstandAußenLinksXXL { margin-left: 150px; @media(max-width:767px){ padding-left: 20px; } }
 body #wrapper .AbstandAußenLinksXXXL { margin-left: 200px; @media(max-width:767px){ padding-left: 20px; } }
+
+
+body #wrapper .keinAbstandMobil { @media(max-width:767px){ padding: 0; } }
+body #wrapper .AbstandMobilXS { @media(max-width:767px){ padding: 20px; } }
+body #wrapper .AbstandMobilMS { @media(max-width:767px){ padding: 25px; } }
+body #wrapper .AbstandMobilS { @media(max-width:767px){ padding: 40px; } }
+body #wrapper .AbstandMobilM { @media(max-width:767px){ padding: 60px; } }
+body #wrapper .AbstandMobilL { @media(max-width:767px){ padding: 100px; } }
+body #wrapper .AbstandMobilXL { @media(max-width:767px){ padding: 130px; } }
+body #wrapper .AbstandMobilXXL { @media(max-width:767px){ padding: 150px; } }
+body #wrapper .AbstandMobilXXXL { @media(max-width:767px){ padding: 200px; } }
+body #wrapper .AbstandMobilXXXXL { @media(max-width:767px){ padding: 250px; } }
+
+body #wrapper .AbstandMobilOben0 { @media(max-width:767px){ padding-top: 0px; } }
+body #wrapper .AbstandMobilObenXXS { @media(max-width:767px){ padding-top: 10px; } }
+body #wrapper .AbstandMobilObenXS { @media(max-width:767px){ padding-top: 20px; } }
+body #wrapper .AbstandMobilObenMS { @media(max-width:767px){ padding-top: 25px; } }
+body #wrapper .AbstandMobilObenS { @media(max-width:767px){ padding-top: 40px; } }
+body #wrapper .AbstandMobilObenM { @media(max-width:767px){ padding-top: 60px; } }
+body #wrapper .AbstandMobilObenL { @media(max-width:767px){ padding-top: 100px; } }
+body #wrapper .AbstandMobilObenXL { @media(max-width:767px){ padding-top: 130px; } }
+body #wrapper .AbstandMobilObenXXL { @media(max-width:767px){ padding-top: 150px; } }
+body #wrapper .AbstandMobilObenXXXL { @media(max-width:767px){ padding-top: 200px; } }
+
+body #wrapper .AbstandMobilRechts0 { @media(max-width:767px){ padding-right: 0px; } }
+body #wrapper .AbstandMobilRechtsXXS { @media(max-width:767px){ padding-right: 10px; } }
+body #wrapper .AbstandMobilRechtsXS { @media(max-width:767px){ padding-right: 20px; } }
+body #wrapper .AbstandMobilRechtsMS { @media(max-width:767px){ padding-right: 25px; } }
+body #wrapper .AbstandMobilRechtsS { @media(max-width:767px){ padding-right: 40px; } }
+body #wrapper .AbstandMobilRechtsM { @media(max-width:767px){ padding-right: 60px; } }
+body #wrapper .AbstandMobilRechtsL { @media(max-width:767px){ padding-right: 100px; } }
+body #wrapper .AbstandMobilRechtsXL { @media(max-width:767px){ padding-right: 130px; } }
+body #wrapper .AbstandMobilRechtsXXL { @media(max-width:767px){ padding-right: 150px; } }
+body #wrapper .AbstandMobilRechtsXXXL { @media(max-width:767px){ padding-right: 200px; } }
+
+body #wrapper .AbstandMobilUnten0 { @media(max-width:767px){ padding-bottom: 0px; } }
+body #wrapper .AbstandMobilUntenXXS { @media(max-width:767px){ padding-bottom: 10px; } }
+body #wrapper .AbstandMobilUntenXS { @media(max-width:767px){ padding-bottom: 20px; } }
+body #wrapper .AbstandMobilUntenMS { @media(max-width:767px){ padding-bottom: 25px; } }
+body #wrapper .AbstandMobilUntenS { @media(max-width:767px){ padding-bottom: 40px; } }
+body #wrapper .AbstandMobilUntenM { @media(max-width:767px){ padding-bottom: 60px; } }
+body #wrapper .AbstandMobilUntenL { @media(max-width:767px){ padding-bottom: 100px; } }
+body #wrapper .AbstandMobilUntenXL { @media(max-width:767px){ padding-bottom: 130px; } }
+body #wrapper .AbstandMobilUntenXXL { @media(max-width:767px){ padding-bottom: 150px; } }
+body #wrapper .AbstandMobilUntenXXXL { @media(max-width:767px){ padding-bottom: 200px; } }
+
+body #wrapper .AbstandMobilLinks0 { @media(max-width:767px){ padding-left: 0px; } }
+body #wrapper .AbstandMobilLinksXXS { @media(max-width:767px){ padding-left: 10px; } }
+body #wrapper .AbstandMobilLinksXS { @media(max-width:767px){ padding-left: 20px; } }
+body #wrapper .AbstandMobilLinksMS { @media(max-width:767px){ padding-left: 25px; } }
+body #wrapper .AbstandMobilLinksS { @media(max-width:767px){ padding-left: 40px; } }
+body #wrapper .AbstandMobilLinksM { @media(max-width:767px){ padding-left: 60px; } }
+body #wrapper .AbstandMobilLinksL { @media(max-width:767px){ padding-left: 100px; } }
+body #wrapper .AbstandMobilLinksXL { @media(max-width:767px){ padding-left: 130px; } }
+body #wrapper .AbstandMobilLinksXXL { @media(max-width:767px){ padding-left: 150px; } }
+body #wrapper .AbstandMobilLinksXXXL { @media(max-width:767px){ padding-left: 200px; } }
 //************************************************************* SPALTEN *************************************************************//
 body .SpaltenabstandS > * { gap: 10px; }
 body .SpaltenabstandMS > * { gap: 15px; }
