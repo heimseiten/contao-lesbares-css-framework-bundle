@@ -356,6 +356,9 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 
 .BildRund img { border-radius: var(--border_radius); }
 .BildKreis img { border-radius: 50%; }
+//************************************************************* SPALTEN *************************************************************//
+.vertikalMittig { align-items: center; }
+.horizontalMittig { justify-content: center; }
 //************************************************************* FORMULARE *************************************************************//
 fieldset.Spaltenanzahl2,
 fieldset.Spaltenanzahl3,
