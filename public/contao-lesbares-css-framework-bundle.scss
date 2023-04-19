@@ -392,9 +392,9 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 .RahmenLinks { border-left: 1px solid var(--border_color); }
 .RahmenRechts { border-right: 1px solid var(--border_color); }
 //************************************************************* KACHELN *************************************************************//
-.rs-columns.Kacheln, 
-.rs-columns.KachelnGrau,
-.rs-columns.KachelnWeiß {
+#wrapper .rs-columns.Kacheln, 
+#wrapper .rs-columns.KachelnGrau,
+#wrapper .rs-columns.KachelnWeiß {
 	justify-content: center;
 	& > .rs-column > * {
 		border: 1px solid var(--border_color);
@@ -402,6 +402,7 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 		background: #f8f8f8;
 		border-radius: 3px;
 		height: 100%;
+		overflow: hidden;
 		&.content-text.media--above img { margin-bottom: .5em; }
 		@media(max-width:1023px){  
 			margin-left: 20px;
@@ -412,11 +413,12 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 	&.KachelnGrau > .rs-column > * { background: #f8f8f8; }
 }
 
-.Kachel {
+#wrapper .Kachel {
 	border: 1px solid #ddd;
 	padding: 1.5em;
 	background: #f8f8f8;
 	border-radius: 3px;
+	overflow: hidden;
 }
 
 .abg1 .mod_article:nth-child(odd) .Kachel,
