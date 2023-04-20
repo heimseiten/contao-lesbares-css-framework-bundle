@@ -359,7 +359,7 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 //************************************************************* SPALTEN *************************************************************//
 .vertikalMittig { align-items: center; }
 .horizontalMittig { justify-content: center; }
-.ElementeGleicheHöhe > .rs-column > * { height: 100%; }
+.ElementhöheGleich > .rs-column > * { height: 100%; }
 //************************************************************* FORMULARE *************************************************************//
 fieldset.Spaltenanzahl2,
 fieldset.Spaltenanzahl3,
