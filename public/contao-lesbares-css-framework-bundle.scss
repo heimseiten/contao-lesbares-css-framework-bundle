@@ -337,6 +337,7 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 .aufDesktopZentriert { text-align: center; @media(max-width:1023px){ text-align: left; } }
 .aufMobilZentriert { @media(max-width:1023px){ text-align: center; } }
 .aufDesktopBlocksatz { text-align: justify; @media(max-width:1023px){ text-align: left; } }
+.keineWorttrennung p { hyphens: none; }
 //************************************************************* BILDER *************************************************************//
 .BildRahmen img { border: 1px solid var(--border_color); }
 .BildRahmenVerschoben img { 
