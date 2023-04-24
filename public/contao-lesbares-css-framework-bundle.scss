@@ -327,12 +327,12 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 .fettKlein strong, .kursivKlein em, .SchriftKlein { font-size: .7em; }
 .fettKleinNichtFett strong, .kursivKleinNichtKursiv em { font-size: .7em; font-weight: var(--font_weight, normal); font-style: normal; }
 .fettBlock strong { display: block; }
-.ZeilenhöheXS { line-height: 1; }
-.ZeilenhöheS { line-height: 1.2; }
-.ZeilenhöheM { line-height: 1.4; }
-.ZeilenhöheL { line-height: 1.6; }
-.ZeilenhöheXL { line-height: 1.8; }
-.ZeilenhöheXXL { line-height: 2; }
+.ZeilenabstandXS { line-height: 1; }
+.ZeilenabstandS { line-height: 1.2; }
+.ZeilenabstandM { line-height: 1.4; }
+.ZeilenabstandL { line-height: 1.6; }
+.ZeilenabstandXL { line-height: 1.8; }
+.ZeilenabstandXXL { line-height: 2; }
 .zentriert { text-align: center; }
 .aufDesktopZentriert { text-align: center; @media(max-width:1023px){ text-align: left; } }
 .aufMobilZentriert { @media(max-width:1023px){ text-align: center; } }
