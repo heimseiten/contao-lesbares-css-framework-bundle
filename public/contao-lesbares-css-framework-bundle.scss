@@ -5,9 +5,165 @@
 .zweispaltig { columns: 2; gap: 20px; 
 	@media(max-width:1023px){ columns: 1; gap: 0; }
 }
+//************************************************************* TEXT *************************************************************//
+.TextRahmen .rte { padding: 0.25rem 2rem; border: 1px solid var(--color_1); }
+.TextAusrichtungRechts { text-align: right; }
+.kursivGroßbuchstaben strong, .fettGroßbuchstaben strong { text-transform: uppercase; }
+.fettKlein strong, .kursivKlein em, .SchriftKlein { font-size: .7em; }
+.fettKleinNichtFett strong, .kursivKleinNichtKursiv em { font-size: .7em; font-weight: var(--font_weight, normal); font-style: normal; }
+.fettBlock strong { display: block; }
+.ZeilenabstandXS { line-height: 1; }
+.ZeilenabstandS { line-height: 1.2; }
+.ZeilenabstandM { line-height: 1.4; }
+.ZeilenabstandL { line-height: 1.6; }
+.ZeilenabstandXL { line-height: 1.8; }
+.ZeilenabstandXXL { line-height: 2; }
+.zentriert { text-align: center; }
+.aufDesktopZentriert { text-align: center; @media(max-width:1023px){ text-align: left; } }
+.aufMobilZentriert { @media(max-width:1023px){ text-align: center; } }
+.aufDesktopBlocksatz { text-align: justify; @media(max-width:1023px){ text-align: left; } }
+.keineWorttrennung p { hyphens: none; }
+.ÜberschriftKeineWorttrennung :is(h1, h2, h3, h4, h5, h6) { hyphens: none; }
+.ÜberschriftGroßbuchstaben :is(h1, h2, h3, h4, h5, h6) { text-transform: uppercase; }
+//************************************************************* BILDER *************************************************************//
+.BildRahmen img { border: 1px solid var(--border_color); }
+.BildRahmenVerschoben img { 
+	// Code
+}
+.BildRahmenInFarbe img { border: 1px solid var(--color_1); }
+.BildVolleHoehe {
+	figure { height: 100%;
+		img { min-height: 100%; object-fit: cover; }
+	}
+}
+
+.BildLinks img, .BildMittig img, .BildRechts img { display: inline-block; }
+.BildLinks figure { text-align: left; }
+.BildMittig figure { text-align: center; }
+.BildRechts figure { text-align: right; }
+
+.BildRund img { border-radius: var(--border_radius); }
+.BildKreis img { border-radius: 50%; }
+//************************************************************* LISTEN *************************************************************//
+.ListeAbstand0 ul { margin: 0; }
+.ListensymbolPunkt li { list-style: disc; }
+.ListensymbolKleinerPunkt li::marker { content: '•  '; }
+.ListensymbolKreis li { list-style: circle; }
+.ListensymbolBuchstaben li { list-style: lower-alpha; }
+.ListensymbolGroßbuchstaben li { list-style: upper-alpha; }
+.ListensymbolQuadrat li { list-style: square; }
+.ListensymbolRömischeZahlen li { list-style: upper-roman; }
+.ListensymbolStrich li::marker { content: '-  '; }
+.ListensymbolLangerStrich li::marker { content: '—  '; }
+.ListensymbolSpitzeAnführungszeichen li::marker { content: '»  '; }
+
+.Listensymbolfarbe1 li::marker { color: var(--color_1); }
+.Listensymbolfarbe2 li::marker { color: var(--color_2); }
+.Listensymbolfarbe3 li::marker { color: var(--color_3); }
+.Listensymbolfarbe4 li::marker { color: var(--color_4); }
+.ListensymbolfarbeWeiß li::marker { color: #fff; }
+.ListensymbolfarbeSchwarz li::marker { color: #000; }
+//************************************************************* LINKS *************************************************************//
+.LinkOhneUnterstrich a { text-decoration: none; }
+.LinkMitUnterstrich a { text-decoration: underline; }
+.LinkUnterstrichBeiBerührung a:hover { text-decoration: underline; }
+
+.LinkGrößeXXS a { font-size: .55em; }
+.LinkGrößeXS a { font-size: .7em; }
+.LinkGrößeS a { font-size: .85em; }
+.LinkGrößeL a { font-size: 1.3em; }
+.LinkGrößeXL a { font-size: 1.6em; }
+.LinkGrößeXXL a { font-size: 2em; }
+
+.Linkfarbe1 a, .Linkfarbe1 a svg, .Linkfarbe1 a svg.icon { color: var(--color_1); fill: var(--color_1); }
+.Linkfarbe2 a, .Linkfarbe2 a svg, .Linkfarbe2 a svg.icon { color: var(--color_2); fill: var(--color_2); }
+.Linkfarbe3 a, .Linkfarbe3 a svg, .Linkfarbe3 a svg.icon { color: var(--color_3); fill: var(--color_3); }
+.Linkfarbe4 a, .Linkfarbe4 a svg, .Linkfarbe4 a svg.icon { color: var(--color_4); fill: var(--color_4); }
+.LinkfarbeSchwarz a, .LinkfarbeSchwarz a svg, .LinkfarbeSchwarz a svg.icon { color: #000; fill: #000; }
+.LinkfarbeWeiß a, .LinkfarbeWeiß a svg, .LinkfarbeWeiß a svg.icon { color: #fff; fill: #fff; }
+//************************************************************* SPALTEN *************************************************************//
+.vertikalMittig { align-items: center; }
+.horizontalMittig { justify-content: center; }
+.ElementhöheGleich > .rs-column > * { height: 100%; }
+//************************************************************* FORMULARE *************************************************************//
+fieldset.Spaltenanzahl2,
+fieldset.Spaltenanzahl3,
+fieldset.Spaltenanzahl4,
+fieldset.Spaltenanzahl5 {
+	padding: 0;
+	border: 0;
+	column-gap: var(--form_gap, 10px);
+	display: grid;
+	align-items: end;
+	grid-template-columns: repeat(2, 1fr);
+	@media(max-width:767px){ grid-template-columns: repeat(1, 1fr); }
+}
+fieldset.Spaltenanzahl3 { grid-template-columns: repeat(3, 1fr); }
+fieldset.Spaltenanzahl4 { grid-template-columns: repeat(4, 1fr); }
+fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
+//************************************************************* FLÄCHEN *************************************************************//
+.rundeEcken { border-radius: var(--border_radius, 10px) ; }
+.rundeEckeUntenLinks { border-bottom-left-radius: var(--border_radius, 10px) ; }
+.rundeEckeObenLinks { border-top-left-radius: var(--border_radius, 10px) ; }
+.rundeEckeUntenRechts { border-bottom-right-radius: var(--border_radius, 10px) ; }
+.rundeEckeObenRechts { border-top-right-radius: var(--border_radius, 10px) ; }
+
+.Rahmen1 { border: 1px solid var(--color_1); }
+.Rahmen2 { border: 1px solid var(--color_2); }
+.Rahmen3 { border: 1px solid var(--color_3); }
+.Rahmen4 { border: 1px solid var(--color_4); }
+
+.RahmenOben { border-top: 1px solid var(--border_color); margin-top: var(--article_space_top, 60px); }
+.RahmenUnten { border-bottom: 1px solid var(--border_color); margin-bottom: var(--article_space_top, 60px); }
+.RahmenLinks { border-left: 1px solid var(--border_color); }
+.RahmenRechts { border-right: 1px solid var(--border_color); }
+//************************************************************* KACHELN *************************************************************//
+#wrapper .rs-columns.Kacheln, 
+#wrapper .rs-columns.KachelnGrau,
+#wrapper .rs-columns.KachelnWeiß {
+	justify-content: center;
+	& > .rs-column > * {
+		border: 1px solid var(--border_color);
+		padding: 20px 20px;
+		background: #f8f8f8;
+		border-radius: 3px;
+		height: 100%;
+		overflow: hidden;
+		&.content-text.media--above img { margin-bottom: .5em; }
+		@media(max-width:1023px){  
+			margin-left: 20px;
+			margin-right: 20px;
+		}
+	}
+	&.KachelnWeiß > .rs-column > * { background: #fff; }
+	&.KachelnGrau > .rs-column > * { background: #f8f8f8; }
+}
+
+#wrapper .Kachel {
+	border: 1px solid #ddd;
+	padding: 1.5em;
+	background: #f8f8f8;
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+.abg1 #wrapper .mod_article:nth-child(odd) .Kachel,
+.abg2 #wrapper .mod_article:nth-child(even) .Kachel,
+#wrapper .mod_article.HintergrundGrau .Kachel { background: #fff; }
+.abg1 #wrapper .mod_article:nth-child(even) .Kachel,
+.abg2 #wrapper .mod_article:nth-child(odd) .Kachel,
+#wrapper .mod_article.HintergrundWeiß .Kachel { background: #f8f8f8; }
+
+.abg1 #wrapper .mod_article:nth-child(even) .rs-columns.Kacheln > .rs-column > *,
+.abg2 #wrapper .mod_article:nth-child(odd) .rs-columns.Kacheln > .rs-column > *,
+#wrapper .mod_article.HintergrundWeiß .rs-columns.Kacheln > .rs-column > * { background: #f8f8f8; }
+.abg1 #wrapper .mod_article:nth-child(odd) .rs-columns.Kacheln > .rs-column > *,
+.abg2 #wrapper .mod_article:nth-child(even) .rs-columns.Kacheln > .rs-column > *,
+#wrapper .mod_article.HintergrundGrau .rs-columns.Kacheln > .rs-column > * { background: #fff; }
+//************************************************************* BREITE *************************************************************//
 .mod_article > .volleBreite:not(.content-table), #wrapper .volleBreite { padding-left: 0; padding-right: 0; width: 100%; }
 .mod_article > .volleBreite.content-table table { width: 100%; }
-//************************************************************* BREITE *************************************************************//
+
 .mod_article .Breite1, .mod_article.Breite1 > * { max-width: 100%; width: 100px; margin: auto; }
 .mod_article .Breite2, .mod_article.Breite2 > * { max-width: 100%; width: 200px; margin: auto; }
 .mod_article .Breite3, .mod_article.Breite3 > * { max-width: 100%; width: 300px; margin: auto; }
@@ -279,164 +435,6 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 .Iconfarbe2 svg { fill: var(--color_2); }
 .Iconfarbe3 svg { fill: var(--color_3); }
 .Iconfarbe4 svg { fill: var(--color_4); }
-//************************************************************* LISTEN *************************************************************//
-.ListeAbstand0 ul { margin: 0; }
-.ListensymbolPunkt li { list-style: disc; }
-.ListensymbolKleinerPunkt li::marker { content: '•  '; }
-.ListensymbolKreis li { list-style: circle; }
-.ListensymbolBuchstaben li { list-style: lower-alpha; }
-.ListensymbolGroßbuchstaben li { list-style: upper-alpha; }
-.ListensymbolQuadrat li { list-style: square; }
-.ListensymbolRömischeZahlen li { list-style: upper-roman; }
-.ListensymbolStrich li::marker { content: '-  '; }
-.ListensymbolLangerStrich li::marker { content: '—  '; }
-.ListensymbolSpitzeAnführungszeichen li::marker { content: '»  '; }
-
-.Listensymbolfarbe1 li::marker { color: var(--color_1); }
-.Listensymbolfarbe2 li::marker { color: var(--color_2); }
-.Listensymbolfarbe3 li::marker { color: var(--color_3); }
-.Listensymbolfarbe4 li::marker { color: var(--color_4); }
-.ListensymbolfarbeWeiß li::marker { color: #fff; }
-.ListensymbolfarbeSchwarz li::marker { color: #000; }
-//************************************************************* LINKS *************************************************************//
-.LinkOhneUnterstrich a { text-decoration: none; }
-.LinkMitUnterstrich a { text-decoration: underline; }
-.LinkUnterstrichBeiBerührung a:hover { text-decoration: underline; }
-
-.LinkGrößeXXS a { font-size: .55em; }
-.LinkGrößeXS a { font-size: .7em; }
-.LinkGrößeS a { font-size: .85em; }
-.LinkGrößeL a { font-size: 1.3em; }
-.LinkGrößeXL a { font-size: 1.6em; }
-.LinkGrößeXXL a { font-size: 2em; }
-
-.Linkfarbe1 a, .Linkfarbe1 a svg, .Linkfarbe1 a svg.icon { color: var(--color_1); fill: var(--color_1); }
-.Linkfarbe2 a, .Linkfarbe2 a svg, .Linkfarbe2 a svg.icon { color: var(--color_2); fill: var(--color_2); }
-.Linkfarbe3 a, .Linkfarbe3 a svg, .Linkfarbe3 a svg.icon { color: var(--color_3); fill: var(--color_3); }
-.Linkfarbe4 a, .Linkfarbe4 a svg, .Linkfarbe4 a svg.icon { color: var(--color_4); fill: var(--color_4); }
-.LinkfarbeSchwarz a, .LinkfarbeSchwarz a svg, .LinkfarbeSchwarz a svg.icon { color: #000; fill: #000; }
-.LinkfarbeWeiß a, .LinkfarbeWeiß a svg, .LinkfarbeWeiß a svg.icon { color: #fff; fill: #fff; }
-//************************************************************* TEXT *************************************************************//
-.TextRahmen .rte {
-	padding: 0.25rem 2rem;
-	line-height: 1.4;
-	border: 1px solid var(--color_1);
-}
-.TextAusrichtungRechts { text-align: right; }
-.kursivGroßbuchstaben strong, .fettGroßbuchstaben strong { text-transform: uppercase; }
-.fettKlein strong, .kursivKlein em, .SchriftKlein { font-size: .7em; }
-.fettKleinNichtFett strong, .kursivKleinNichtKursiv em { font-size: .7em; font-weight: var(--font_weight, normal); font-style: normal; }
-.fettBlock strong { display: block; }
-.ZeilenabstandXS { line-height: 1; }
-.ZeilenabstandS { line-height: 1.2; }
-.ZeilenabstandM { line-height: 1.4; }
-.ZeilenabstandL { line-height: 1.6; }
-.ZeilenabstandXL { line-height: 1.8; }
-.ZeilenabstandXXL { line-height: 2; }
-.zentriert { text-align: center; }
-.aufDesktopZentriert { text-align: center; @media(max-width:1023px){ text-align: left; } }
-.aufMobilZentriert { @media(max-width:1023px){ text-align: center; } }
-.aufDesktopBlocksatz { text-align: justify; @media(max-width:1023px){ text-align: left; } }
-.keineWorttrennung p { hyphens: none; }
-.ÜberschriftInGroßbuchstaben :is(h1, h2, h3, h4, h5, h6) { text-transform: uppercase; }
-//************************************************************* BILDER *************************************************************//
-.BildRahmen img { border: 1px solid var(--border_color); }
-.BildRahmenVerschoben img { 
-	// Code
-}
-.BildRahmenInFarbe img { border: 1px solid var(--color_1); }
-.BildVolleHoehe {
-	figure { height: 100%;
-		img { min-height: 100%; object-fit: cover; }
-	}
-}
-
-.BildLinks img, .BildMittig img, .BildRechts img { display: inline-block; }
-.BildLinks figure { text-align: left; }
-.BildMittig figure { text-align: center; }
-.BildRechts figure { text-align: right; }
-
-.BildRund img { border-radius: var(--border_radius); }
-.BildKreis img { border-radius: 50%; }
-//************************************************************* SPALTEN *************************************************************//
-.vertikalMittig { align-items: center; }
-.horizontalMittig { justify-content: center; }
-.ElementhöheGleich > .rs-column > * { height: 100%; }
-//************************************************************* FORMULARE *************************************************************//
-fieldset.Spaltenanzahl2,
-fieldset.Spaltenanzahl3,
-fieldset.Spaltenanzahl4,
-fieldset.Spaltenanzahl5 {
-	padding: 0;
-	border: 0;
-	column-gap: var(--form_gap, 10px);
-	display: grid;
-	align-items: end;
-	grid-template-columns: repeat(2, 1fr);
-	@media(max-width:767px){ grid-template-columns: repeat(1, 1fr); }
-}
-fieldset.Spaltenanzahl3 { grid-template-columns: repeat(3, 1fr); }
-fieldset.Spaltenanzahl4 { grid-template-columns: repeat(4, 1fr); }
-fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
-//************************************************************* FLÄCHEN *************************************************************//
-.rundeEcken { border-radius: var(--border_radius, 10px) ; }
-.rundeEckeUntenLinks { border-bottom-left-radius: var(--border_radius, 10px) ; }
-.rundeEckeObenLinks { border-top-left-radius: var(--border_radius, 10px) ; }
-.rundeEckeUntenRechts { border-bottom-right-radius: var(--border_radius, 10px) ; }
-.rundeEckeObenRechts { border-top-right-radius: var(--border_radius, 10px) ; }
-
-.Rahmen1 { border: 1px solid var(--color_1); }
-.Rahmen2 { border: 1px solid var(--color_2); }
-.Rahmen3 { border: 1px solid var(--color_3); }
-.Rahmen4 { border: 1px solid var(--color_4); }
-
-.RahmenOben { border-top: 1px solid var(--border_color); margin-top: var(--article_space_top, 60px); }
-.RahmenUnten { border-bottom: 1px solid var(--border_color); margin-bottom: var(--article_space_top, 60px); }
-.RahmenLinks { border-left: 1px solid var(--border_color); }
-.RahmenRechts { border-right: 1px solid var(--border_color); }
-//************************************************************* KACHELN *************************************************************//
-#wrapper .rs-columns.Kacheln, 
-#wrapper .rs-columns.KachelnGrau,
-#wrapper .rs-columns.KachelnWeiß {
-	justify-content: center;
-	& > .rs-column > * {
-		border: 1px solid var(--border_color);
-		padding: 20px 20px;
-		background: #f8f8f8;
-		border-radius: 3px;
-		height: 100%;
-		overflow: hidden;
-		&.content-text.media--above img { margin-bottom: .5em; }
-		@media(max-width:1023px){  
-			margin-left: 20px;
-			margin-right: 20px;
-		}
-	}
-	&.KachelnWeiß > .rs-column > * { background: #fff; }
-	&.KachelnGrau > .rs-column > * { background: #f8f8f8; }
-}
-
-#wrapper .Kachel {
-	border: 1px solid #ddd;
-	padding: 1.5em;
-	background: #f8f8f8;
-	border-radius: 3px;
-	overflow: hidden;
-}
-
-.abg1 #wrapper .mod_article:nth-child(odd) .Kachel,
-.abg2 #wrapper .mod_article:nth-child(even) .Kachel,
-#wrapper .mod_article.HintergrundGrau .Kachel { background: #fff; }
-.abg1 #wrapper .mod_article:nth-child(even) .Kachel,
-.abg2 #wrapper .mod_article:nth-child(odd) .Kachel,
-#wrapper .mod_article.HintergrundWeiß .Kachel { background: #f8f8f8; }
-
-.abg1 #wrapper .mod_article:nth-child(even) .rs-columns.Kacheln > .rs-column > *,
-.abg2 #wrapper .mod_article:nth-child(odd) .rs-columns.Kacheln > .rs-column > *,
-#wrapper .mod_article.HintergrundWeiß .rs-columns.Kacheln > .rs-column > * { background: #f8f8f8; }
-.abg1 #wrapper .mod_article:nth-child(odd) .rs-columns.Kacheln > .rs-column > *,
-.abg2 #wrapper .mod_article:nth-child(even) .rs-columns.Kacheln > .rs-column > *,
-#wrapper .mod_article.HintergrundGrau .rs-columns.Kacheln > .rs-column > * { background: #fff; }
 //************************************************************* BUTTON *************************************************************//
 body #wrapper .ButtonAufGleicherHöhe {
 	padding-bottom: 55px;
