@@ -22,7 +22,8 @@
 .aufDesktopZentriert { text-align: center; @media(max-width:1023px){ text-align: left; } }
 .aufMobilZentriert { @media(max-width:1023px){ text-align: center; } }
 .aufDesktopBlocksatz { text-align: justify; @media(max-width:1023px){ text-align: left; } }
-.keineWorttrennung p { hyphens: none; }
+.keineWorttrennung p,
+.fettKeineWorttrennung strong,
 .ÜberschriftKeineWorttrennung :is(h1, h2, h3, h4, h5, h6) { hyphens: none; }
 .ÜberschriftGroßbuchstaben :is(h1, h2, h3, h4, h5, h6) { text-transform: uppercase; }
 //************************************************************* BILDER *************************************************************//
@@ -30,7 +31,7 @@
 .BildRahmenVerschoben img { 
 	// Code
 }
-.BildRahmenInFarbe img { border: 1px solid var(--color_1); }
+.BildRahmenFarbe img { border: 1px solid var(--color_1); }
 .BildVolleHoehe {
 	figure { height: 100%;
 		img { min-height: 100%; object-fit: cover; }
