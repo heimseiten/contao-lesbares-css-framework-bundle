@@ -213,7 +213,7 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 .ÜberschriftAbstandOben0 { :is(h1, h2, h3, h4, h5, h6) { margin-top: 0; } }
 .ÜberschriftAbstandUnten0 { :is(h1, h2, h3, h4, h5, h6) { margin-bottom: 0; } }
 
-body #wrapper #container .keinAbstand, body #wrapper #container .ohneAbstand, body #container #wrapper .Abstand0, .mod_article body #wrapper .AbstandText0 .rte, .AbstandBild0 figure { padding: 0px; }
+body #wrapper #container .keinAbstand, body #wrapper #container .ohneAbstand, body #wrapper #container .Abstand0, .mod_article body #wrapper .AbstandText0 .rte, .AbstandBild0 figure { padding: 0px; }
 body #wrapper #container .AbstandXXS, #container .mod_article .AbstandTextXXS .rte, .AbstandBildXXS figure { padding: 10px; }
 body #wrapper #container .AbstandXS, #container .mod_article .AbstandTextXS .rte, .AbstandBildXS figure { padding: 20px; }
 body #wrapper #container .AbstandMS, #container .mod_article .AbstandTextMS .rte, .AbstandBildMS figure { padding: 25px; }
