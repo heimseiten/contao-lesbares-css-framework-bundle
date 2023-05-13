@@ -496,6 +496,14 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 #wrapper .HintergrundGrau, .fettHintergrundGrau strong { background-color: #f8f8f8; }
 
 .HintergrundTextWeiß .rte { background-color: #fff; }
+.HintergrundTextGrau .rte { background-color: #f8f8f8; }
+.HintergrundTextSchwarz .rte { background-color: #000; }
+.HintergrundText1 .rte { background-color: var(--color_1); }
+.HintergrundText2 .rte { background-color: var(--color_2); }
+.HintergrundText3 .rte { background-color: var(--color_3); }
+.HintergrundText4 .rte { background-color: var(--color_4); }
+
+
 
 .Iconfarbe1 svg { fill: var(--color_1); }
 .Iconfarbe2 svg { fill: var(--color_2); }
