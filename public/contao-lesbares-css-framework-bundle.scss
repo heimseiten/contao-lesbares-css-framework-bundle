@@ -8,7 +8,9 @@
 //************************************************************* TEXT *************************************************************//
 .TextRahmen .rte { padding: 0.25rem 2rem; border: 1px solid var(--color_1); }
 .TextAusrichtungRechts { text-align: right; }
-.kursivGroßbuchstaben strong, .fettGroßbuchstaben strong { text-transform: uppercase; }
+.kursivGroßbuchstaben strong, .fettGroßbuchstaben strong,
+.ÜberschriftGroßbuchstaben :is(h1, h2, h3, h4, h5, h6),
+.Großbuchstaben { text-transform: uppercase; }
 .fettKlein strong, .kursivKlein em, .SchriftKlein { font-size: .7em; }
 .fettKleinNichtFett strong, .kursivKleinNichtKursiv em { font-size: .7em; font-weight: var(--font_weight, normal); font-style: normal; }
 .fettBlock strong { display: block; }
@@ -25,7 +27,6 @@
 .keineWorttrennung p,
 .fettKeineWorttrennung strong,
 .ÜberschriftKeineWorttrennung :is(h1, h2, h3, h4, h5, h6) { hyphens: none; }
-.ÜberschriftGroßbuchstaben :is(h1, h2, h3, h4, h5, h6) { text-transform: uppercase; }
 //************************************************************* BILDER *************************************************************//
 .BildRahmen img { border: 1px solid var(--border_color); }
 .BildRahmenVerschoben img { 
