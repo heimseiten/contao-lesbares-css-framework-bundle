@@ -84,7 +84,9 @@
 .LinkfarbeSchwarz a, .LinkfarbeSchwarz a svg, .LinkfarbeSchwarz a svg.icon { color: #000; fill: #000; }
 .LinkfarbeWeiß a, .LinkfarbeWeiß a svg, .LinkfarbeWeiß a svg.icon { color: #fff; fill: #fff; }
 //************************************************************* SPALTEN *************************************************************//
-.vertikalMittig { align-items: center; }
+.ElementeOben { align-items: start; }
+.vertikalMittig, .ElementeVertikalMittig { align-items: center; }
+.ElementeUnten { align-items: end; }
 .horizontalMittig { justify-content: center; }
 .ElementhöheGleich > .rs-column > * { height: 100%; }
 //************************************************************* FORMULARE *************************************************************//
