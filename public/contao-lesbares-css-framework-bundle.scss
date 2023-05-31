@@ -111,7 +111,7 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 .rundeEckeObenLinks { border-top-left-radius: var(--border_radius, 10px) ; }
 .rundeEckeUntenRechts { border-bottom-right-radius: var(--border_radius, 10px) ; }
 .rundeEckeObenRechts { border-top-right-radius: var(--border_radius, 10px) ; }
-.eckigeEcken { border-radius: 0; }
+.eckigeEcken, .eckigeEcken a { border-radius: 0; }
 
 .Rahmen1 { border: 1px solid var(--color_1); }
 .Rahmen2 { border: 1px solid var(--color_2); }
