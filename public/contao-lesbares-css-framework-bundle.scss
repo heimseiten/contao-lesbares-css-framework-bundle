@@ -8,9 +8,12 @@
 //************************************************************* TEXT *************************************************************//
 .TextRahmen .rte { padding: 0.25rem 2rem; border: 1px solid var(--color_1); }
 .TextAusrichtungRechts { text-align: right; }
-.kursivGroßbuchstaben strong, .fettGroßbuchstaben strong,
+.kursivGroßbuchstaben strong, 
+.fettGroßbuchstaben strong,
 .ÜberschriftGroßbuchstaben :is(h1, h2, h3, h4, h5, h6),
-.Großbuchstaben { text-transform: uppercase; }
+.Großbuchstaben,
+.fettGroßbuchstabenNichtFett strong { text-transform: uppercase; }
+.fettGroßbuchstabenNichtFett strong { font-weight: var(--font_weight, normal); }
 .fettKlein strong, .kursivKlein em, .SchriftKlein { font-size: .7em; }
 .fettKleinNichtFett strong, .kursivKleinNichtKursiv em { font-size: .7em; font-weight: var(--font_weight, normal); font-style: normal; }
 .fettBlock strong { display: block; }
