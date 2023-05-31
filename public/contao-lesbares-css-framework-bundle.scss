@@ -207,8 +207,8 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 .mod_article .Breite1900:not(.content-text), .content-text.Breite1900 > .rte, .mod_article.Breite1900 > * { max-width: 100%; width: 1900px; margin: auto; }
 .mod_article .Breite1950:not(.content-text), .content-text.Breite1950 > .rte, .mod_article.Breite1950 > * { max-width: 100%; width: 1950px; margin: auto; }
 
-.content-text.TextLinks .rte { margin-left: 0; }
-.content-text.TextRechts .rte { margin-right: 0; }
+.content-text.TextLinks .rte, #wrapper .rs-columns.TextLinks { margin-left: 0; }
+.content-text.TextRechts .rte, #wrapper .rs-columns.TextRechts { margin-right: 0; }
 
 .mod_article.volleBreite { --content_width: 100%; 
 	& > * { padding-right: 0; padding-left: 0; }
