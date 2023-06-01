@@ -532,12 +532,12 @@ body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px)
 .HintergrundText3 .rte { background-color: var(--color_3); }
 .HintergrundText4 .rte { background-color: var(--color_4); }
 
-
-
 .Iconfarbe1 svg { fill: var(--color_1); }
 .Iconfarbe2 svg { fill: var(--color_2); }
 .Iconfarbe3 svg { fill: var(--color_3); }
 .Iconfarbe4 svg { fill: var(--color_4); }
+.IconfarbeWeiß svg { fill: #fff; }
+.IconfarbeSchwarz svg { fill: #000; }
 //************************************************************* BUTTON *************************************************************//
 body #wrapper .ButtonAufGleicherHöhe {
 	padding-bottom: 55px;
