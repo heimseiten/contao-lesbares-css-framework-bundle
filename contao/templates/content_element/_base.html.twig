@@ -1,0 +1,8 @@
+{% extends "@Contao/content_element/_base.html.twig" %}
+
+{% if data.cssSpaceClasses %}         {% set attributes = attrs(attributes|default).addClass( data.cssSpaceClasses|deserialize ) %} {% endif %}
+{% if data.cssTextClasses %}          {% set attributes = attrs(attributes|default).addClass( data.cssTextClasses|deserialize ) %} {% endif %}
+{% if data.cssSizeClasses %}          {% set attributes = attrs(attributes|default).addClass( data.cssSizeClasses|deserialize ) %} {% endif %}
+{% if data.cssColumnClasses %}        {% set attributes = attrs(attributes|default).addClass( data.cssColumnClasses|deserialize ) %} {% endif %}
+{% if data.cssMiscellaneousClasses %} {% set attributes = attrs(attributes|default).addClass( data.cssMiscellaneousClasses|deserialize ) %} {% endif %}
+{% if data.cssColorClasses %}         {% set attributes = attrs(attributes|default).addClass( data.cssColorClasses|deserialize ) %} {% endif %}
