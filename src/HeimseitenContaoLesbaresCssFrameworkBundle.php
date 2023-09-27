@@ -14,7 +14,7 @@ declare(strict_types=1);
 
 namespace Heimseiten\ContaoLesbaresCssFrameworkBundle;
 
-use Symfony\Component\DependencyInjection\ContainerBuilder;
+use Heimseiten\ContaoLesbaresCssFrameworkBundle\DependencyInjection\HeimseitenContaoLesbaresCssFrameworkExtension;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 class HeimseitenContaoLesbaresCssFrameworkBundle extends Bundle
@@ -24,12 +24,8 @@ class HeimseitenContaoLesbaresCssFrameworkBundle extends Bundle
         return \dirname(__DIR__);
     }
 
-    /**
-     * {@inheritdoc}
-     */
-    public function build(ContainerBuilder $container): void
+    public function getContainerExtension(): HeimseitenContaoLesbaresCssFrameworkExtension
     {
-        parent::build($container);
-
+        return new HeimseitenContaoLesbaresCssFrameworkExtension();
     }
 }
