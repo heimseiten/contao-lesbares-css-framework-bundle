@@ -11,5 +11,5 @@ services:
 
     Heimseiten\ContaoLesbaresCssFrameworkBundle\:
         resource: ../src/
-        exclude: ../src/{DependencyInjection,Model}
+        exclude: ../src/{ContaoManager,DependencyInjection}
 
