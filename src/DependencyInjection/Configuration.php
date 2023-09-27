@@ -271,6 +271,7 @@ class Configuration implements ConfigurationInterface
                         'ÜberschriftGroßbuchstaben',
                         'ÜberschriftKeineWorttrennung',
                         'zweispaltig',
+                        'zentriert',
                     ])
                 ->end()
                 ->arrayNode('space_classes')
