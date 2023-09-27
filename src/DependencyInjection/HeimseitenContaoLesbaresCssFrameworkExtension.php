@@ -2,16 +2,6 @@
 
 declare(strict_types=1);
 
-/*
- * This file is part of lesbares CSS Framework.
- *
- * (c) heimseiten.de - Webdesign aus Köln 2022 <info@heimseiten.de>
- * @license GPL-3.0-or-later
- * For the full copyright and license information,
- * please view the LICENSE file that was distributed with this source code.
- * @link https://github.com/heimseiten/contao-lesbares-css-framework-bundle
- */
-
 namespace Heimseiten\ContaoLesbaresCssFrameworkBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
@@ -26,14 +16,30 @@ class HeimseitenContaoLesbaresCssFrameworkExtension extends Extension
      */
     public function load(array $configs, ContainerBuilder $container): void
     {
+        $configuration = new Configuration();
+
+        $config = $this->processConfiguration($configuration, $configs);
 
         $loader = new YamlFileLoader(
             $container,
             new FileLocator(__DIR__.'/../../config')
         );
 
-        $loader->load('parameters.yaml');
         $loader->load('services.yaml');
-        $loader->load('listener.yaml');
+
+        // Friendly configuration
+        $rootKey = $this->getAlias();
+
+        $container->setParameter($rootKey.'.space_classes', $config['space_classes']);
+        $container->setParameter($rootKey.'.text_classes', $config['text_classes']);
+        $container->setParameter($rootKey.'.color_classes', $config['color_classes']);
+        $container->setParameter($rootKey.'.size_classes', $config['size_classes']);
+        $container->setParameter($rootKey.'.column_classes', $config['column_classes']);
+        $container->setParameter($rootKey.'.miscellaneous_classes', $config['miscellaneous_classes']);
+    }
+
+    public function getAlias(): string
+    {
+        return Configuration::ROOT_KEY;
     }
 }
