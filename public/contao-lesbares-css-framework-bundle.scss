@@ -219,25 +219,26 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 }
 //************************************************************* HÖHE *************************************************************//
 .volleHöhe { height: 100vh; }
-.HöheMinimal10 { min-height: 10vh; }
-.HöheMinimal15 { min-height: 15vh; }
-.HöheMinimal20 { min-height: 20vh; }
-.HöheMinimal25 { min-height: 25vh; }
-.HöheMinimal30 { min-height: 30vh; }
-.HöheMinimal35 { min-height: 35vh; }
-.HöheMinimal40 { min-height: 40vh; }
-.HöheMinimal45 { min-height: 45vh; }
-.HöheMinimal50 { min-height: 50vh; }
-.HöheMinimal55 { min-height: 55vh; }
-.HöheMinimal60 { min-height: 60vh; }
-.HöheMinimal65 { min-height: 65vh; }
-.HöheMinimal70 { min-height: 70vh; }
-.HöheMinimal75 { min-height: 75vh; }
-.HöheMinimal80 { min-height: 80vh; }
-.HöheMinimal85 { min-height: 85vh; }
-.HöheMinimal90 { min-height: 90vh; }
-.HöheMinimal95 { min-height: 95vh; }
-.HöheMinimal100 { min-height: 100vh; }
+.Höhe5 { min-height: 5vh; }
+.Höhe10 { min-height: 10vh; }
+.Höhe15 { min-height: 15vh; }
+.Höhe20 { min-height: 20vh; }
+.Höhe25 { min-height: 25vh; }
+.Höhe30 { min-height: 30vh; }
+.Höhe35 { min-height: 35vh; }
+.Höhe40 { min-height: 40vh; }
+.Höhe45 { min-height: 45vh; }
+.Höhe50 { min-height: 50vh; }
+.Höhe55 { min-height: 55vh; }
+.Höhe60 { min-height: 60vh; }
+.Höhe65 { min-height: 65vh; }
+.Höhe70 { min-height: 70vh; }
+.Höhe75 { min-height: 75vh; }
+.Höhe80 { min-height: 80vh; }
+.Höhe85 { min-height: 85vh; }
+.Höhe90 { min-height: 90vh; }
+.Höhe95 { min-height: 95vh; }
+.Höhe100 { min-height: 100vh; }
 //************************************************************* ABSTÄNDE *************************************************************//
 .ÜberschriftAbstandOben0 { :is(h1, h2, h3, h4, h5, h6) { margin-top: 0; } }
 .ÜberschriftAbstandUnten0 { :is(h1, h2, h3, h4, h5, h6) { margin-bottom: 0; } }
