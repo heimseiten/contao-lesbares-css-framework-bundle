@@ -18,44 +18,73 @@ class Configuration implements ConfigurationInterface
             ->getRootNode()
             ->children()
 
-                ->arrayNode('miscellaneous_classes')
-                    ->info('')
-                    ->prototype('scalar')->end()
-                    ->defaultValue([
-                        'BildKreis',
-                        'BildLinks',
-                        'BildLinks',
-                        'BildMittig',
-                        'BildRahmen',
-                        'BildRahmenFarbe',
-                        'BildRahmenVerschoben',
-                        'BildRechts',
-                        'BildRund',
-                        'BildVolleHoehe',
-                        'ButtonAufGleicherHöhe',
-                        'eckigeEcken',
-                        'IconButton',
-                        'InhaltLäuftÜberElementHinaus',
-                        'Kachel',
-                        'Kacheln',
-                        'Rahmen1',
-                        'Rahmen2',
-                        'Rahmen3',
-                        'Rahmen4',
-                        'RahmenLinks',
-                        'RahmenOben',
-                        'RahmenRechts',
-                        'RahmenUnten',
-                        'rundeEcken',
-                        'rundeEckeObenLinks',
-                        'rundeEckeObenRechts',
-                        'rundeEckeUntenLinks',
-                        'rundeEckeUntenRechts',
-                        'SchaltflächeInvertiere',
-                        'verstecken',
-                        'zentriert',
-                    ])
-                ->end()
+            ->arrayNode('miscellaneous_classes')
+                ->info('')
+                ->prototype('scalar')->end()
+                ->defaultValue([
+                    'BildKreis',
+                    'BildLinks',
+                    'BildLinks',
+                    'BildMittig',
+                    'BildRahmen',
+                    'BildRahmenFarbe',
+                    'BildRahmenVerschoben',
+                    'BildRechts',
+                    'BildRund',
+                    'BildVolleHöhe',
+                    'ButtonAufGleicherHöhe',
+                    'eckigeEcken',
+                    'IconButton',
+                    'InhaltLäuftÜberElementHinaus',
+                    'Kachel',
+                    'Rahmen1',
+                    'Rahmen2',
+                    'Rahmen3',
+                    'Rahmen4',
+                    'RahmenLinks',
+                    'RahmenOben',
+                    'RahmenRechts',
+                    'RahmenUnten',
+                    'rundeEcken',
+                    'rundeEckeObenLinks',
+                    'rundeEckeObenRechts',
+                    'rundeEckeUntenLinks',
+                    'rundeEckeUntenRechts',
+                    'SchaltflächeInvertiere',
+                    'verstecken',
+                    'zentriert',
+                ])
+            ->end()
+
+            ->arrayNode('animation_classes')
+                ->info('')
+                ->prototype('scalar')->end()
+                ->defaultValue([
+                    'einblenden',
+                    'einblendenVonUnten',
+                    'einblendenVonOben',
+                    'einblendenVonHinten',
+                    'einblendenVonVorne',
+                    'einblendenVonRechts',
+                    'einblendenVonLinks',
+                    'einblendenVonBeidenSeiten',
+                    'nacheinanderEinblenden',
+                    'BilderEinblenden',
+                    'BilderEinblendenVonUnten',
+                    'AnimationVerzögert025',
+                    'AnimationVerzögert05',
+                    'AnimationVerzögert1',
+                    'AnimationVerzögert15',
+                    'AnimationVerzögert2',
+                    'AnimationVerzögert25',
+                    'Animationsdauer025',
+                    'Animationsdauer05',
+                    'Animationsdauer1',
+                    'Animationsdauer15',
+                    'Animationsdauer2',
+                    'Animationsdauer25',
+                ])
+            ->end()
 
                 ->arrayNode('color_classes')
                     ->info('')
@@ -173,6 +202,7 @@ class Configuration implements ConfigurationInterface
                         'horizontalerSpaltenabstandXL',
                         'horizontalerSpaltenabstandXXL',
                         'horizontalMittig',
+                        'Kacheln',
                         'SpaltenabstandL',
                         'SpaltenabstandM',
                         'SpaltenabstandMS',
@@ -226,9 +256,8 @@ class Configuration implements ConfigurationInterface
                         'fettSchriftfarbeWeiß',
                         'Großbuchstaben',
                         'keineWorttrennung',
-                        'kursiverLinkAlsButto',
+                        'kursiverLinkAlsButton',
                         'kursivGroßbuchstaben',
-                        'LinkAlsButto',
                         'LinkAlsButton',
                         'Linkfarbe1',
                         'Linkfarbe2',
@@ -270,6 +299,8 @@ class Configuration implements ConfigurationInterface
                         'ÜberschriftAbstandUnten0',
                         'ÜberschriftGroßbuchstaben',
                         'ÜberschriftKeineWorttrennung',
+                        'ÜberschriftWorttrennung',
+                        'Worttrennung',
                         'zweispaltig',
                         'zentriert',
                     ])
