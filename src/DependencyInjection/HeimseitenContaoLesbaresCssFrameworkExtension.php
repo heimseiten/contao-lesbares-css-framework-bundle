@@ -30,6 +30,7 @@ class HeimseitenContaoLesbaresCssFrameworkExtension extends Extension
         // Friendly configuration
         $rootKey = $this->getAlias();
 
+        $container->setParameter($rootKey.'.animation_classes', $config['animation_classes']);
         $container->setParameter($rootKey.'.space_classes', $config['space_classes']);
         $container->setParameter($rootKey.'.text_classes', $config['text_classes']);
         $container->setParameter($rootKey.'.color_classes', $config['color_classes']);
