@@ -1,5 +1,6 @@
 {% extends "@Contao/content_element/_base.html.twig" %}
 
+{% if data.cssAnimationClasses %}     {% set attributes = attrs(attributes|default).addClass( data.cssAnimationClasses|deserialize ) %} {% endif %}
 {% if data.cssSpaceClasses %}         {% set attributes = attrs(attributes|default).addClass( data.cssSpaceClasses|deserialize ) %} {% endif %}
 {% if data.cssTextClasses %}          {% set attributes = attrs(attributes|default).addClass( data.cssTextClasses|deserialize ) %} {% endif %}
 {% if data.cssSizeClasses %}          {% set attributes = attrs(attributes|default).addClass( data.cssSizeClasses|deserialize ) %} {% endif %}
