@@ -71,6 +71,7 @@ class Configuration implements ConfigurationInterface
                     'nacheinanderEinblenden',
                     'BilderEinblenden',
                     'BilderEinblendenVonUnten',
+                    'animierterUnterstrich',
                     'AnimationVerzögert025',
                     'AnimationVerzögert05',
                     'AnimationVerzögert1',
