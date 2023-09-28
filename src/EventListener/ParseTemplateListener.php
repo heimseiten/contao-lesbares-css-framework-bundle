@@ -31,6 +31,9 @@ class ParseTemplateListener
         if (str_starts_with($objTemplate->getName(), 'mod_article')) {
             $arrClasses = [(string) $objTemplate->class];
 
+            $arrAnimationClasses = $this->stringUtil->deserialize((string) $objTemplate->cssAnimationClasses, true);
+            $arrClasses = array_merge($arrClasses, $arrAnimationClasses);
+
             $arrSpaceClasses = $this->stringUtil->deserialize((string) $objTemplate->cssSpaceClasses, true);
             $arrClasses = array_merge($arrClasses, $arrSpaceClasses);
             
