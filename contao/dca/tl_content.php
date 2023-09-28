@@ -11,18 +11,26 @@ $GLOBALS['TL_DCA']['tl_content']['config']['onload_callback'][] = function (Data
         if (\is_string($palette)) {    
             PaletteManipulator::create()
                 ->addLegend('class_selecters_legend', 'expert_legend', PaletteManipulator::POSITION_BEFORE)
-                ->addField(['cssSpaceClasses', 'cssTextClasses', 'cssColorClasses', 'cssSizeClasses', 'cssColumnClasses', 'cssMiscellaneousClasses'], 'class_selecters_legend', PaletteManipulator::POSITION_APPEND)
+                ->addField(['cssAnimationClasses', 'cssSpaceClasses', 'cssTextClasses', 'cssColorClasses', 'cssSizeClasses', 'cssColumnClasses', 'cssMiscellaneousClasses'], 'class_selecters_legend', PaletteManipulator::POSITION_APPEND)
                 ->applyToPalette($key, $dc->table);
         }
     }
 };
 
+$GLOBALS['TL_DCA']['tl_content']['fields']['cssAnimationClasses'] = [
+    'exclude'   => true,
+    'filter'    => true,
+    'inputType' => 'select',
+    'options'   => System::getContainer()->getParameter('heimseiten_contao_lesbares_css_framework.animation_classes'),
+    'eval'      => ['tl_class' => 'w25', 'multiple' => true, 'chosen' => true, 'includeBlankOption' => true],
+    'sql'       => "varchar(255) NOT NULL default ''",
+];
 $GLOBALS['TL_DCA']['tl_content']['fields']['cssSpaceClasses'] = [
     'exclude'   => true,
     'filter'    => true,
     'inputType' => 'select',
     'options'   => System::getContainer()->getParameter('heimseiten_contao_lesbares_css_framework.space_classes'),
-    'eval'      => ['tl_class' => 'w33', 'multiple' => true, 'chosen' => true, 'includeBlankOption' => true],
+    'eval'      => ['tl_class' => 'w25', 'multiple' => true, 'chosen' => true, 'includeBlankOption' => true],
     'sql'       => "varchar(255) NOT NULL default ''",
 ];
 $GLOBALS['TL_DCA']['tl_content']['fields']['cssTextClasses'] = [
@@ -30,7 +38,7 @@ $GLOBALS['TL_DCA']['tl_content']['fields']['cssTextClasses'] = [
     'filter'    => true,
     'inputType' => 'select',
     'options'   => System::getContainer()->getParameter('heimseiten_contao_lesbares_css_framework.text_classes'),
-    'eval'      => ['tl_class' => 'w33', 'multiple' => true, 'chosen' => true, 'includeBlankOption' => true],
+    'eval'      => ['tl_class' => 'w25', 'multiple' => true, 'chosen' => true, 'includeBlankOption' => true],
     'sql'       => "varchar(255) NOT NULL default ''",
 ];
 $GLOBALS['TL_DCA']['tl_content']['fields']['cssColorClasses'] = [
@@ -38,7 +46,7 @@ $GLOBALS['TL_DCA']['tl_content']['fields']['cssColorClasses'] = [
     'filter'    => true,
     'inputType' => 'select',
     'options'   => System::getContainer()->getParameter('heimseiten_contao_lesbares_css_framework.color_classes'),
-    'eval'      => ['tl_class' => 'w33', 'multiple' => true, 'chosen' => true, 'includeBlankOption' => true],
+    'eval'      => ['tl_class' => 'w25', 'multiple' => true, 'chosen' => true, 'includeBlankOption' => true],
     'sql'       => "varchar(255) NOT NULL default ''",
 ];
 $GLOBALS['TL_DCA']['tl_content']['fields']['cssSizeClasses'] = [
@@ -46,7 +54,7 @@ $GLOBALS['TL_DCA']['tl_content']['fields']['cssSizeClasses'] = [
     'filter'    => true,
     'inputType' => 'select',
     'options'   => System::getContainer()->getParameter('heimseiten_contao_lesbares_css_framework.size_classes'),
-    'eval'      => ['tl_class' => 'w33', 'multiple' => true, 'chosen' => true, 'includeBlankOption' => true],
+    'eval'      => ['tl_class' => 'w25', 'multiple' => true, 'chosen' => true, 'includeBlankOption' => true],
     'sql'       => "varchar(255) NOT NULL default ''",
 ];
 $GLOBALS['TL_DCA']['tl_content']['fields']['cssColumnClasses'] = [
@@ -54,7 +62,7 @@ $GLOBALS['TL_DCA']['tl_content']['fields']['cssColumnClasses'] = [
     'filter'    => true,
     'inputType' => 'select',
     'options'   => System::getContainer()->getParameter('heimseiten_contao_lesbares_css_framework.column_classes'),
-    'eval'      => ['tl_class' => 'w33', 'multiple' => true, 'chosen' => true, 'includeBlankOption' => true],
+    'eval'      => ['tl_class' => 'w25', 'multiple' => true, 'chosen' => true, 'includeBlankOption' => true],
     'sql'       => "varchar(255) NOT NULL default ''",
 ];
 $GLOBALS['TL_DCA']['tl_content']['fields']['cssMiscellaneousClasses'] = [
@@ -62,6 +70,6 @@ $GLOBALS['TL_DCA']['tl_content']['fields']['cssMiscellaneousClasses'] = [
     'filter'    => true,
     'inputType' => 'select',
     'options'   => System::getContainer()->getParameter('heimseiten_contao_lesbares_css_framework.miscellaneous_classes'),
-    'eval'      => ['tl_class' => 'w33', 'multiple' => true, 'chosen' => true, 'includeBlankOption' => true],
+    'eval'      => ['tl_class' => 'w25', 'multiple' => true, 'chosen' => true, 'includeBlankOption' => true],
     'sql'       => "varchar(255) NOT NULL default ''",
 ];
