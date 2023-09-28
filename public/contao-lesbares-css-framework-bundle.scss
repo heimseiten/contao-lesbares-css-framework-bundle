@@ -620,3 +620,35 @@ html body .content-text {
 	}
 	svg, svg.icon { fill: var(--color_1); }
 }
+//************************************************************* animierterUnterstrich *************************************************************//
+body.scroll-down .animierterUnterstrich s:nth-of-type(1):after, 
+body:not(.scroll-down) .animierterUnterstrich s:nth-of-type(2):after { width: 0; }
+.animierterUnterstrich {
+	s { text-decoration: none; }
+	s:nth-of-type(1), s:nth-of-type(2) { position: relative; font-size: inherit; line-height: inherit; vertical-align: inherit; }
+	s:nth-of-type(1):after { left: 0; }
+ 	s:nth-of-type(2):after { right: 0; }
+	s:nth-of-type(1):after, s:nth-of-type(2):after {
+		content: "";
+		position: absolute;
+		bottom: -0.1em;
+		width: 100%;
+		min-height: 3px;
+		height: 0.2em;
+		background: var(--color_1);
+		z-index: -1;
+		transition: width .9s;
+	}
+}
+.Hintergrund1,
+.Hintergrund2,
+.Hintergrund3,
+.Hintergrund4,
+.HintergrundSchwarz,
+.HintergrundDunkelgrau {
+	.animierterUnterstrich {
+		s:nth-of-type(1):after, s:nth-of-type(2):after {
+			background: #fff;
+		}
+	}
+}
