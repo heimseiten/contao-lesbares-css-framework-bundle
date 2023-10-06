@@ -173,6 +173,7 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 //************************************************************* BREITE *************************************************************//
 .mod_article > .volleBreite:not(.content-table), #wrapper .volleBreite { padding-left: 0; padding-right: 0; width: 100%; }
 .mod_article > .volleBreite.content-table table { width: 100%; }
+.mod_article > .volleBreite.content-image img { width: 100%; }
 
 .mod_article .Breite100:not(.content-text), .content-text.Breite100 > .rte, .mod_article.Breite100 > * { max-width: 100%; width: 100px; margin: auto; }
 .mod_article .Breite150:not(.content-text), .content-text.Breite150 > .rte, .mod_article.Breite150 > * { max-width: 100%; width: 150px; margin: auto; }
