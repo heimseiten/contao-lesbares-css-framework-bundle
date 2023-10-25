@@ -309,6 +309,7 @@ class Configuration implements ConfigurationInterface
                     ->info('space Classes')
                     ->prototype('scalar')->end()
                     ->defaultValue([
+                        'AbstandAußen0',
                         'AbstandAußenL',
                         'AbstandAußenLinks0',
                         'AbstandAußenLinksL',
@@ -358,6 +359,7 @@ class Configuration implements ConfigurationInterface
                         'AbstandAußenXXL',
                         'AbstandAußenXXXL',
                         'AbstandAußenXXXXL',
+                        'Abstand0',
                         'AbstandL',
                         'AbstandLinks0',
                         'AbstandLinksL',
@@ -370,6 +372,7 @@ class Configuration implements ConfigurationInterface
                         'AbstandLinksXXS',
                         'AbstandLinksXXXL',
                         'AbstandM',
+                        'AbstandMobil0',
                         'AbstandMobilL',
                         'AbstandMobilLinks0',
                         'AbstandMobilLinksL',
@@ -497,9 +500,6 @@ class Configuration implements ConfigurationInterface
                         'AbstandXXS',
                         'AbstandXXXL',
                         'AbstandXXXXL',
-                        'keinAbstand',
-                        'keinAbstandAußen',
-                        'keinAbstandMobil',
                     ])
                 ->end()
             ->end()
