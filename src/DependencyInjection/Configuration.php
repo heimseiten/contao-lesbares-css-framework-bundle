@@ -243,7 +243,6 @@ class Configuration implements ConfigurationInterface
                         'fettBlock',
                         'fettGroßbuchstaben',
                         'fettGroßbuchstabenNichtFett',
-                        'fettGroßbuchstabenNichtFett',
                         'fettKeineWorttrennung',
                         'fettKlein',
                         'fettKleinNichtFett',
