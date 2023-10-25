@@ -248,236 +248,250 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 .ÜberschriftAbstandOben0 { :is(h1, h2, h3, h4, h5, h6) { margin-top: 0; } }
 .ÜberschriftAbstandUnten0 { :is(h1, h2, h3, h4, h5, h6) { margin-bottom: 0; } }
 
-body #wrapper #container .keinAbstand, body #wrapper #container .ohneAbstand, body #wrapper #container .Abstand0, .mod_article body #wrapper .AbstandText0 .rte, .AbstandBild0 figure { padding: 0px; }
-body #wrapper #container .AbstandXXS, #container .mod_article .AbstandTextXXS .rte, .AbstandBildXXS figure { padding: 10px; }
-body #wrapper #container .AbstandXS, #container .mod_article .AbstandTextXS .rte, .AbstandBildXS figure { padding: 20px; }
-body #wrapper #container .AbstandMS, #container .mod_article .AbstandTextMS .rte, .AbstandBildMS figure { padding: 25px; }
-body #wrapper #container .AbstandS, #container .mod_article .AbstandTextS .rte, .AbstandBildS figure { padding: 40px; @media(max-width:767px){ padding: 30px 10px; } }
-body #wrapper #container .AbstandM, #container .mod_article .AbstandTextM .rte, .AbstandBildM figure { padding: 60px; @media(max-width:767px){ padding: 30px 10px; } }
-body #wrapper #container .AbstandL, #container .mod_article .AbstandTextL .rte, .AbstandBildL figure { padding: 100px; @media(max-width:767px){ padding: 30px 10px; } }
-body #wrapper #container .AbstandXL, #container .mod_article .AbstandTextXL .rte, .AbstandBildXL figure { padding: 130px; @media(max-width:767px){ padding: 30px 10px; } }
-body #wrapper #container .AbstandXXL, #container .mod_article .AbstandTextXXL .rte, .AbstandBildXXL figure { padding: 150px; @media(max-width:767px){ padding: 30px 10px; } }
-body #wrapper #container .AbstandXXXL, #container .mod_article .AbstandTextXXXL .rte, .AbstandBildXXXL figure { padding: 200px; @media(max-width:767px){ padding: 30px 10px; } }
+:root {
+	--XXXS: 10px;
+	--XXS: 20px;
+	--XS: 25px;
+	--S: 40px;
+	--M: 60px;
+	--L: 100px;
+	--XL: 200px;
+	--XXL: 300px;
+	--XXXL: 400px;
+}
+
+body #wrapper #container .Abstand0, .mod_article body #wrapper .AbstandText0 .rte, .AbstandBild0 figure { padding: 0px; }
+body #wrapper #container .AbstandXXXS, #container .mod_article .AbstandTextXXXS .rte, .AbstandBildXXXS figure { padding: var(--XXXS); }
+body #wrapper #container .AbstandXXS, #container .mod_article .AbstandTextXXS .rte, .AbstandBildXXS figure { padding: var(--XXS); }
+body #wrapper #container .AbstandXS, #container .mod_article .AbstandTextXS .rte, .AbstandBildXS figure { padding: var(--XS); }
+body #wrapper #container .AbstandS, #container .mod_article .AbstandTextS .rte, .AbstandBildS figure { padding: var(--S); @media(max-width:767px){ padding: 30px 10px; } }
+body #wrapper #container .AbstandM, #container .mod_article .AbstandTextM .rte, .AbstandBildM figure { padding: var(--M); @media(max-width:767px){ padding: 30px 10px; } }
+body #wrapper #container .AbstandL, #container .mod_article .AbstandTextL .rte, .AbstandBildL figure { padding: var(--L); @media(max-width:767px){ padding: 30px 10px; } }
+body #wrapper #container .AbstandXL, #container .mod_article .AbstandTextXL .rte, .AbstandBildXL figure { padding: var(--XL); @media(max-width:767px){ padding: 30px 10px; } }
+body #wrapper #container .AbstandXXL, #container .mod_article .AbstandTextXXL .rte, .AbstandBildXXL figure { padding: var(--XXL); @media(max-width:767px){ padding: 30px 10px; } }
+body #wrapper #container .AbstandXXXL, #container .mod_article .AbstandTextXXXL .rte, .AbstandBildXXXL figure { padding: var(--XXXL); @media(max-width:767px){ padding: 30px 10px; } }
 body #wrapper #container .AbstandXXXXL, #container .mod_article .AbstandTextXXXXL .rte, .AbstandBildXXXXL figure { padding: 250px; @media(max-width:767px){ padding: 30px 10px; } }
 
 body #wrapper #container .AbstandOben0, #container .mod_article .AbstandTextOben0 .rte, .AbstandBildOben0 figure { padding-top: 0px; }
-body #wrapper #container .AbstandObenXXS, #container .mod_article .AbstandTextObenXXS .rte, .AbstandBildObenXXS figure { padding-top: 10px; }
-body #wrapper #container .AbstandObenXS, #container .mod_article .AbstandTextObenXS .rte, .AbstandBildObenXS figure { padding-top: 20px; }
-body #wrapper #container .AbstandObenMS, #container .mod_article .AbstandTextObenMS .rte, .AbstandBildObenMS figure { padding-top: 25px; }
-body #wrapper #container .AbstandObenS, #container .mod_article .AbstandTextObenS .rte, .AbstandBildObenS figure { padding-top: 40px; @media(max-width:767px){ padding-top: 20px; } }
-body #wrapper #container .AbstandObenM, #container .mod_article .AbstandTextObenM .rte, .AbstandBildObenM figure { padding-top: 60px; @media(max-width:767px){ padding-top: 20px; } }
-body #wrapper #container .AbstandObenL, #container .mod_article .AbstandTextObenL .rte, .AbstandBildObenL figure { padding-top: 100px; @media(max-width:767px){ padding-top: 20px; } }
-body #wrapper #container .AbstandObenXL, #container .mod_article .AbstandTextObenXL .rte, .AbstandBildObenXL figure { padding-top: 130px; @media(max-width:767px){ padding-top: 20px; } }
-body #wrapper #container .AbstandObenXXL, #container .mod_article .AbstandTextObenXXL .rte, .AbstandBildObenXXL figure { padding-top: 150px; @media(max-width:767px){ padding-top: 20px; } }
-body #wrapper #container .AbstandObenXXXL, #container .mod_article .AbstandTextObenXXXL .rte, .AbstandBildObenXXXL figure { padding-top: 200px; @media(max-width:767px){ padding-top: 20px; } }
+body #wrapper #container .AbstandObenXXXS, #container .mod_article .AbstandTextObenXXXS .rte, .AbstandBildObenXXXS figure { padding-top: var(--XXXS); }
+body #wrapper #container .AbstandObenXXS, #container .mod_article .AbstandTextObenXXS .rte, .AbstandBildObenXXS figure { padding-top: var(--XXS); }
+body #wrapper #container .AbstandObenXS, #container .mod_article .AbstandTextObenXS .rte, .AbstandBildObenXS figure { padding-top: var(--XS); }
+body #wrapper #container .AbstandObenS, #container .mod_article .AbstandTextObenS .rte, .AbstandBildObenS figure { padding-top: var(--S); @media(max-width:767px){ padding-top: 20px; } }
+body #wrapper #container .AbstandObenM, #container .mod_article .AbstandTextObenM .rte, .AbstandBildObenM figure { padding-top: var(--M); @media(max-width:767px){ padding-top: 20px; } }
+body #wrapper #container .AbstandObenL, #container .mod_article .AbstandTextObenL .rte, .AbstandBildObenL figure { padding-top: var(--L); @media(max-width:767px){ padding-top: 20px; } }
+body #wrapper #container .AbstandObenXL, #container .mod_article .AbstandTextObenXL .rte, .AbstandBildObenXL figure { padding-top: var(--XL); @media(max-width:767px){ padding-top: 20px; } }
+body #wrapper #container .AbstandObenXXL, #container .mod_article .AbstandTextObenXXL .rte, .AbstandBildObenXXL figure { padding-top: var(--XXL); @media(max-width:767px){ padding-top: 20px; } }
+body #wrapper #container .AbstandObenXXXL, #container .mod_article .AbstandTextObenXXXL .rte, .AbstandBildObenXXXL figure { padding-top: var(--XXXL); @media(max-width:767px){ padding-top: 20px; } }
 
 body #wrapper #container .AbstandRechts0, #container .mod_article .AbstandTextRechts0 .rte, .AbstandBildRechts0 figure { padding-right: 0px; }
-body #wrapper #container .AbstandRechtsXXS, #container .mod_article .AbstandTextRechtsXXS .rte, .AbstandBildRechtsXXS figure { padding-right: 10px; }
-body #wrapper #container .AbstandRechtsXS, #container .mod_article .AbstandTextRechtsXS .rte, .AbstandBildRechtsXS figure { padding-right: 20px; }
-body #wrapper #container .AbstandRechtsMS, #container .mod_article .AbstandTextRechtsMS .rte, .AbstandBildRechtsMS figure { padding-right: 25px; }
-body #wrapper #container .AbstandRechtsS, #container .mod_article .AbstandTextRechtsS .rte, .AbstandBildRechtsS figure { padding-right: 40px; @media(max-width:767px){ padding-right: 20px; } }
-body #wrapper #container .AbstandRechtsM, #container .mod_article .AbstandTextRechtsM .rte, .AbstandBildRechtsM figure { padding-right: 60px; @media(max-width:767px){ padding-right: 20px; } }
-body #wrapper #container .AbstandRechtsL, #container .mod_article .AbstandTextRechtsL .rte, .AbstandBildRechtsL figure { padding-right: 100px; @media(max-width:767px){ padding-right: 20px; } }
-body #wrapper #container .AbstandRechtsXL, #container .mod_article .AbstandTextRechtsXL .rte, .AbstandBildRechtsXL figure { padding-right: 130px; @media(max-width:767px){ padding-right: 20px; } }
-body #wrapper #container .AbstandRechtsXXL, #container .mod_article .AbstandTextRechtsXXL .rte, .AbstandBildRechtsXXL figure { padding-right: 150px; @media(max-width:767px){ padding-right: 20px; } }
-body #wrapper #container .AbstandRechtsXXXL, #container .mod_article .AbstandTextRechtsXXXL .rte, .AbstandBildRechtsXXXL figure { padding-right: 200px; @media(max-width:767px){ padding-right: 20px; } }
+body #wrapper #container .AbstandRechtsXXXS, #container .mod_article .AbstandTextRechtsXXXS .rte, .AbstandBildRechtsXXXS figure { padding-right: var(--XXXS); }
+body #wrapper #container .AbstandRechtsXXS, #container .mod_article .AbstandTextRechtsXXS .rte, .AbstandBildRechtsXXS figure { padding-right: var(--XXS); }
+body #wrapper #container .AbstandRechtsXS, #container .mod_article .AbstandTextRechtsXS .rte, .AbstandBildRechtsXS figure { padding-right: var(--XS); }
+body #wrapper #container .AbstandRechtsS, #container .mod_article .AbstandTextRechtsS .rte, .AbstandBildRechtsS figure { padding-right: var(--S); @media(max-width:767px){ padding-right: 20px; } }
+body #wrapper #container .AbstandRechtsM, #container .mod_article .AbstandTextRechtsM .rte, .AbstandBildRechtsM figure { padding-right: var(--M); @media(max-width:767px){ padding-right: 20px; } }
+body #wrapper #container .AbstandRechtsL, #container .mod_article .AbstandTextRechtsL .rte, .AbstandBildRechtsL figure { padding-right: var(--L); @media(max-width:767px){ padding-right: 20px; } }
+body #wrapper #container .AbstandRechtsXL, #container .mod_article .AbstandTextRechtsXL .rte, .AbstandBildRechtsXL figure { padding-right: var(--XL); @media(max-width:767px){ padding-right: 20px; } }
+body #wrapper #container .AbstandRechtsXXL, #container .mod_article .AbstandTextRechtsXXL .rte, .AbstandBildRechtsXXL figure { padding-right: var(--XXL); @media(max-width:767px){ padding-right: 20px; } }
+body #wrapper #container .AbstandRechtsXXXL, #container .mod_article .AbstandTextRechtsXXXL .rte, .AbstandBildRechtsXXXL figure { padding-right: var(--XXXL); @media(max-width:767px){ padding-right: 20px; } }
 
 body #wrapper #container .AbstandUnten0, #container .mod_article .AbstandTextUnten0 .rte, .AbstandBildUnten0 figure { padding-bottom: 0px; }
-body #wrapper #container .AbstandUntenXXS, #container .mod_article .AbstandTextUntenXXS .rte, .AbstandBildUntenXXS figure { padding-bottom: 10px; }
-body #wrapper #container .AbstandUntenXS, #container .mod_article .AbstandTextUntenXS .rte, .AbstandBildUntenXS figure { padding-bottom: 20px; }
-body #wrapper #container .AbstandUntenMS, #container .mod_article .AbstandTextUntenMS .rte, .AbstandBildUntenMS figure { padding-bottom: 25px; }
-body #wrapper #container .AbstandUntenS, #container .mod_article .AbstandTextUntenS .rte, .AbstandBildUntenS figure { padding-bottom: 40px; @media(max-width:767px){ padding-bottom: 20px; } }
-body #wrapper #container .AbstandUntenM, #container .mod_article .AbstandTextUntenM .rte, .AbstandBildUntenM figure { padding-bottom: 60px; @media(max-width:767px){ padding-bottom: 20px; } }
-body #wrapper #container .AbstandUntenL, #container .mod_article .AbstandTextUntenL .rte, .AbstandBildUntenL figure { padding-bottom: 100px; @media(max-width:767px){ padding-bottom: 20px; } }
-body #wrapper #container .AbstandUntenXL, #container .mod_article .AbstandTextUntenXL .rte, .AbstandBildUntenXL figure { padding-bottom: 130px; @media(max-width:767px){ padding-bottom: 20px; } }
-body #wrapper #container .AbstandUntenXXL, #container .mod_article .AbstandTextUntenXXL .rte, .AbstandBildUntenXXL figure { padding-bottom: 150px; @media(max-width:767px){ padding-bottom: 20px; } }
-body #wrapper #container .AbstandUntenXXXL, #container .mod_article .AbstandTextUntenXXXL .rte, .AbstandBildUntenXXXL figure { padding-bottom: 200px; @media(max-width:767px){ padding-bottom: 20px; } }
+body #wrapper #container .AbstandUntenXXXS, #container .mod_article .AbstandTextUntenXXXS .rte, .AbstandBildUntenXXXS figure { padding-bottom: var(--XXXS); }
+body #wrapper #container .AbstandUntenXXS, #container .mod_article .AbstandTextUntenXXS .rte, .AbstandBildUntenXXS figure { padding-bottom: var(--XXS); }
+body #wrapper #container .AbstandUntenXS, #container .mod_article .AbstandTextUntenXS .rte, .AbstandBildUntenXS figure { padding-bottom: var(--XS); }
+body #wrapper #container .AbstandUntenS, #container .mod_article .AbstandTextUntenS .rte, .AbstandBildUntenS figure { padding-bottom: var(--S); @media(max-width:767px){ padding-bottom: 20px; } }
+body #wrapper #container .AbstandUntenM, #container .mod_article .AbstandTextUntenM .rte, .AbstandBildUntenM figure { padding-bottom: var(--M); @media(max-width:767px){ padding-bottom: 20px; } }
+body #wrapper #container .AbstandUntenL, #container .mod_article .AbstandTextUntenL .rte, .AbstandBildUntenL figure { padding-bottom: var(--L); @media(max-width:767px){ padding-bottom: 20px; } }
+body #wrapper #container .AbstandUntenXL, #container .mod_article .AbstandTextUntenXL .rte, .AbstandBildUntenXL figure { padding-bottom: var(--XL); @media(max-width:767px){ padding-bottom: 20px; } }
+body #wrapper #container .AbstandUntenXXL, #container .mod_article .AbstandTextUntenXXL .rte, .AbstandBildUntenXXL figure { padding-bottom: var(--XXL); @media(max-width:767px){ padding-bottom: 20px; } }
+body #wrapper #container .AbstandUntenXXXL, #container .mod_article .AbstandTextUntenXXXL .rte, .AbstandBildUntenXXXL figure { padding-bottom: var(--XXXL); @media(max-width:767px){ padding-bottom: 20px; } }
 
 body #wrapper #container .AbstandLinks0, #container .mod_article .AbstandTextLinks0 .rte, .AbstandBildLinks0 figure { padding-left: 0px; }
-body #wrapper #container .AbstandLinksXXS, #container .mod_article .AbstandTextLinksXXS .rte, .AbstandBildLinksXXS figure { padding-left: 10px; }
-body #wrapper #container .AbstandLinksXS, #container .mod_article .AbstandTextLinksXS .rte, .AbstandBildLinksXS figure { padding-left: 20px; }
-body #wrapper #container .AbstandLinksMS, #container .mod_article .AbstandTextLinksMS .rte, .AbstandBildLinksMS figure { padding-left: 25px; }
-body #wrapper #container .AbstandLinksS, #container .mod_article .AbstandTextLinksS .rte, .AbstandBildLinksS figure { padding-left: 40px; @media(max-width:767px){ padding-left: 20px; } }
-body #wrapper #container .AbstandLinksM, #container .mod_article .AbstandTextLinksM .rte, .AbstandBildLinksM figure { padding-left: 60px; @media(max-width:767px){ padding-left: 20px; } }
-body #wrapper #container .AbstandLinksL, #container .mod_article .AbstandTextLinksL .rte, .AbstandBildLinksL figure { padding-left: 100px; @media(max-width:767px){ padding-left: 20px; } }
-body #wrapper #container .AbstandLinksXL, #container .mod_article .AbstandTextLinksXL .rte, .AbstandBildLinksXL figure { padding-left: 130px; @media(max-width:767px){ padding-left: 20px; } }
-body #wrapper #container .AbstandLinksXXL, #container .mod_article .AbstandTextLinksXXL .rte, .AbstandBildLinksXXL figure { padding-left: 150px; @media(max-width:767px){ padding-left: 20px; } }
-body #wrapper #container .AbstandLinksXXXL, #container .mod_article .AbstandTextLinksXXXL .rte, .AbstandBildLinksXXXL figure { padding-left: 200px; @media(max-width:767px){ padding-left: 20px; } }
+body #wrapper #container .AbstandLinksXXXS, #container .mod_article .AbstandTextLinksXXXS .rte, .AbstandBildLinksXXXS figure { padding-left: var(--XXXS); }
+body #wrapper #container .AbstandLinksXXS, #container .mod_article .AbstandTextLinksXXS .rte, .AbstandBildLinksXXS figure { padding-left: var(--XXS); }
+body #wrapper #container .AbstandLinksXS, #container .mod_article .AbstandTextLinksXS .rte, .AbstandBildLinksXS figure { padding-left: var(--XS); }
+body #wrapper #container .AbstandLinksS, #container .mod_article .AbstandTextLinksS .rte, .AbstandBildLinksS figure { padding-left: var(--S); @media(max-width:767px){ padding-left: 20px; } }
+body #wrapper #container .AbstandLinksM, #container .mod_article .AbstandTextLinksM .rte, .AbstandBildLinksM figure { padding-left: var(--M); @media(max-width:767px){ padding-left: 20px; } }
+body #wrapper #container .AbstandLinksL, #container .mod_article .AbstandTextLinksL .rte, .AbstandBildLinksL figure { padding-left: var(--L); @media(max-width:767px){ padding-left: 20px; } }
+body #wrapper #container .AbstandLinksXL, #container .mod_article .AbstandTextLinksXL .rte, .AbstandBildLinksXL figure { padding-left: var(--XL); @media(max-width:767px){ padding-left: 20px; } }
+body #wrapper #container .AbstandLinksXXL, #container .mod_article .AbstandTextLinksXXL .rte, .AbstandBildLinksXXL figure { padding-left: var(--XXL); @media(max-width:767px){ padding-left: 20px; } }
+body #wrapper #container .AbstandLinksXXXL, #container .mod_article .AbstandTextLinksXXXL .rte, .AbstandBildLinksXXXL figure { padding-left: var(--XXXL); @media(max-width:767px){ padding-left: 20px; } }
 
 
-body #wrapper #container .keinAbstandAußen { margin: 10px; }
-body #wrapper #container .AbstandAußenXS { margin: 20px; }
-body #wrapper #container .AbstandAußenMS { margin: 25px; }
-body #wrapper #container .AbstandAußenS { margin: 40px; @media(max-width:767px){ padding: 30px 10px; } }
-body #wrapper #container .AbstandAußenM { margin: 60px; @media(max-width:767px){ padding: 30px 10px; } }
-body #wrapper #container .AbstandAußenL { margin: 100px; @media(max-width:767px){ padding: 30px 10px; } }
-body #wrapper #container .AbstandAußenXL { margin: 130px; @media(max-width:767px){ padding: 30px 10px; } }
-body #wrapper #container .AbstandAußenXXL { margin: 150px; @media(max-width:767px){ padding: 30px 10px; } }
-body #wrapper #container .AbstandAußenXXXL { margin: 200px; @media(max-width:767px){ padding: 30px 10px; } }
+body #wrapper #container .AbstandAußen0 { margin: 0; }
+body #wrapper #container .AbstandAußenXXXS { margin: var(--XXXS); }
+body #wrapper #container .AbstandAußenXXS { margin: var(--XXS); }
+body #wrapper #container .AbstandAußenXS { margin: var(--XS); }
+body #wrapper #container .AbstandAußenS { margin: var(--S); @media(max-width:767px){ padding: 30px 10px; } }
+body #wrapper #container .AbstandAußenM { margin: var(--M); @media(max-width:767px){ padding: 30px 10px; } }
+body #wrapper #container .AbstandAußenL { margin: var(--L); @media(max-width:767px){ padding: 30px 10px; } }
+body #wrapper #container .AbstandAußenXL { margin: var(--XL); @media(max-width:767px){ padding: 30px 10px; } }
+body #wrapper #container .AbstandAußenXXL { margin: var(--XXL); @media(max-width:767px){ padding: 30px 10px; } }
+body #wrapper #container .AbstandAußenXXXL { margin: var(--XXXL); @media(max-width:767px){ padding: 30px 10px; } }
 body #wrapper #container .AbstandAußenXXXXL { margin: 250px; @media(max-width:767px){ padding: 30px 10px; } }
 
 body #wrapper #container .AbstandAußenOben0 { margin-top: 0px; }
-body #wrapper #container .AbstandAußenObenXXS { margin-top: 10px; }
-body #wrapper #container .AbstandAußenObenXS { margin-top: 20px; }
-body #wrapper #container .AbstandAußenObenMS { margin-top: 25px; }
-body #wrapper #container .AbstandAußenObenS { margin-top: 40px; @media(max-width:767px){ padding-top: 20px; } }
-body #wrapper #container .AbstandAußenObenM { margin-top: 60px; @media(max-width:767px){ padding-top: 20px; } }
-body #wrapper #container .AbstandAußenObenL { margin-top: 100px; @media(max-width:767px){ padding-top: 20px; } }
-body #wrapper #container .AbstandAußenObenXL { margin-top: 130px; @media(max-width:767px){ padding-top: 20px; } }
-body #wrapper #container .AbstandAußenObenXXL { margin-top: 150px; @media(max-width:767px){ padding-top: 20px; } }
-body #wrapper #container .AbstandAußenObenXXXL { margin-top: 200px; @media(max-width:767px){ padding-top: 20px; } }
+body #wrapper #container .AbstandAußenObenXXXS { margin-top: var(--XXXS); }
+body #wrapper #container .AbstandAußenObenXXS { margin-top: var(--XXS); }
+body #wrapper #container .AbstandAußenObenXS { margin-top: var(--XS); }
+body #wrapper #container .AbstandAußenObenS { margin-top: var(--S); @media(max-width:767px){ padding-top: 20px; } }
+body #wrapper #container .AbstandAußenObenM { margin-top: var(--M); @media(max-width:767px){ padding-top: 20px; } }
+body #wrapper #container .AbstandAußenObenL { margin-top: var(--L); @media(max-width:767px){ padding-top: 20px; } }
+body #wrapper #container .AbstandAußenObenXL { margin-top: var(--XL); @media(max-width:767px){ padding-top: 20px; } }
+body #wrapper #container .AbstandAußenObenXXL { margin-top: var(--XXL); @media(max-width:767px){ padding-top: 20px; } }
+body #wrapper #container .AbstandAußenObenXXXL { margin-top: var(--XXXL); @media(max-width:767px){ padding-top: 20px; } }
 
 body #wrapper #container .AbstandAußenRechts0 { margin-right: 0px; }
-body #wrapper #container .AbstandAußenRechtsXXS { margin-right: 10px; }
-body #wrapper #container .AbstandAußenRechtsXS { margin-right: 20px; }
-body #wrapper #container .AbstandAußenRechtsMS { margin-right: 25px; }
-body #wrapper #container .AbstandAußenRechtsS { margin-right: 40px; @media(max-width:767px){ padding-right: 20px; } }
-body #wrapper #container .AbstandAußenRechtsM { margin-right: 60px; @media(max-width:767px){ padding-right: 20px; } }
-body #wrapper #container .AbstandAußenRechtsL { margin-right: 100px; @media(max-width:767px){ padding-right: 20px; } }
-body #wrapper #container .AbstandAußenRechtsXL { margin-right: 130px; @media(max-width:767px){ padding-right: 20px; } }
-body #wrapper #container .AbstandAußenRechtsXXL { margin-right: 150px; @media(max-width:767px){ padding-right: 20px; } }
-body #wrapper #container .AbstandAußenRechtsXXXL { margin-right: 200px; @media(max-width:767px){ padding-right: 20px; } }
+body #wrapper #container .AbstandAußenRechtsXXXS { margin-right: var(--XXXS); }
+body #wrapper #container .AbstandAußenRechtsXXS { margin-right: var(--XXS); }
+body #wrapper #container .AbstandAußenRechtsXS { margin-right: var(--XS); }
+body #wrapper #container .AbstandAußenRechtsS { margin-right: var(--S); @media(max-width:767px){ padding-right: 20px; } }
+body #wrapper #container .AbstandAußenRechtsM { margin-right: var(--M); @media(max-width:767px){ padding-right: 20px; } }
+body #wrapper #container .AbstandAußenRechtsL { margin-right: var(--L); @media(max-width:767px){ padding-right: 20px; } }
+body #wrapper #container .AbstandAußenRechtsXL { margin-right: var(--XL); @media(max-width:767px){ padding-right: 20px; } }
+body #wrapper #container .AbstandAußenRechtsXXL { margin-right: var(--XXL); @media(max-width:767px){ padding-right: 20px; } }
+body #wrapper #container .AbstandAußenRechtsXXXL { margin-right: var(--XXXL); @media(max-width:767px){ padding-right: 20px; } }
 
 body #wrapper #container .AbstandAußenUnten0 { margin-bottom: 0px; }
-body #wrapper #container .AbstandAußenUntenXXS { margin-bottom: 10px; }
-body #wrapper #container .AbstandAußenUntenXS { margin-bottom: 20px; }
-body #wrapper #container .AbstandAußenUntenMS { margin-bottom: 25px; }
-body #wrapper #container .AbstandAußenUntenS { margin-bottom: 40px; @media(max-width:767px){ padding-bottom: 20px; } }
-body #wrapper #container .AbstandAußenUntenM { margin-bottom: 60px; @media(max-width:767px){ padding-bottom: 20px; } }
-body #wrapper #container .AbstandAußenUntenL { margin-bottom: 100px; @media(max-width:767px){ padding-bottom: 20px; } }
-body #wrapper #container .AbstandAußenUntenXL { margin-bottom: 130px; @media(max-width:767px){ padding-bottom: 20px; } }
-body #wrapper #container .AbstandAußenUntenXXL { margin-bottom: 150px; @media(max-width:767px){ padding-bottom: 20px; } }
-body #wrapper #container .AbstandAußenUntenXXXL { margin-bottom: 200px; @media(max-width:767px){ padding-bottom: 20px; } }
+body #wrapper #container .AbstandAußenUntenXXXS { margin-bottom: var(--XXXS); }
+body #wrapper #container .AbstandAußenUntenXXS { margin-bottom: var(--XXS); }
+body #wrapper #container .AbstandAußenUntenXS { margin-bottom: var(--XS); }
+body #wrapper #container .AbstandAußenUntenS { margin-bottom: var(--S); @media(max-width:767px){ padding-bottom: 20px; } }
+body #wrapper #container .AbstandAußenUntenM { margin-bottom: var(--M); @media(max-width:767px){ padding-bottom: 20px; } }
+body #wrapper #container .AbstandAußenUntenL { margin-bottom: var(--L); @media(max-width:767px){ padding-bottom: 20px; } }
+body #wrapper #container .AbstandAußenUntenXL { margin-bottom: var(--XL); @media(max-width:767px){ padding-bottom: 20px; } }
+body #wrapper #container .AbstandAußenUntenXXL { margin-bottom: var(--XXL); @media(max-width:767px){ padding-bottom: 20px; } }
+body #wrapper #container .AbstandAußenUntenXXXL { margin-bottom: var(--XXXL); @media(max-width:767px){ padding-bottom: 20px; } }
 
 body #wrapper #container .AbstandAußenLinks0 { margin-left: 0px; }
-body #wrapper #container .AbstandAußenLinksXXS { margin-left: 10px; }
-body #wrapper #container .AbstandAußenLinksXS { margin-left: 20px; }
-body #wrapper #container .AbstandAußenLinksMS { margin-left: 25px; }
-body #wrapper #container .AbstandAußenLinksS { margin-left: 40px; @media(max-width:767px){ padding-left: 20px; } }
-body #wrapper #container .AbstandAußenLinksM { margin-left: 60px; @media(max-width:767px){ padding-left: 20px; } }
-body #wrapper #container .AbstandAußenLinksL { margin-left: 100px; @media(max-width:767px){ padding-left: 20px; } }
-body #wrapper #container .AbstandAußenLinksXL { margin-left: 130px; @media(max-width:767px){ padding-left: 20px; } }
-body #wrapper #container .AbstandAußenLinksXXL { margin-left: 150px; @media(max-width:767px){ padding-left: 20px; } }
-body #wrapper #container .AbstandAußenLinksXXXL { margin-left: 200px; @media(max-width:767px){ padding-left: 20px; } }
+body #wrapper #container .AbstandAußenLinksXXXS { margin-left: var(--XXXS); }
+body #wrapper #container .AbstandAußenLinksXXS { margin-left: var(--XXS); }
+body #wrapper #container .AbstandAußenLinksXS { margin-left: var(--XS); }
+body #wrapper #container .AbstandAußenLinksS { margin-left: var(--S); @media(max-width:767px){ padding-left: 20px; } }
+body #wrapper #container .AbstandAußenLinksM { margin-left: var(--M); @media(max-width:767px){ padding-left: 20px; } }
+body #wrapper #container .AbstandAußenLinksL { margin-left: var(--L); @media(max-width:767px){ padding-left: 20px; } }
+body #wrapper #container .AbstandAußenLinksXL { margin-left: var(--XL); @media(max-width:767px){ padding-left: 20px; } }
+body #wrapper #container .AbstandAußenLinksXXL { margin-left: var(--XXL); @media(max-width:767px){ padding-left: 20px; } }
+body #wrapper #container .AbstandAußenLinksXXXL { margin-left: var(--XXXL); @media(max-width:767px){ padding-left: 20px; } }
 
 
-body #wrapper #container .keinAbstandMobil { @media(max-width:767px){ padding: 0; } }
-body #wrapper #container .AbstandMobilXS { @media(max-width:767px){ padding: 20px; } }
-body #wrapper #container .AbstandMobilMS { @media(max-width:767px){ padding: 25px; } }
-body #wrapper #container .AbstandMobilS { @media(max-width:767px){ padding: 40px; } }
-body #wrapper #container .AbstandMobilM { @media(max-width:767px){ padding: 60px; } }
-body #wrapper #container .AbstandMobilL { @media(max-width:767px){ padding: 100px; } }
-body #wrapper #container .AbstandMobilXL { @media(max-width:767px){ padding: 130px; } }
-body #wrapper #container .AbstandMobilXXL { @media(max-width:767px){ padding: 150px; } }
-body #wrapper #container .AbstandMobilXXXL { @media(max-width:767px){ padding: 200px; } }
+body #wrapper #container .AbstandMobil0 { @media(max-width:767px){ padding: 0; } }
+body #wrapper #container .AbstandMobilXXXS { @media(max-width:767px){ padding: var(--XXXS); } }
+body #wrapper #container .AbstandMobilXXS { @media(max-width:767px){ padding: var(--XXS); } }
+body #wrapper #container .AbstandMobilXS { @media(max-width:767px){ padding: var(--XS); } }
+body #wrapper #container .AbstandMobilS { @media(max-width:767px){ padding: var(--S); } }
+body #wrapper #container .AbstandMobilM { @media(max-width:767px){ padding: var(--M); } }
+body #wrapper #container .AbstandMobilL { @media(max-width:767px){ padding: var(--L); } }
+body #wrapper #container .AbstandMobilXL { @media(max-width:767px){ padding: var(--XL); } }
+body #wrapper #container .AbstandMobilXXL { @media(max-width:767px){ padding: var(--XXL); } }
+body #wrapper #container .AbstandMobilXXXL { @media(max-width:767px){ padding: var(--XXXL); } }
 body #wrapper #container .AbstandMobilXXXXL { @media(max-width:767px){ padding: 250px; } }
 
 body #wrapper #container .AbstandMobilOben0 { @media(max-width:767px){ padding-top: 0px; } }
-body #wrapper #container .AbstandMobilObenXXS { @media(max-width:767px){ padding-top: 10px; } }
-body #wrapper #container .AbstandMobilObenXS { @media(max-width:767px){ padding-top: 20px; } }
-body #wrapper #container .AbstandMobilObenMS { @media(max-width:767px){ padding-top: 25px; } }
-body #wrapper #container .AbstandMobilObenS { @media(max-width:767px){ padding-top: 40px; } }
-body #wrapper #container .AbstandMobilObenM { @media(max-width:767px){ padding-top: 60px; } }
-body #wrapper #container .AbstandMobilObenL { @media(max-width:767px){ padding-top: 100px; } }
-body #wrapper #container .AbstandMobilObenXL { @media(max-width:767px){ padding-top: 130px; } }
-body #wrapper #container .AbstandMobilObenXXL { @media(max-width:767px){ padding-top: 150px; } }
-body #wrapper #container .AbstandMobilObenXXXL { @media(max-width:767px){ padding-top: 200px; } }
+body #wrapper #container .AbstandMobilObenXXXS { @media(max-width:767px){ padding-top: var(--XXXS); } }
+body #wrapper #container .AbstandMobilObenXXS { @media(max-width:767px){ padding-top: var(--XXS); } }
+body #wrapper #container .AbstandMobilObenXS { @media(max-width:767px){ padding-top: var(--XS); } }
+body #wrapper #container .AbstandMobilObenS { @media(max-width:767px){ padding-top: var(--S); } }
+body #wrapper #container .AbstandMobilObenM { @media(max-width:767px){ padding-top: var(--M); } }
+body #wrapper #container .AbstandMobilObenL { @media(max-width:767px){ padding-top: var(--L); } }
+body #wrapper #container .AbstandMobilObenXL { @media(max-width:767px){ padding-top: var(--XL); } }
+body #wrapper #container .AbstandMobilObenXXL { @media(max-width:767px){ padding-top: var(--XXL); } }
+body #wrapper #container .AbstandMobilObenXXXL { @media(max-width:767px){ padding-top: var(--XXXL); } }
 
 body #wrapper #container .AbstandMobilRechts0 { @media(max-width:767px){ padding-right: 0px; } }
-body #wrapper #container .AbstandMobilRechtsXXS { @media(max-width:767px){ padding-right: 10px; } }
-body #wrapper #container .AbstandMobilRechtsXS { @media(max-width:767px){ padding-right: 20px; } }
-body #wrapper #container .AbstandMobilRechtsMS { @media(max-width:767px){ padding-right: 25px; } }
-body #wrapper #container .AbstandMobilRechtsS { @media(max-width:767px){ padding-right: 40px; } }
-body #wrapper #container .AbstandMobilRechtsM { @media(max-width:767px){ padding-right: 60px; } }
-body #wrapper #container .AbstandMobilRechtsL { @media(max-width:767px){ padding-right: 100px; } }
-body #wrapper #container .AbstandMobilRechtsXL { @media(max-width:767px){ padding-right: 130px; } }
-body #wrapper #container .AbstandMobilRechtsXXL { @media(max-width:767px){ padding-right: 150px; } }
-body #wrapper #container .AbstandMobilRechtsXXXL { @media(max-width:767px){ padding-right: 200px; } }
+body #wrapper #container .AbstandMobilRechtsXXXS { @media(max-width:767px){ padding-right: var(--XXXS); } }
+body #wrapper #container .AbstandMobilRechtsXXS { @media(max-width:767px){ padding-right: var(--XXS); } }
+body #wrapper #container .AbstandMobilRechtsXS { @media(max-width:767px){ padding-right: var(--XS); } }
+body #wrapper #container .AbstandMobilRechtsS { @media(max-width:767px){ padding-right: var(--S); } }
+body #wrapper #container .AbstandMobilRechtsM { @media(max-width:767px){ padding-right: var(--M); } }
+body #wrapper #container .AbstandMobilRechtsL { @media(max-width:767px){ padding-right: var(--L); } }
+body #wrapper #container .AbstandMobilRechtsXL { @media(max-width:767px){ padding-right: var(--XL); } }
+body #wrapper #container .AbstandMobilRechtsXXL { @media(max-width:767px){ padding-right: var(--XXL); } }
+body #wrapper #container .AbstandMobilRechtsXXXL { @media(max-width:767px){ padding-right: var(--XXXL); } }
 
 body #wrapper #container .AbstandMobilUnten0 { @media(max-width:767px){ padding-bottom: 0px; } }
-body #wrapper #container .AbstandMobilUntenXXS { @media(max-width:767px){ padding-bottom: 10px; } }
-body #wrapper #container .AbstandMobilUntenXS { @media(max-width:767px){ padding-bottom: 20px; } }
-body #wrapper #container .AbstandMobilUntenMS { @media(max-width:767px){ padding-bottom: 25px; } }
-body #wrapper #container .AbstandMobilUntenS { @media(max-width:767px){ padding-bottom: 40px; } }
-body #wrapper #container .AbstandMobilUntenM { @media(max-width:767px){ padding-bottom: 60px; } }
-body #wrapper #container .AbstandMobilUntenL { @media(max-width:767px){ padding-bottom: 100px; } }
-body #wrapper #container .AbstandMobilUntenXL { @media(max-width:767px){ padding-bottom: 130px; } }
-body #wrapper #container .AbstandMobilUntenXXL { @media(max-width:767px){ padding-bottom: 150px; } }
-body #wrapper #container .AbstandMobilUntenXXXL { @media(max-width:767px){ padding-bottom: 200px; } }
+body #wrapper #container .AbstandMobilUntenXXXS { @media(max-width:767px){ padding-bottom: var(--XXXS); } }
+body #wrapper #container .AbstandMobilUntenXXS { @media(max-width:767px){ padding-bottom: var(--XXS); } }
+body #wrapper #container .AbstandMobilUntenXS { @media(max-width:767px){ padding-bottom: var(--XS); } }
+body #wrapper #container .AbstandMobilUntenS { @media(max-width:767px){ padding-bottom: var(--S); } }
+body #wrapper #container .AbstandMobilUntenM { @media(max-width:767px){ padding-bottom: var(--M); } }
+body #wrapper #container .AbstandMobilUntenL { @media(max-width:767px){ padding-bottom: var(--L); } }
+body #wrapper #container .AbstandMobilUntenXL { @media(max-width:767px){ padding-bottom: var(--XL); } }
+body #wrapper #container .AbstandMobilUntenXXL { @media(max-width:767px){ padding-bottom: var(--XXL); } }
+body #wrapper #container .AbstandMobilUntenXXXL { @media(max-width:767px){ padding-bottom: var(--XXXL); } }
 
 body #wrapper #container .AbstandMobilLinks0 { @media(max-width:767px){ padding-left: 0px; } }
-body #wrapper #container .AbstandMobilLinksXXS { @media(max-width:767px){ padding-left: 10px; } }
-body #wrapper #container .AbstandMobilLinksXS { @media(max-width:767px){ padding-left: 20px; } }
-body #wrapper #container .AbstandMobilLinksMS { @media(max-width:767px){ padding-left: 25px; } }
-body #wrapper #container .AbstandMobilLinksS { @media(max-width:767px){ padding-left: 40px; } }
-body #wrapper #container .AbstandMobilLinksM { @media(max-width:767px){ padding-left: 60px; } }
-body #wrapper #container .AbstandMobilLinksL { @media(max-width:767px){ padding-left: 100px; } }
-body #wrapper #container .AbstandMobilLinksXL { @media(max-width:767px){ padding-left: 130px; } }
-body #wrapper #container .AbstandMobilLinksXXL { @media(max-width:767px){ padding-left: 150px; } }
-body #wrapper #container .AbstandMobilLinksXXXL { @media(max-width:767px){ padding-left: 200px; } }
+body #wrapper #container .AbstandMobilLinksXXXS { @media(max-width:767px){ padding-left: var(--XXXS); } }
+body #wrapper #container .AbstandMobilLinksXXS { @media(max-width:767px){ padding-left: var(--XXS); } }
+body #wrapper #container .AbstandMobilLinksXS { @media(max-width:767px){ padding-left: var(--XS); } }
+body #wrapper #container .AbstandMobilLinksS { @media(max-width:767px){ padding-left: var(--S); } }
+body #wrapper #container .AbstandMobilLinksM { @media(max-width:767px){ padding-left: var(--M); } }
+body #wrapper #container .AbstandMobilLinksL { @media(max-width:767px){ padding-left: var(--L); } }
+body #wrapper #container .AbstandMobilLinksXL { @media(max-width:767px){ padding-left: var(--XL); } }
+body #wrapper #container .AbstandMobilLinksXXL { @media(max-width:767px){ padding-left: var(--XXL); } }
+body #wrapper #container .AbstandMobilLinksXXXL { @media(max-width:767px){ padding-left: var(--XXXL); } }
 
 
-body #wrapper #container .AbstandNegativOben0 { margin-top: -0px; @media(max-width:767px){ padding-top: 0; } }
-body #wrapper #container .AbstandNegativObenXXS { margin-top: -10px; @media(max-width:767px){ padding-top: 0; } }
-body #wrapper #container .AbstandNegativObenXS { margin-top: -20px; @media(max-width:767px){ padding-top: 0; } }
-body #wrapper #container .AbstandNegativObenMS { margin-top: -25px; @media(max-width:767px){ padding-top: 0; } }
-body #wrapper #container .AbstandNegativObenS { margin-top: -40px; @media(max-width:767px){ padding-top: 0; } }
-body #wrapper #container .AbstandNegativObenM { margin-top: -60px; @media(max-width:767px){ padding-top: 0; } }
-body #wrapper #container .AbstandNegativObenL { margin-top: -100px; @media(max-width:767px){ padding-top: 0; } }
-body #wrapper #container .AbstandNegativObenXL { margin-top: -130px; @media(max-width:767px){ padding-top: 0; } }
-body #wrapper #container .AbstandNegativObenXXL { margin-top: -150px; @media(max-width:767px){ padding-top: 0; } }
-body #wrapper #container .AbstandNegativObenXXXL { margin-top: -200px; @media(max-width:767px){ padding-top: 0; } }
+body #wrapper #container .AbstandNegativOben0 { margin-top: 0; @media(max-width:767px){ padding-top: 0; } }
+body #wrapper #container .AbstandNegativObenXXXS { margin-top: calc( -1 * var(--XXXS) ); @media(max-width:767px){ padding-top: 0; } }
+body #wrapper #container .AbstandNegativObenXXS { margin-top: calc( -1 * var(--XXS) ); @media(max-width:767px){ padding-top: 0; } }
+body #wrapper #container .AbstandNegativObenXS { margin-top: calc( -1 * var(--XS) ); @media(max-width:767px){ padding-top: 0; } }
+body #wrapper #container .AbstandNegativObenS { margin-top: calc( -1 * var(--S) ); @media(max-width:767px){ padding-top: 0; } }
+body #wrapper #container .AbstandNegativObenM { margin-top: calc( -1 * var(--M) ); @media(max-width:767px){ padding-top: 0; } }
+body #wrapper #container .AbstandNegativObenL { margin-top: calc( -1 * var(--L) ); @media(max-width:767px){ padding-top: 0; } }
+body #wrapper #container .AbstandNegativObenXL { margin-top: calc( -1 * var(--XL) ); @media(max-width:767px){ padding-top: 0; } }
+body #wrapper #container .AbstandNegativObenXXL { margin-top: calc( -1 * var(--XXL) ); @media(max-width:767px){ padding-top: 0; } }
+body #wrapper #container .AbstandNegativObenXXXL { margin-top: calc( -1 * var(--XXXL) ); @media(max-width:767px){ padding-top: 0; } }
 
-body #wrapper #container .AbstandNegativRechts0 { margin-right: -0px; @media(max-width:767px){ padding-top: 0; } }
-body #wrapper #container .AbstandNegativRechtsXXS { margin-right: -10px; @media(max-width:767px){ padding-top: 0; } }
-body #wrapper #container .AbstandNegativRechtsXS { margin-right: -20px; @media(max-width:767px){ padding-top: 0; } }
-body #wrapper #container .AbstandNegativRechtsMS { margin-right: -25px; @media(max-width:767px){ padding-top: 0; } }
-body #wrapper #container .AbstandNegativRechtsS { margin-right: -40px; @media(max-width:767px){ padding-right: 0; } }
-body #wrapper #container .AbstandNegativRechtsM { margin-right: -60px; @media(max-width:767px){ padding-right: 0; } }
-body #wrapper #container .AbstandNegativRechtsL { margin-right: -100px; @media(max-width:767px){ padding-right: 0; } }
-body #wrapper #container .AbstandNegativRechtsXL { margin-right: -130px; @media(max-width:767px){ padding-right: 0; } }
-body #wrapper #container .AbstandNegativRechtsXXL { margin-right: -150px; @media(max-width:767px){ padding-right: 0; } }
-body #wrapper #container .AbstandNegativRechtsXXXL { margin-right: -200px; @media(max-width:767px){ padding-right: 0; } }
+body #wrapper #container .AbstandNegativRechts0 { margin-right: 0; @media(max-width:767px){ padding-top: 0; } }
+body #wrapper #container .AbstandNegativRechtsXXXS { margin-right: calc( -1 * var(--XXXS) ); @media(max-width:767px){ padding-top: 0; } }
+body #wrapper #container .AbstandNegativRechtsXXS { margin-right: calc( -1 * var(--XXS) ); @media(max-width:767px){ padding-top: 0; } }
+body #wrapper #container .AbstandNegativRechtsXS { margin-right: calc( -1 * var(--XS) ); @media(max-width:767px){ padding-top: 0; } }
+body #wrapper #container .AbstandNegativRechtsS { margin-right: calc( -1 * var(--S) ); @media(max-width:767px){ padding-right: 0; } }
+body #wrapper #container .AbstandNegativRechtsM { margin-right: calc( -1 * var(--M) ); @media(max-width:767px){ padding-right: 0; } }
+body #wrapper #container .AbstandNegativRechtsL { margin-right: calc( -1 * var(--L) ); @media(max-width:767px){ padding-right: 0; } }
+body #wrapper #container .AbstandNegativRechtsXL { margin-right: calc( -1 * var(--XL) ); @media(max-width:767px){ padding-right: 0; } }
+body #wrapper #container .AbstandNegativRechtsXXL { margin-right: calc( -1 * var(--XXL) ); @media(max-width:767px){ padding-right: 0; } }
+body #wrapper #container .AbstandNegativRechtsXXXL { margin-right: calc( -1 * var(--XXXL) ); @media(max-width:767px){ padding-right: 0; } }
 
-body #wrapper #container .AbstandNegativUnten0 { margin-bottom: -0px; @media(max-width:767px){ padding-top: 0; } }
-body #wrapper #container .AbstandNegativUntenXXS { margin-bottom: -10px; @media(max-width:767px){ padding-top: 0; } }
-body #wrapper #container .AbstandNegativUntenXS { margin-bottom: -20px; @media(max-width:767px){ padding-top: 0; } }
-body #wrapper #container .AbstandNegativUntenMS { margin-bottom: -25px; @media(max-width:767px){ padding-top: 0; } }
-body #wrapper #container .AbstandNegativUntenS { margin-bottom: -40px; @media(max-width:767px){ padding-bottom: 0; } }
-body #wrapper #container .AbstandNegativUntenM { margin-bottom: -60px; @media(max-width:767px){ padding-bottom: 0; } }
-body #wrapper #container .AbstandNegativUntenL { margin-bottom: -100px; @media(max-width:767px){ padding-bottom: 0; } }
-body #wrapper #container .AbstandNegativUntenXL { margin-bottom: -130px; @media(max-width:767px){ padding-bottom: 0; } }
-body #wrapper #container .AbstandNegativUntenXXL { margin-bottom: -150px; @media(max-width:767px){ padding-bottom: 0; } }
-body #wrapper #container .AbstandNegativUntenXXXL { margin-bottom: -200px; @media(max-width:767px){ padding-bottom: 0; } }
+body #wrapper #container .AbstandNegativUnten0 { margin-bottom: 0; @media(max-width:767px){ padding-top: 0; } }
+body #wrapper #container .AbstandNegativUntenXXXS { margin-bottom: calc( -1 * var(--XXXS) ); @media(max-width:767px){ padding-top: 0; } }
+body #wrapper #container .AbstandNegativUntenXXS { margin-bottom: calc( -1 * var(--XXS) ); @media(max-width:767px){ padding-top: 0; } }
+body #wrapper #container .AbstandNegativUntenXS { margin-bottom: calc( -1 * var(--XS) ); @media(max-width:767px){ padding-top: 0; } }
+body #wrapper #container .AbstandNegativUntenS { margin-bottom: calc( -1 * var(--S) ); @media(max-width:767px){ padding-bottom: 0; } }
+body #wrapper #container .AbstandNegativUntenM { margin-bottom: calc( -1 * var(--M) ); @media(max-width:767px){ padding-bottom: 0; } }
+body #wrapper #container .AbstandNegativUntenL { margin-bottom: calc( -1 * var(--L) ); @media(max-width:767px){ padding-bottom: 0; } }
+body #wrapper #container .AbstandNegativUntenXL { margin-bottom: calc( -1 * var(--XL) ); @media(max-width:767px){ padding-bottom: 0; } }
+body #wrapper #container .AbstandNegativUntenXXL { margin-bottom: calc( -1 * var(--XXL) ); @media(max-width:767px){ padding-bottom: 0; } }
+body #wrapper #container .AbstandNegativUntenXXXL { margin-bottom: calc( -1 * var(--XXXL) ); @media(max-width:767px){ padding-bottom: 0; } }
 
-body #wrapper #container .AbstandNegativLinks0 { margin-left: -0px; @media(max-width:767px){ padding-top: 0; } }
-body #wrapper #container .AbstandNegativLinksXXS { margin-left: -10px; @media(max-width:767px){ padding-top: 0; } }
-body #wrapper #container .AbstandNegativLinksXS { margin-left: -20px; @media(max-width:767px){ padding-top: 0; } }
-body #wrapper #container .AbstandNegativLinksMS { margin-left: -25px; @media(max-width:767px){ padding-top: 0; } }
-body #wrapper #container .AbstandNegativLinksS { margin-left: -40px; @media(max-width:767px){ padding-left: 0; } }
-body #wrapper #container .AbstandNegativLinksM { margin-left: -60px; @media(max-width:767px){ padding-left: 0; } }
-body #wrapper #container .AbstandNegativLinksL { margin-left: -100px; @media(max-width:767px){ padding-left: 0; } }
-body #wrapper #container .AbstandNegativLinksXL { margin-left: -130px; @media(max-width:767px){ padding-left: 0; } }
-body #wrapper #container .AbstandNegativLinksXXL { margin-left: -150px; @media(max-width:767px){ padding-left: 0; } }
-body #wrapper #container .AbstandNegativLinksXXXL { margin-left: -200px; @media(max-width:767px){ padding-left: 0; } }
+body #wrapper #container .AbstandNegativLinks0 { margin-left: 0; @media(max-width:767px){ padding-top: 0; } }
+body #wrapper #container .AbstandNegativLinksXXXS { margin-left: calc( -1 * var(--XXXS) ); @media(max-width:767px){ padding-top: 0; } }
+body #wrapper #container .AbstandNegativLinksXXS { margin-left: calc( -1 * var(--XXS) ); @media(max-width:767px){ padding-top: 0; } }
+body #wrapper #container .AbstandNegativLinksXS { margin-left: calc( -1 * var(--XS) ); @media(max-width:767px){ padding-top: 0; } }
+body #wrapper #container .AbstandNegativLinksS { margin-left: calc( -1 * var(--S) ); @media(max-width:767px){ padding-left: 0; } }
+body #wrapper #container .AbstandNegativLinksM { margin-left: calc( -1 * var(--M) ); @media(max-width:767px){ padding-left: 0; } }
+body #wrapper #container .AbstandNegativLinksL { margin-left: calc( -1 * var(--L) ); @media(max-width:767px){ padding-left: 0; } }
+body #wrapper #container .AbstandNegativLinksXL { margin-left: calc( -1 * var(--XL) ); @media(max-width:767px){ padding-left: 0; } }
+body #wrapper #container .AbstandNegativLinksXXL { margin-left: calc( -1 * var(--XXL) ); @media(max-width:767px){ padding-left: 0; } }
+body #wrapper #container .AbstandNegativLinksXXXL { margin-left: calc( -1 * var(--XXXL) ); @media(max-width:767px){ padding-left: 0; } }
 
 //************************************************************* SPALTEN *************************************************************//
-body .SpaltenabstandS > * { gap: 10px; }
-body .SpaltenabstandMS > * { gap: 15px; }
-body .SpaltenabstandM > * { gap: 20px; }
-body .SpaltenabstandL > * { gap: 50px; }
-body .SpaltenabstandXL > * { gap: 100px; @media(max-width:1023px){ gap: 20px; } }
-body .SpaltenabstandXXL > * { gap: 200px; @media(max-width:1023px){ gap: 20px; } }
-body .horizontalerSpaltenabstandS > * { column-gap: 10px; }
-body .horizontalerSpaltenabstandM > * { column-gap: 20px; }
-body .horizontalerSpaltenabstandL > * { column-gap: 50px; }
-body .horizontalerSpaltenabstandXL > * { column-gap: 100px; @media(max-width:1023px){ gap: 20px; } }
-body .horizontalerSpaltenabstandXXL > * { column-gap: 200px; @media(max-width:1023px){ gap: 20px; } }
-body .vertikalerSpaltenabstandS > * { row-gap: 10px; }
-body .vertikalerSpaltenabstandM > * { row-gap: 20px; }
-body .vertikalerSpaltenabstandL > * { row-gap: 50px; }
-body .vertikalerSpaltenabstandXL > * { row-gap: 100px; @media(max-width:1023px){ gap: 20px; } }
-body .vertikalerSpaltenabstandXXL > * { row-gap: 200px; @media(max-width:1023px){ gap: 20px; } }
+body .SpaltenabstandXS > * { gap: var(--XS); }
+body .SpaltenabstandS > * { gap: var(--S); }
+body .SpaltenabstandM > * { gap: var(--M); }
+body .SpaltenabstandL > * { gap: var(--L); }
+body .SpaltenabstandXL > * { gap: var(--XL); @media(max-width:1023px){ gap: 20px; } }
+body .SpaltenabstandXXL > * { gap: var(--XXL); @media(max-width:1023px){ gap: 20px; } }
+body .horizontalerSpaltenabstandS > * { column-gap: var(--S); }
+body .horizontalerSpaltenabstandM > * { column-gap: var(--M); }
+body .horizontalerSpaltenabstandL > * { column-gap: var(--L); }
+body .horizontalerSpaltenabstandXL > * { column-gap: var(--XL); @media(max-width:1023px){ gap: 20px; } }
+body .horizontalerSpaltenabstandXXL > * { column-gap: var(--XXL); @media(max-width:1023px){ gap: 20px; } }
+body .vertikalerSpaltenabstandS > * { row-gap: var(--S); }
+body .vertikalerSpaltenabstandM > * { row-gap: var(--M); }
+body .vertikalerSpaltenabstandL > * { row-gap: var(--L); }
+body .vertikalerSpaltenabstandXL > * { row-gap: var(--XL); @media(max-width:1023px){ gap: 20px; } }
+body .vertikalerSpaltenabstandXXL > * { row-gap: var(--XXL); @media(max-width:1023px){ gap: 20px; } }
 //************************************************************* FARBEN *************************************************************//
 .fettSchriftfarbeWeiß strong, .kursivSchriftfarbeWeiß em, .ÜberschriftfarbeWeiß :is(h1, h2, h3, h4, h5, h6) { color: #fff; }
 .SchriftfarbeWeiß { color: #fff;
