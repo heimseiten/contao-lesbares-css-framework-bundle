@@ -14,8 +14,10 @@
 .Großbuchstaben,
 .fettGroßbuchstabenNichtFett strong { text-transform: uppercase; }
 .fettGroßbuchstabenNichtFett strong { font-weight: var(--font_weight, normal); }
-.fettKlein strong, .kursivKlein em, .SchriftKlein { font-size: .7em; }
-.fettKleinNichtFett strong, .kursivKleinNichtKursiv em { font-size: .7em; font-weight: var(--font_weight, normal); font-style: normal; }
+.fettKlein strong, .kursivKlein em, .SchriftKlein { font-size: 14px; }
+.fettSehrKlein strong, .kursivSehrKlein em, .SchriftSehrKlein { font-size: 12px; }
+.fettKleinNichtFett strong, .kursivKleinNichtKursiv em { font-size: 14px; font-weight: var(--font_weight, normal); font-style: normal; }
+.fettSehrKleinNichtFett strong, .kursivSehrKleinNichtKursiv em { font-size: 12px; font-weight: var(--font_weight, normal); font-style: normal; }
 .fettBlock strong { display: block; }
 .ZeilenabstandXS { line-height: 1; }
 .ZeilenabstandS { line-height: 1.2; }
