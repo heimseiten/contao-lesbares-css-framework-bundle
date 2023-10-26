@@ -18,6 +18,10 @@
 .fettSehrKlein strong, .kursivSehrKlein em, .SchriftSehrKlein { font-size: 12px; }
 .fettKleinNichtFett strong, .kursivKleinNichtKursiv em { font-size: 14px; font-weight: var(--font_weight, normal); font-style: normal; }
 .fettSehrKleinNichtFett strong, .kursivSehrKleinNichtKursiv em { font-size: 12px; font-weight: var(--font_weight, normal); font-style: normal; }
+.fettGroß strong, .kursivGroß em, .SchriftGroß { font-size: 18px; }
+.fettSehrGroß strong, .kursivSehrGroß em, .SchriftSehrGroß { font-size: 20px; }
+.fettGroßNichtFett strong, .kursivGroßNichtKursiv em { font-size: 18px; font-weight: var(--font_weight, normal); font-style: normal; }
+.fettSehrGroßNichtFett strong, .kursivSehrGroßNichtKursiv em { font-size: 20px; font-weight: var(--font_weight, normal); font-style: normal; }
 .fettBlock strong { display: block; }
 .ZeilenabstandXS { line-height: 1; }
 .ZeilenabstandS { line-height: 1.2; }
