@@ -23,12 +23,12 @@
 .fettGroßNichtFett strong, .kursivGroßNichtKursiv em { font-size: 18px; font-weight: var(--font_weight, normal); font-style: normal; }
 .fettSehrGroßNichtFett strong, .kursivSehrGroßNichtKursiv em { font-size: 20px; font-weight: var(--font_weight, normal); font-style: normal; }
 .fettBlock strong { display: block; }
-.ZeilenabstandXS { line-height: 1; }
-.ZeilenabstandS { line-height: 1.2; }
-.ZeilenabstandM { line-height: 1.4; }
-.ZeilenabstandL { line-height: 1.6; }
-.ZeilenabstandXL { line-height: 1.8; }
-.ZeilenabstandXXL { line-height: 2; }
+.ZeilenabstandXS, .ZeilenabstandXS :is(h1,h2,h3,h4,h5,h6) { line-height: 1; }
+.ZeilenabstandS, .ZeilenabstandS :is(h1,h2,h3,h4,h5,h6) { line-height: 1.2; }
+.ZeilenabstandM, .ZeilenabstandM :is(h1,h2,h3,h4,h5,h6) { line-height: 1.4; }
+.ZeilenabstandL, .ZeilenabstandL :is(h1,h2,h3,h4,h5,h6) { line-height: 1.6; }
+.ZeilenabstandXL, .ZeilenabstandXL :is(h1,h2,h3,h4,h5,h6) { line-height: 1.8; }
+.ZeilenabstandXXL, .ZeilenabstandXXL :is(h1,h2,h3,h4,h5,h6) { line-height: 2; }
 .zentriert { text-align: center; }
 .aufDesktopZentriert { text-align: center; @media(max-width:1023px){ text-align: left; } }
 .aufMobilZentriert { @media(max-width:1023px){ text-align: center; } }
