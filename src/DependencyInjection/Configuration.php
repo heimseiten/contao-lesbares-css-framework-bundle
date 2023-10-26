@@ -302,6 +302,7 @@ class Configuration implements ConfigurationInterface
                         'ListensymbolSpitzeAnführungszeichen',
                         'ListensymbolStrich',
                         'SchriftGroß',
+                        'SchriftSehrGroß',
                         'SchriftKlein',
                         'SchriftSehrKlein',
                         'TextAusrichtungRechts',
