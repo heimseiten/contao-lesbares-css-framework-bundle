@@ -243,12 +243,6 @@ class Configuration implements ConfigurationInterface
                         'vertikalerSpaltenabstandXL',
                         'vertikalerSpaltenabstandXXL',
                         'vertikalMittig',
-                        'ZeilenabstandL',
-                        'ZeilenabstandM',
-                        'ZeilenabstandS',
-                        'ZeilenabstandXL',
-                        'ZeilenabstandXS',
-                        'ZeilenabstandXXL',
                     ])
                 ->end()
 
@@ -317,6 +311,12 @@ class Configuration implements ConfigurationInterface
                         'Worttrennung',
                         'zweispaltig',
                         'zentriert',
+                        'ZeilenabstandL',
+                        'ZeilenabstandM',
+                        'ZeilenabstandS',
+                        'ZeilenabstandXL',
+                        'ZeilenabstandXS',
+                        'ZeilenabstandXXL',
                     ])
                 ->end()
                 ->arrayNode('space_classes')
