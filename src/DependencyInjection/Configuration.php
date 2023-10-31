@@ -50,7 +50,7 @@ class Configuration implements ConfigurationInterface
                     'rundeEckeObenRechts',
                     'rundeEckeUntenLinks',
                     'rundeEckeUntenRechts',
-                    'SchaltflächeInvertiere',
+                    'SchaltflächeInvertieren',
                     'verstecken',
                     'zentriert',
                 ])
