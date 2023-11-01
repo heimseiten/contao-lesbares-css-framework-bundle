@@ -229,7 +229,7 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 .content-text.TextRechts .rte, #wrapper .rs-columns.TextRechts { margin-right: 0; }
 
 //************************************************************* HÖHE *************************************************************//
-.volleHöhe { height: 100vh; }
+.volleHöhe { min-height: 100vh; }
 .Höhe5 { min-height: 5vh; }
 .Höhe10 { min-height: 10vh; }
 .Höhe15 { min-height: 15vh; }
