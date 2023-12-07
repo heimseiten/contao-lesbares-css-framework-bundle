@@ -70,6 +70,7 @@
 .ListensymbolStrich li::marker { content: '-  '; }
 .ListensymbolLangerStrich li::marker { content: '—  '; }
 .ListensymbolSpitzeAnführungszeichen li::marker { content: '»  '; }
+.ListensymbolDoppelpunkt li::marker { content: ':  '; }
 
 .Listensymbolfarbe1 li::marker { color: var(--color_1); }
 .Listensymbolfarbe2 li::marker { color: var(--color_2); }
