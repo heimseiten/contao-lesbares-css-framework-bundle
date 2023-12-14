@@ -30,6 +30,7 @@
 .ZeilenabstandL, .ZeilenabstandL :is(h1,h2,h3,h4,h5,h6) { line-height: 1.6; }
 .ZeilenabstandXL, .ZeilenabstandXL :is(h1,h2,h3,h4,h5,h6) { line-height: 1.8; }
 .ZeilenabstandXXL, .ZeilenabstandXXL :is(h1,h2,h3,h4,h5,h6) { line-height: 2; }
+.ZeilenabstandXXXL, .ZeilenabstandXXXL :is(h1,h2,h3,h4,h5,h6) { line-height: 3; }
 .zentriert { text-align: center; }
 .aufDesktopZentriert { text-align: center; @media(max-width:1023px){ text-align: left; } }
 .aufMobilZentriert { @media(max-width:1023px){ text-align: center; } }
