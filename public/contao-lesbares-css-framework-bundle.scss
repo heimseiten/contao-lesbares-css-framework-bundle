@@ -255,7 +255,7 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 //************************************************************* ABSTÄNDE *************************************************************//
 .ÜberschriftAbstandOben0 { :is(h1, h2, h3, h4, h5, h6) { margin-top: 0; } }
 .ÜberschriftAbstandUnten0 { :is(h1, h2, h3, h4, h5, h6) { margin-bottom: 0; } }
-
+.AbstandListe0 ul { margin-top: 0; margin-bottom: 0; }
 :root {
 	--XXXS: 10px;
 	--XXS: 20px;
