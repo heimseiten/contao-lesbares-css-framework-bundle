@@ -254,9 +254,6 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 .Höhe95 { min-height: 95vh; }
 .Höhe100 { min-height: 100vh; }
 //************************************************************* ABSTÄNDE *************************************************************//
-.ÜberschriftAbstandOben0 { :is(h1, h2, h3, h4, h5, h6) { margin-top: 0; } }
-.ÜberschriftAbstandUnten0 { :is(h1, h2, h3, h4, h5, h6) { margin-bottom: 0; } }
-
 :root {
 	--XXXS: 10px;
 	--XXS: 20px;
@@ -268,6 +265,12 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 	--XXL: 300px;
 	--XXXL: 400px;
 }
+.ÜberschriftAbstandOben0 { :is(h1, h2, h3, h4, h5, h6) { margin-top: 0; } }
+.ÜberschriftAbstandUnten0 { :is(h1, h2, h3, h4, h5, h6) { margin-bottom: 0; } }
+.ÜberschriftAbstandUntenXXXS { :is(h1, h2, h3, h4, h5, h6) { margin-bottom: var(--XXXS); } }
+.ÜberschriftAbstandUntenXXS { :is(h1, h2, h3, h4, h5, h6) { margin-bottom: var(--XXS); } }
+.ÜberschriftAbstandUntenXS { :is(h1, h2, h3, h4, h5, h6) { margin-bottom: var(--XS); } }
+.ÜberschriftAbstandUntenS { :is(h1, h2, h3, h4, h5, h6) { margin-bottom: var(--S); } }
 
 body #wrapper #container .Abstand0, .mod_article body #wrapper .AbstandText0 .rte, .AbstandBild0 figure { padding: 0px; }
 body #wrapper #container .AbstandXXXS, #container .mod_article .AbstandTextXXXS .rte, .AbstandBildXXXS figure { padding: var(--XXXS); }
