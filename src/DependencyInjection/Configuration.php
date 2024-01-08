@@ -185,6 +185,7 @@ class Configuration implements ConfigurationInterface
                         'Breite850',
                         'Breite900',
                         'Breite950',
+                        'volleBreite',
                         'minimaleHöhe5Prozent',
                         'minimaleHöhe10Prozent',
                         'minimaleHöhe15Prozent',
