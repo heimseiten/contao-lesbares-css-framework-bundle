@@ -91,12 +91,12 @@
 .LinkGrößeXL a { font-size: 1.6em; }
 .LinkGrößeXXL a { font-size: 2em; }
 
-.Linkfarbe1 a, .Linkfarbe1 a svg, .Linkfarbe1 a svg.icon { color: var(--color_1); fill: var(--color_1); }
-.Linkfarbe2 a, .Linkfarbe2 a svg, .Linkfarbe2 a svg.icon { color: var(--color_2); fill: var(--color_2); }
-.Linkfarbe3 a, .Linkfarbe3 a svg, .Linkfarbe3 a svg.icon { color: var(--color_3); fill: var(--color_3); }
-.Linkfarbe4 a, .Linkfarbe4 a svg, .Linkfarbe4 a svg.icon { color: var(--color_4); fill: var(--color_4); }
-.LinkfarbeSchwarz a, .LinkfarbeSchwarz a svg, .LinkfarbeSchwarz a svg.icon { color: #000; fill: #000; }
-.LinkfarbeWeiß a, .LinkfarbeWeiß a svg, .LinkfarbeWeiß a svg.icon { color: #fff; fill: #fff; }
+body .Linkfarbe1 a, body .Linkfarbe1 a svg, body .Linkfarbe1 a svg.icon { color: var(--color_1); fill: var(--color_1); }
+body .Linkfarbe2 a, body .Linkfarbe2 a svg, body .Linkfarbe2 a svg.icon { color: var(--color_2); fill: var(--color_2); }
+body .Linkfarbe3 a, body .Linkfarbe3 a svg, body .Linkfarbe3 a svg.icon { color: var(--color_3); fill: var(--color_3); }
+body .Linkfarbe4 a, body .Linkfarbe4 a svg, body .Linkfarbe4 a svg.icon { color: var(--color_4); fill: var(--color_4); }
+body .LinkfarbeSchwarz a, body .LinkfarbeSchwarz a svg, body .LinkfarbeSchwarz a svg.icon { color: #000; fill: #000; }
+body .LinkfarbeWeiß a, body .LinkfarbeWeiß a svg, body .LinkfarbeWeiß a svg.icon { color: #fff; fill: #fff; }
 //************************************************************* SPALTEN *************************************************************//
 .ElementeOben { align-items: start; }
 .vertikalMittig, .ElementeVertikalMittig { align-items: center; }
