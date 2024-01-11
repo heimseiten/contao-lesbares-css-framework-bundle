@@ -4,6 +4,7 @@
     "keywords": [
         "readable"
     ],
+    "type": "contao-bundle",
     "license": "GPL-3.0-or-later",
     "authors": [
         {
