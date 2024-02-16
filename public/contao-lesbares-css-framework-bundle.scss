@@ -37,9 +37,11 @@
 .aufDesktopBlocksatz { text-align: justify; @media(max-width:1023px){ text-align: left; } }
 .keineWorttrennung p,
 .fettKeineWorttrennung strong,
-.ÜberschriftKeineWorttrennung :is(h1, h2, h3, h4, h5, h6) { hyphens: none; }
+.ÜberschriftKeineWorttrennung :is(h1, h2, h3, h4, h5, h6), 
+.ÜberschriftKeineWorttrennung:is(h1, h2, h3, h4, h5, h6) { hyphens: none; }
 .Worttrennung p,
-.ÜberschriftWorttrennung :is(h1, h2, h3, h4, h5, h6) { hyphens: auto; }
+.ÜberschriftWorttrennung :is(h1, h2, h3, h4, h5, h6),
+.ÜberschriftWorttrennung:is(h1, h2, h3, h4, h5, h6) { hyphens: auto; }
 //************************************************************* BILDER *************************************************************//
 .BildRahmen img { border: 1px solid var(--border_color); }
 .BildRahmenVerschoben img { 
