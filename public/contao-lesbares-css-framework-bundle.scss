@@ -62,8 +62,8 @@
 .BildRund img { border-radius: var(--border_radius); }
 .BildKreis img { border-radius: 50%; }
 
-.mod_article > .BildAlsHintergrund,
-.mod_article > .BildAlsHintergrundFixiert {
+.mod_article > .BildAlsHintergrund figure,
+.mod_article > .BildAlsHintergrundFixiert figure {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -75,7 +75,7 @@
 	filter: opacity(.3);
 	img { width: 100vw; height: 100vh; object-fit: cover; }
 }
-.mod_article > .BildAlsHintergrund {
+.mod_article > .BildAlsHintergrund figure {
 	position: absolute;
 	display: grid;
 	height: 100%;
