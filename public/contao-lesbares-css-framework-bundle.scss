@@ -585,25 +585,6 @@ body #wrapper #container .AbstandNegativLinksXXL { margin-left: calc( -1 * var(-
 body #wrapper #container .AbstandNegativLinksXXXL { margin-left: calc( -1 * var(--XXXL) ); @media(max-width:767px){ padding-left: 0; } }
 
 //************************************************************* SPALTEN *************************************************************//
-body .SpaltenabstandXXXS { --columns_margin: var(--XXXS); gap: var(--XXXS); }
-body .SpaltenabstandXXS { --columns_margin: var(--XXS); gap: var(--XXS); }
-body .SpaltenabstandXS { --columns_margin: var(--XS); gap: var(--XS); }
-body .SpaltenabstandS { --columns_margin: var(--S); gap: var(--S); }
-body .SpaltenabstandM { --columns_margin: var(--M); gap: var(--M); }
-body .SpaltenabstandL { --columns_margin: var(--L); gap: var(--L); }
-body .SpaltenabstandXL { --columns_margin: var(--XL); gap: var(--XL); @media(max-width:1023px){ gap: 20px; } }
-body .SpaltenabstandXXL { --columns_margin: var(--XXL); gap: var(--XXL); @media(max-width:1023px){ gap: 20px; } }
-body .SpaltenabstandXXXL { --columns_margin: var(--XXXL); gap: var(--XXXL); @media(max-width:1023px){ gap: 20px; } }
-body .horizontalerSpaltenabstandS { column-gap: var(--S); }
-body .horizontalerSpaltenabstandM { column-gap: var(--M); }
-body .horizontalerSpaltenabstandL { column-gap: var(--L); }
-body .horizontalerSpaltenabstandXL { column-gap: var(--XL); @media(max-width:1023px){ gap: 20px; } }
-body .horizontalerSpaltenabstandXXL { column-gap: var(--XXL); @media(max-width:1023px){ gap: 20px; } }
-body .vertikalerSpaltenabstandS { row-gap: var(--S); }
-body .vertikalerSpaltenabstandM { row-gap: var(--M); }
-body .vertikalerSpaltenabstandL { row-gap: var(--L); }
-body .vertikalerSpaltenabstandXL { row-gap: var(--XL); @media(max-width:1023px){ gap: 20px; } }
-body .vertikalerSpaltenabstandXXL { row-gap: var(--XXL); @media(max-width:1023px){ gap: 20px; } }
 //************************************************************* FARBEN *************************************************************//
 .fettSchriftfarbeWeiß strong, .kursivSchriftfarbeWeiß em, .ÜberschriftfarbeWeiß :is(h1, h2, h3, h4, h5, h6) { color: #fff; }
 .SchriftfarbeWeiß { color: #fff;
