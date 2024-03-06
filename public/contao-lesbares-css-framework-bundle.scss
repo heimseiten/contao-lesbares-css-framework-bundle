@@ -103,7 +103,10 @@
 .ListensymbolfarbeWeiß li::marker { color: #fff; }
 .ListensymbolfarbeSchwarz li::marker { color: #000; }
 //************************************************************* LINKS *************************************************************//
-.LinkOhneUnterstrich a { text-decoration: none; }
+.LinkOhneUnterstrich a {
+	text-decoration: none; 
+	&:before { display: none; }
+}
 .LinkMitUnterstrich a { text-decoration: underline; }
 .LinkUnterstrichBeiBerührung a:hover { text-decoration: underline; }
 
