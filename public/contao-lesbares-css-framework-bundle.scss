@@ -190,6 +190,7 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 	background: #f8f8f8;
 	border-radius: 3px;
 	overflow: hidden;
+	@media(max-width:1023px){ padding: .5em; }
 }
 
 .abg1 #wrapper .mod_article:nth-child(odd) .Kachel,
