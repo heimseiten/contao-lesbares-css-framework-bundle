@@ -343,7 +343,6 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 .maximaleHöhe950Pixel { max-height: 950px; }
 .maximaleHöhe1000Pixel { max-height: 1000px; }
 //************************************************************* ABSTÄNDE *************************************************************//
-.unterKopfzeile { margin-top: calc( var(--header_height) * -1 ); }
 :root {
 	--XXXS: 10px;
 	--XXS: 20px;
