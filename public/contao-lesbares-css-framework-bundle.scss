@@ -343,6 +343,7 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 .maximaleHöhe950Pixel { max-height: 950px; }
 .maximaleHöhe1000Pixel { max-height: 1000px; }
 //************************************************************* ABSTÄNDE *************************************************************//
+.unterKopfzeile { margin-top: calc( var(--header_height) * -1 ); }
 :root {
 	--XXXS: 10px;
 	--XXS: 20px;
@@ -588,7 +589,6 @@ body #wrapper #container .AbstandNegativLinksXL { margin-left: calc( -1 * var(--
 body #wrapper #container .AbstandNegativLinksXXL { margin-left: calc( -1 * var(--XXL) ); @media(max-width:767px){ padding-left: 0; } }
 body #wrapper #container .AbstandNegativLinksXXXL { margin-left: calc( -1 * var(--XXXL) ); @media(max-width:767px){ padding-left: 0; } }
 
-//************************************************************* SPALTEN *************************************************************//
 //************************************************************* FARBEN *************************************************************//
 .fettSchriftfarbeWeiß strong, .kursivSchriftfarbeWeiß em, .ÜberschriftfarbeWeiß :is(h1, h2, h3, h4, h5, h6) { color: #fff; }
 .SchriftfarbeWeiß { color: #fff;
