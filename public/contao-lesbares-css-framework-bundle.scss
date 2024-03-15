@@ -6,8 +6,10 @@
 	@media(max-width:1023px){ columns: 1; gap: 0; }
 	ul { margin-top: 0; margin-bottom: 0; }
 }
+.Rahmen { border: 1px solid var(--border_color); }
+.Rahmenfarbe1 { border: 1px solid var(--color_1); }
+.Rahmenfarbe2 { border: 1px solid var(--color_2); }
 //************************************************************* TEXT *************************************************************//
-.TextRahmen .rte { padding: 0.25rem 2rem; border: 1px solid var(--color_1); }
 .TextAusrichtungRechts { text-align: right; }
 .kursivGroßbuchstaben strong, 
 .fettGroßbuchstaben strong,
