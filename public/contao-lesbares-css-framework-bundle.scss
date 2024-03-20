@@ -6,10 +6,12 @@
 	@media(max-width:1023px){ columns: 1; gap: 0; }
 	ul { margin-top: 0; margin-bottom: 0; }
 }
-.Rahmen, .RahmenFett { border: 1px solid var(--border_color, #ddd); }
+.Rahmen, .RahmenFett, .Rahmenfarbe1, .Rahmenfarbe2, .RahmenfarbeWeiß { border: 1px solid var(--border_color, #ddd); }
 .RahmenFett { border-width: 2px; }
-.Rahmenfarbe1 { border: 1px solid var(--color_1); }
-.Rahmenfarbe2 { border: 1px solid var(--color_2); }
+.Rahmenfarbe1 { border-color: var(--color_1); }
+.Rahmenfarbe2 { border-color: var(--color_2); }
+.RahmenfarbeWeiß { border-color: #fff; }
+.RahmenfarbeSchwarz { border-color: #000; }
 //************************************************************* TEXT *************************************************************//
 .TextAusrichtungRechts { text-align: right; }
 .kursivGroßbuchstaben strong, 
