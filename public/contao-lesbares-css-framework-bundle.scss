@@ -69,7 +69,7 @@
 .mod_article .BildAlsHintergrund,
 .mod_article .BildAlsHintergrundFixiert {
 	position: fixed;
-	z-index: 0;
+	z-index: -1;
 	top: 0;
 	left: 0;
 	width: 100vw;
