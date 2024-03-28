@@ -23,9 +23,4 @@ class HeimseitenContaoLesbaresCssFrameworkBundle extends Bundle
     {
         return \dirname(__DIR__);
     }
-
-    public function getContainerExtension(): HeimseitenContaoLesbaresCssFrameworkExtension
-    {
-        return new HeimseitenContaoLesbaresCssFrameworkExtension();
-    }
 }
