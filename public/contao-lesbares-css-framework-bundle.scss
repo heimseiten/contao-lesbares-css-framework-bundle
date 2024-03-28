@@ -86,6 +86,29 @@
 	height: 100%;
 	img { height: 100%; }
 }
+
+#wrapper div[class^='BildNachLinksVerschieben'], #wrapper div[class*=' BildNachLinksVerschieben'] {
+	&.BildNachLinksVerschieben20 { --verschieben: 20px; }
+	&.BildNachLinksVerschieben50 { --verschieben: 50px; }
+	&.BildNachLinksVerschieben100 { --verschieben: 100px; }
+	&.BildNachLinksVerschieben150 { --verschieben: 150px; }
+	&.BildNachLinksVerschieben200 { --verschieben: 200px; }
+	&.BildNachLinksVerschieben250 { --verschieben: 250px; }
+	margin-left: calc( var(--verschieben) * -1 );
+	width: calc( 100% + var(--verschieben) );
+	img { width: 100%; }
+}
+#wrapper div[class^='BildNachRechtsVerschieben'], #wrapper div[class*=' BildNachRechtsVerschieben'] {
+	&.BildNachRechtsVerschieben20 { --verschieben: 20px; }
+	&.BildNachRechtsVerschieben50 { --verschieben: 50px; }
+	&.BildNachRechtsVerschieben100 { --verschieben: 100px; }
+	&.BildNachRechtsVerschieben150 { --verschieben: 150px; }
+	&.BildNachRechtsVerschieben200 { --verschieben: 200px; }
+	&.BildNachRechtsVerschieben250 { --verschieben: 250px; }
+	margin-right: calc( var(--verschieben) * -1 );
+	width: calc( 100% + var(--verschieben) );
+	img { width: 100%; }
+}
 //************************************************************* LISTEN *************************************************************//
 .ListeAbstand0 ul { margin: 0; }
 .ListensymbolPunkt li { list-style: disc; }
