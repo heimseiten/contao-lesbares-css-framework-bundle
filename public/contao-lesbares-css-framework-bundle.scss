@@ -681,25 +681,11 @@ body #wrapper #container .AbstandNegativLinksXXXL { margin-left: calc( -1 * var(
 .IconfarbeWeiß svg { fill: #fff; }
 .IconfarbeSchwarz svg { fill: #000; }
 //************************************************************* BUTTON *************************************************************//
-body #wrapper .ButtonAufGleicherHöhe {
-	padding-bottom: 55px;
-	a { 
-		position: absolute; 
-		bottom: 20px;
-		right: 20px;
-	}
-}
-button.SchaltflächeInvertieren {
-	background-color: var(--color_1);
-	color: #fff;
-	border: 1px solid var(--color_1);
-	&:hover { 
-		background: #fff;
-		color: var(--color_1);
-	}
-}
 html body .content-text {
-	&.LinkAlsButton, &.LinkAlsButton2, &.kursiverLinkAlsButton, &.fettAlsButton { 
+	--button_color: var(--color_1, #000);
+	--button_font_color: var(--color_1, #000);
+	&.LinkAlsButton2, &.fettAlsButton2, &.kursiverLinkAlsButton2 { --button_color: var(--color_2); }
+	&.LinkAlsButton, &.LinkAlsButton2, &.kursiverLinkAlsButton, &.kursiverLinkAlsButton2, &.fettAlsButton, &.fettAlsButton2 { 
 		position: relative;
 		&:not(.kursiverLinkAlsButton) .rte strong a,
 		&:not(.kursiverLinkAlsButton) .rte a strong { font-weight: var(--font_width_strong); }
@@ -710,42 +696,28 @@ html body .content-text {
 			cursor: pointer;
 			display: inline-block;
 			background: #fff;
-			color: var(--color_1);
+			color: var(--button_color);
 			font-style: normal; 
-			border: 1px solid var(--color_1);
+			border: 1px solid var(--button_color);
 			border-radius: .25rem;
 			text-decoration: none; 
 			padding: .25rem 2rem;
 			line-height: 1.4;
 			transition: all 0.25s ease-in-out;
 			svg, svg.icon { 
-				fill: var(--color_1); 
+				fill: var(--button_color); 
 				transition: all 0.25s ease-in-out;
 			}
 			&:before { display: none; }
 			&:hover { 
-				background: var(--color_1);
+				background: var(--button_color);
 				color: #fff;
-				border-color: #fff;
 				svg, svg.icon { fill: #fff; }
 			}
     		}
 	}
-	&.LinkAlsButton2, &.fettAlsButton2 { 
-		&:not(.kursiverLinkAlsButton) .rte a, 
-		&:not(.LinkAlsButton) .rte em a,
-		&:not(.LinkAlsButton) .rte a em,
-		&.fettAlsButton2 .rte strong { 
-			display: inline-block; 
-			background-color: var(--color_2); 
-			&:hover { 
-				background-color: transparent;
-				color: var(--color_2);
-				border-color: var(--color_2);
-			}
-		}
-	}
 }
+
 #footer > .inside > * .IconButton { font-size: 0; 
 	a:before { background: transparent; } 
 	a svg { 
