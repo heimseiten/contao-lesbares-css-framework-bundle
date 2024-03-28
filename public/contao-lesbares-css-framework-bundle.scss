@@ -710,25 +710,24 @@ html body .content-text {
 			cursor: pointer;
 			display: inline-block;
 			background: #fff;
-			color: var(--button_font_color);
-			font-weight: var(--button_font_weight); 
+			color: var(--color_1);
 			font-style: normal; 
-			border: 1px solid var(--button_border_color); 
-			border-radius: var(--button_border_radius); 
+			border: 1px solid var(--color_1);
+			border-radius: .25rem;
 			text-decoration: none; 
 			padding: .25rem 2rem;
 			line-height: 1.4;
 			transition: all 0.25s ease-in-out;
 			svg, svg.icon { 
-				fill: var(--button_font_color); 
+				fill: var(--color_1); 
 				transition: all 0.25s ease-in-out;
 			}
 			&:before { display: none; }
 			&:hover { 
-				background: var(--button_color_hover); 
-				color: var(--button_font_color_hover);
-				border-color: var(--button_border_color_hover);
-				svg, svg.icon { fill: var(--button_font_color_hover); }
+				background: var(--color_1);
+				color: #fff;
+				border-color: #fff;
+				svg, svg.icon { fill: #fff; }
 			}
     		}
 	}
