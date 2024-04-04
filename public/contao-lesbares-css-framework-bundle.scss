@@ -50,6 +50,7 @@
 .Worttrennung p,
 .ÜberschriftWorttrennung :is(h1, h2, h3, h4, h5, h6),
 .ÜberschriftWorttrennung:is(h1, h2, h3, h4, h5, h6) { hyphens: auto; }
+.TextFett p { font-weight: var(--font_weight_strong); }
 //************************************************************* BILDER *************************************************************//
 .Bildrahmen img { border: 1px solid var(--border_color); }
 .Bildrahmenfarbe1 img { border: 1px solid var(--color_1); }
