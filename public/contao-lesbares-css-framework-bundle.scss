@@ -168,7 +168,15 @@
 	&:before { display: none; }
 }
 .LinkMitUnterstrich a { text-decoration: underline; }
-.LinkUnterstrichBeiBerührung a:hover { text-decoration: underline; }
+.LinkunterstrichBeiBerührung a:hover { text-decoration: underline; }
+.LinkOhneUnterstrichBeiBerührung a:hover { text-decoration: none; }
+
+.LinkBeiBerührungDrehen a {
+	display: inline-block;
+	line-height: 1;
+	transition: all 0.25s ease-in-out;
+	&:hover { transform: rotate(45deg); }
+}
 
 .LinkGrößeXXS a { font-size: .55em; }
 .LinkGrößeXS a { font-size: .7em; }
@@ -730,6 +738,16 @@ body #wrapper #container .AbstandNegativLinksXXXL { margin-left: calc( -1 * var(
 .Iconfarbe4 svg { fill: var(--color_4); }
 .IconfarbeWeiß svg { fill: #fff; }
 .IconfarbeSchwarz svg { fill: #000; }
+//************************************************************* ICONS *************************************************************//
+.IcongrößeXXXS svg  { width: var(--XXXS); height: var(--XXXS); }
+.IcongrößeXXS svg  { width: var(--XXS); height: var(--XXS); }
+.IcongrößeXS svg  { width: var(--XS); height: var(--XS); }
+.IcongrößeS svg  { width: var(--S); height: var(--S); }
+.IcongrößeM svg  { width: var(--M); height: var(--M); }
+.IcongrößeL svg  { width: var(--L); height: var(--L); }
+.IcongrößeXL svg  { width: var(--XL); height: var(--XL); }
+.IcongrößeXXL svg  { width: var(--XXL); height: var(--XXL); }
+.IcongrößeXXXL svg  { width: var(--XXXL); height: var(--XXXL); }
 //************************************************************* BUTTON *************************************************************//
 html body .content-text {
 	--button_border_color: var(--color_1, #000);
@@ -815,19 +833,6 @@ html body .content-text {
 			}
     	}
 	}
-}
-
-#footer > .inside > * .IconButton { font-size: 0; 
-	a:before { background: transparent; } 
-	a svg { 
-		width: 30px; 
-		height: 30px; 
-		border-radius: 50%; 
-		margin-right: 10px;
-		transition: all 0.25s ease-in-out;
-		&:hover { transform: rotate(45deg); }
-	}
-	svg, svg.icon { fill: var(--color_1); }
 }
 //************************************************************* animierterUnterstrich *************************************************************//
 body.scroll-down .animierterUnterstrich s:nth-of-type(1):after, 
