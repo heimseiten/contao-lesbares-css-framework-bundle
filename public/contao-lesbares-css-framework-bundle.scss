@@ -739,6 +739,16 @@ body #wrapper #container .AbstandNegativLinksXXXL { margin-left: calc( -1 * var(
 .Iconfarbe4 svg { fill: var(--color_4); }
 .IconfarbeWeiß svg { fill: #fff; }
 .IconfarbeSchwarz svg { fill: #000; }
+
+#header .mod_navigation li.Navigationsfarbe1 > * { color: var(--color_1); }
+#header .mod_navigation li.Navigationsfarbe2 > * { color: var(--color_2); }
+#header .mod_navigation li.Navigationsfarbe3 > * { color: var(--color_3); }
+#header .mod_navigation li.Navigationsfarbe4 > * { color: var(--color_4); }
+
+#header .mod_navigation li.Navigationshintergrund1 > * { background: var(--color_1); border-radius: 10px; }
+#header .mod_navigation li.Navigationshintergrund2 > * { background: var(--color_2); border-radius: 10px; }
+#header .mod_navigation li.Navigationshintergrund3 > * { background: var(--color_3); border-radius: 10px; }
+#header .mod_navigation li.Navigationshintergrund4 > * { background: var(--color_4); border-radius: 10px; }
 //************************************************************* ICONS *************************************************************//
 .IcongrößeXXXS svg  { width: var(--XXXS); height: var(--XXXS); }
 .IcongrößeXXS svg  { width: var(--XXS); height: var(--XXS); }
