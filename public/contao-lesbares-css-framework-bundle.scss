@@ -185,12 +185,12 @@
 	&:hover { transform: rotate(45deg); }
 }
 
-.LinkgrößeXXS a { font-size: .55em; }
-.LinkgrößeXS a { font-size: .7em; }
-.LinkgrößeS a { font-size: .85em; }
-.LinkgrößeL a { font-size: 1.3em; }
-.LinkgrößeXL a { font-size: 1.6em; }
-.LinkgrößeXXL a { font-size: 2em; }
+body #wrapper .LinkgrößeXXS a { font-size: .55em; }
+body #wrapper .LinkgrößeXS a { font-size: .7em; }
+body #wrapper .LinkgrößeS a { font-size: .85em; }
+body #wrapper .LinkgrößeL a { font-size: 1.3em; }
+body #wrapper .LinkgrößeXL a { font-size: 1.6em; }
+body #wrapper .LinkgrößeXXL a { font-size: 2em; }
 
 body .Linkfarbe1 a, body .Linkfarbe1 a svg, body .Linkfarbe1 a svg.icon { color: var(--color_1); fill: var(--color_1); }
 body .Linkfarbe2 a, body .Linkfarbe2 a svg, body .Linkfarbe2 a svg.icon { color: var(--color_2); fill: var(--color_2); }
