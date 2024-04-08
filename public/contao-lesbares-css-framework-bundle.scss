@@ -807,13 +807,13 @@ html body .content-text {
 	&.ButtonschriftfarbeSchwarz p { --button_font_color: #000; }
 	&.ButtonschriftfarbeGrau p { --button_font_color: #444; }
 	
-	&.Buttonhoverschriftfarbe1 { --button_hover_font_color: var(--color_1, #000); }
-	&.Buttonhoverschriftfarbe2 { --button_hover_font_color: var(--color_2, #000); }
-	&.Buttonhoverschriftfarbe3 { --button_hover_font_color: var(--color_3, #000); }
-	&.Buttonhoverschriftfarbe4 { --button_hover_font_color: var(--color_4, #000); }
-	&.ButtonhoverschriftfarbeWeiß { --button_hover_font_color: #fff; }
-	&.ButtonhoverschriftfarbeSchwarz { --button_hover_font_color: #000; }
-	&.ButtonhoverschriftfarbeGrau { --button_hover_font_color: #f8f8f8; }
+	&.Buttonhoverschriftfarbe1 a { --button_hover_font_color: var(--color_1, #000); }
+	&.Buttonhoverschriftfarbe2 a { --button_hover_font_color: var(--color_2, #000); }
+	&.Buttonhoverschriftfarbe3 a { --button_hover_font_color: var(--color_3, #000); }
+	&.Buttonhoverschriftfarbe4 a { --button_hover_font_color: var(--color_4, #000); }
+	&.ButtonhoverschriftfarbeWeiß a { --button_hover_font_color: #fff; }
+	&.ButtonhoverschriftfarbeSchwarz a { --button_hover_font_color: #000; }
+	&.ButtonhoverschriftfarbeGrau a { --button_hover_font_color: #f8f8f8; }
 
 	&.LinkAlsButton, &.LinkAlsButton2, &.kursiverLinkAlsButton, &.kursiverLinkAlsButton2, &.fettAlsButton, &.fettAlsButton2 { 
 		position: relative;
