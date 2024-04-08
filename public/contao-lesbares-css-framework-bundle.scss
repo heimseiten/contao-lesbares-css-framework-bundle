@@ -23,12 +23,15 @@
 .Großbuchstaben,
 .fettGroßbuchstabenNichtFett strong { text-transform: uppercase; }
 .fettGroßbuchstabenNichtFett strong { font-weight: var(--font_weight, normal); }
-.fettKlein strong, .kursivKlein em, .SchriftKlein { font-size: 14px; }
-.fettSehrKlein strong, .kursivSehrKlein em, .SchriftSehrKlein { font-size: 12px; }
+.fettSchriftgrößeXXS strong, .kursivSchriftgrößeXXS em, .SchriftgrößeXXS { font-size: .55em; }	
+.fettSchriftgrößeXS strong, .kursivSchriftgrößeXS em, .SchriftgrößeXS { font-size: .7em; }
+.fettSchriftgrößeS strong, .kursivSchriftgrößeS em, .SchriftgrößeS { font-size: .85em; }
+.fettSchriftgrößeL strong, .kursivSchriftgrößeL em, .SchriftgrößeL { font-size: 1.3em; }
+.fettSchriftgrößeXL strong, .kursivSchriftgrößeXL em, .SchriftgrößeXL { font-size: 1.6em; }
+.fettSchriftgrößeXXL strong, .kursivSchriftgrößeXXL em, .SchriftgrößeXXL { font-size: 2em; }
+.fettSchriftgrößeXXXL strong, .kursivSchriftgrößeXXXL em, .SchriftgrößeXXXL { font-size: 3em; }
 .fettKleinNichtFett strong, .kursivKleinNichtKursiv em { font-size: 14px; font-weight: var(--font_weight, normal); font-style: normal; }
 .fettSehrKleinNichtFett strong, .kursivSehrKleinNichtKursiv em { font-size: 12px; font-weight: var(--font_weight, normal); font-style: normal; }
-.fettGroß strong, .kursivGroß em, .SchriftGroß { font-size: 18px; }
-.fettSehrGroß strong, .kursivSehrGroß em, .SchriftSehrGroß { font-size: 20px; }
 .fettGroßNichtFett strong, .kursivGroßNichtKursiv em { font-size: 18px; font-weight: var(--font_weight, normal); font-style: normal; }
 .fettSehrGroßNichtFett strong, .kursivSehrGroßNichtKursiv em { font-size: 20px; font-weight: var(--font_weight, normal); font-style: normal; }
 .fettBlock strong { display: block; }
