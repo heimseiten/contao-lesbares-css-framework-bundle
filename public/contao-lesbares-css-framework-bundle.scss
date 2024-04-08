@@ -131,22 +131,25 @@
 .ListensymbolSpitzeAnführungszeichen li::marker { content: '»  '; }
 .ListensymbolDoppelpunkt li::marker { content: ':  '; }
 
-.ListensymbolHaken li {
-	&::marker { content: ''; }
-	&::before { 
-		content: "\2713";
-		font-weight: 600;
-		font-family: Inter var,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
-		margin-right: 0.8em;
-		margin-left: -1.3em;
-		display: inline-block;
-		position: relative;
-		width: 1em;
-		height: 1em;
-		padding: 0.2em;
-		border-radius: 50%;
-		line-height: 1;
-		text-align: center;
+.ListensymbolHaken ul {
+	padding-left: 50px;
+	& li {
+		&::marker { content: ''; }
+		&::before { 
+			position: absolute;
+			margin-left: -45px;
+			margin-top: 3px;
+			display: inline-block;
+			content: "\2713";
+			font-weight: 600;
+			font-family: Inter var,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+			width: 1em;
+			height: 1em;
+			padding: 0.2em;
+			border-radius: 50%;
+			line-height: 1;
+			text-align: center;
+		}
 	}
 }
 
