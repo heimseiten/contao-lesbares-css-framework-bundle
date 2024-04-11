@@ -286,8 +286,8 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 .mod_article .volleBreiteMitAbstand { width: 100%; }
 .mod_article .volleBreite.content-table table { width: 100%; }
 .mod_article .volleBreite.content-image img { width: 100%; height: auto; }
-.mod_article.volleBreite { width: 100%; 
-	& > * { padding-right: 0; padding-left: 0; 
+.mod_article.volleBreite {
+	& > * { width: 100%; padding-right: 0; padding-left: 0; 
 		&.content-image img { width: 100%; }
 	}
 }
