@@ -85,6 +85,8 @@
 	padding: 0;
 	img { width: 100vw; height: 100vh; object-fit: cover; }
 }
+.mod_article:has(.BildAlsHintergrundFixiert) { overflow: hidden; }
+
 .mod_article .BildAlsHintergrund {
 	position: absolute;
 	display: grid;
