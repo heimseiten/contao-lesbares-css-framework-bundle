@@ -138,7 +138,7 @@
 
 .ListensymbolHaken ul {
 	padding-left: 50px;
-	& li {
+	& li {	list-style: none;
 		&::marker { content: ''; }
 		&::before { 
 			position: absolute;
