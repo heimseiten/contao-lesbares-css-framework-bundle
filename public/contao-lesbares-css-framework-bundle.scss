@@ -252,10 +252,6 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 		height: 100%;
 		overflow: hidden;
 		&.content-text.media--above img { margin-bottom: .5em; }
-		@media(max-width:1023px){  
-			margin-left: 20px;
-			margin-right: 20px;
-		}
 	}
 	&.KachelnWeiß > * { background: #fff; }
 	&.KachelnGrau > * { background: #f8f8f8; }
