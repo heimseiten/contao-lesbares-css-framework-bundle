@@ -7,6 +7,7 @@
 	@media(max-width:1023px){ columns: 1; gap: 0; }
 	ul { margin-top: 0; margin-bottom: 0; }
 }
+.nachHinten { z-index: -1; }
 .Rahmen, .RahmenbreiteL, .RahmenbreiteXL, .Rahmenfarbe1, .Rahmenfarbe2, .RahmenfarbeWeiß { border: 1px solid var(--border_color, #ddd); }
 .RahmenbreiteL { border-width: 2px; }
 .RahmenbreiteXL { border-width: 5px; }
