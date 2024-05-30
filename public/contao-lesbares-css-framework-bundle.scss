@@ -746,8 +746,11 @@ body #wrapper #container .AbstandNegativLinksXXXL { margin-left: calc( -1 * var(
 .Iconfarbe2 svg { fill: var(--color_2); }
 .Iconfarbe3 svg { fill: var(--color_3); }
 .Iconfarbe4 svg { fill: var(--color_4); }
+.Iconfarbe5 svg { fill: var(--color_5); }
 .IconfarbeWeiß svg { fill: #fff; }
 .IconfarbeSchwarz svg { fill: #000; }
+.IconfarbeGrau svg { fill: #444; }
+.IconfarbeSchriftfarbe svg { fill: var(--font_color, #000); }
 
 #header .mod_navigation li.Navigationsfarbe1 > * { color: var(--color_1); }
 #header .mod_navigation li.Navigationsfarbe2 > * { color: var(--color_2); }
