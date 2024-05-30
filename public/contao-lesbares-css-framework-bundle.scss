@@ -163,6 +163,7 @@
 .ListensymbolHintergrund2 li::marker, .ListensymbolHintergrund2 li::before { background: var(--color_2); }
 .ListensymbolHintergrund3 li::marker, .ListensymbolHintergrund3 li::before { background: var(--color_3); }
 .ListensymbolHintergrund4 li::marker, .ListensymbolHintergrund4 li::before { background: var(--color_4); }
+.ListensymbolHintergrund5 li::marker, .ListensymbolHintergrund5 li::before { background: var(--color_5); }
 .ListensymbolHintergrundWeiß li::marker, .ListensymbolHintergrundWeiß li::before { background: #fff; }
 .ListensymbolHintergrundSchwarz li::marker, .ListensymbolHintergrundSchwarz li::before { background: #000; }
 
@@ -718,6 +719,9 @@ body #wrapper #container .AbstandNegativLinksXXXL { margin-left: calc( -1 * var(
 #wrapper .Hintergrund4, .fettHintergrund4 strong { background-color: var(--color_4); }
 #wrapper .Hintergrund4.HintergrundTransparent { background-color: color-mix(in lab, var(--color_4), transparent 80%); }
 
+#wrapper .Hintergrund5, .fettHintergrund5 strong { background-color: var(--color_5); }
+#wrapper .Hintergrund5.HintergrundTransparent { background-color: color-mix(in lab, var(--color_5), transparent 80%); }
+
 #wrapper .HintergrundWeiß, .fettHintergrundWeiß strong { background-color: #fff; color: var(--font_color); }
 #wrapper .HintergrundWeiß.HintergrundTransparent { background-color: color-mix(in lab, #fff, transparent 80%); }
 
@@ -754,6 +758,7 @@ body #wrapper #container .AbstandNegativLinksXXXL { margin-left: calc( -1 * var(
 #header .mod_navigation li.Navigationshintergrund2 > * { background: var(--color_2); border-radius: 10px; }
 #header .mod_navigation li.Navigationshintergrund3 > * { background: var(--color_3); border-radius: 10px; }
 #header .mod_navigation li.Navigationshintergrund4 > * { background: var(--color_4); border-radius: 10px; }
+#header .mod_navigation li.Navigationshintergrund5 > * { background: var(--color_5); border-radius: 10px; }
 //************************************************************* ICONS *************************************************************//
 .IcongrößeXXXS svg  { width: var(--XXXS); height: var(--XXXS); }
 .IcongrößeXXS svg  { width: var(--XXS); height: var(--XXS); }
@@ -874,6 +879,7 @@ body:not(.scroll-down) .animierterUnterstrich s:nth-of-type(2):after { width: 0;
 .Hintergrund2,
 .Hintergrund3,
 .Hintergrund4,
+.Hintergrund5,
 .HintergrundSchwarz,
 .HintergrundDunkelgrau {
 	.animierterUnterstrich {
