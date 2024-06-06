@@ -182,11 +182,17 @@
 .LinkunterstrichBeiBerührung a:hover { text-decoration: underline; }
 .LinkOhneUnterstrichBeiBerührung a:hover { text-decoration: none; }
 
-.LinkBeiBerührungDrehen a {
+.LinkBeiBerührungDrehen a, a.LinkBeiBerührungDrehen {
 	display: inline-block;
 	line-height: 1;
 	transition: all 0.25s ease-in-out;
 	&:hover { transform: rotate(45deg); }
+}
+.LinkBeiBerührungVergrößern a, a.LinkBeiBerührungVergrößern {
+	display: inline-block;
+	line-height: 1;
+	transition: all 0.25s ease-in-out;
+	&:hover { transform: scale(1.05); }
 }
 
 body #wrapper .LinkgrößeXXS a { font-size: .55em; }
