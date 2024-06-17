@@ -426,6 +426,7 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 .maximaleHöhe1000Pixel { max-height: 1000px; }
 //************************************************************* ABSTÄNDE *************************************************************//
 :root {
+	--XXXXS: 5px;
 	--XXXS: 10px;
 	--XXS: 20px;
 	--XS: 25px;
@@ -517,6 +518,7 @@ body #wrapper #container .AbstandLinksXXXL, #container .mod_article .AbstandText
 #wrapper .AbstandBildUnten0 figure { margin-bottom: 0px; }
 #wrapper .AbstandBildLinks0 figure { margin-left: 0px; }
 
+#wrapper .AbstandBildObenXXXXS figure { margin-top: var(--XXXXS); }
 #wrapper .AbstandBildObenXXXS figure { margin-top: var(--XXXS); }
 #wrapper .AbstandBildObenXXS figure { margin-top: var(--XXS); }
 #wrapper .AbstandBildObenXS figure { margin-top: var(--XS); }
@@ -527,6 +529,7 @@ body #wrapper #container .AbstandLinksXXXL, #container .mod_article .AbstandText
 #wrapper .AbstandBildObenXXL figure { margin-top: var(--XXL); @media(max-width:767px){ margin-top: 20px; } }
 #wrapper .AbstandBildObenXXXL figure { margin-top: var(--XXXL); @media(max-width:767px){ margin-top: 20px; } }
 
+#wrapper .AbstandBildRechtsXXXXS figure { margin-right: var(--XXXXS); }
 #wrapper .AbstandBildRechtsXXXS figure { margin-right: var(--XXXS); }
 #wrapper .AbstandBildRechtsXXS figure { margin-right: var(--XXS); }
 #wrapper .AbstandBildRechtsXS figure { margin-right: var(--XS); }
@@ -537,6 +540,7 @@ body #wrapper #container .AbstandLinksXXXL, #container .mod_article .AbstandText
 #wrapper .AbstandBildRechtsXXL figure { margin-right: var(--XXL); @media(max-width:767px){ margin-right: 20px; } }
 #wrapper .AbstandBildRechtsXXXL figure { margin-right: var(--XXXL); @media(max-width:767px){ margin-right: 20px; } }
 
+#wrapper .AbstandBildUntenXXXXS figure { margin-bottom: var(--XXXXS); }
 #wrapper .AbstandBildUntenXXXS figure { margin-bottom: var(--XXXS); }
 #wrapper .AbstandBildUntenXXS figure { margin-bottom: var(--XXS); }
 #wrapper .AbstandBildUntenXS figure { margin-bottom: var(--XS); }
@@ -547,6 +551,7 @@ body #wrapper #container .AbstandLinksXXXL, #container .mod_article .AbstandText
 #wrapper .AbstandBildUntenXXL figure { margin-bottom: var(--XXL); @media(max-width:767px){ margin-bottom: 20px; } }
 #wrapper .AbstandBildUntenXXXL figure { margin-bottom: var(--XXXL); @media(max-width:767px){ margin-bottom: 20px; } }
 
+#wrapper .AbstandBildLinksXXXXS figure { margin-left: var(--XXXXS); }
 #wrapper .AbstandBildLinksXXXS figure { margin-left: var(--XXXS); }
 #wrapper .AbstandBildLinksXXS figure { margin-left: var(--XXS); }
 #wrapper .AbstandBildLinksXS figure { margin-left: var(--XS); }
