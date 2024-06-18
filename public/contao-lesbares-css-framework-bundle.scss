@@ -174,21 +174,21 @@
 .ListensymbolfarbeWeiß li::marker, .ListensymbolfarbeWeiß li::before { color: #fff; }
 .ListensymbolfarbeSchwarz li::marker, .ListensymbolfarbeSchwarz li::before { color: #000; }
 //************************************************************* LINKS *************************************************************//
-.LinkOhneUnterstrich a {
+#wrapper .LinkOhneUnterstrich a {
 	text-decoration: none; 
 	&:before { display: none; }
 }
-.LinkMitUnterstrich a { text-decoration: underline; }
-.LinkunterstrichBeiBerührung a:hover { text-decoration: underline; }
-.LinkOhneUnterstrichBeiBerührung a:hover { text-decoration: none; }
+#wrapper .LinkMitUnterstrich a { text-decoration: underline; }
+#wrapper .LinkunterstrichBeiBerührung a:hover { text-decoration: underline; }
+#wrapper .LinkOhneUnterstrichBeiBerührung a:hover { text-decoration: none; }
 
-.LinkBeiBerührungDrehen a, a.LinkBeiBerührungDrehen {
+#wrapper .LinkBeiBerührungDrehen a, a.LinkBeiBerührungDrehen {
 	display: inline-block;
 	line-height: 1;
 	transition: all 0.25s ease-in-out;
 	&:hover { transform: rotate(20deg); }
 }
-.LinkBeiBerührungVergrößern a, a.LinkBeiBerührungVergrößern {
+#wrapper .LinkBeiBerührungVergrößern a, a.LinkBeiBerührungVergrößern {
 	display: inline-block;
 	line-height: 1;
 	transition: all 0.25s ease-in-out;
@@ -208,6 +208,7 @@ body .Linkfarbe3 a, body .Linkfarbe3 a svg, body .Linkfarbe3 a svg.icon { color:
 body .Linkfarbe4 a, body .Linkfarbe4 a svg, body .Linkfarbe4 a svg.icon { color: var(--color_4); fill: var(--color_4); }
 body .LinkfarbeSchwarz a, body .LinkfarbeSchwarz a svg, body .LinkfarbeSchwarz a svg.icon { color: #000; fill: #000; }
 body .LinkfarbeWeiß a, body .LinkfarbeWeiß a svg, body .LinkfarbeWeiß a svg.icon { color: #fff; fill: #fff; }
+body .LinkfarbeTextfarbe a, body .LinkfarbeTextfarbe a svg, body .LinkfarbeTextfarbe a svg.icon { color: var(--font_color, #444); fill: var(--font_color, #444); }
 //************************************************************* SPALTEN *************************************************************//
 .ElementeOben { align-items: start; }
 .vertikalMittig, .ElementeVertikalMittig { align-items: center; }
