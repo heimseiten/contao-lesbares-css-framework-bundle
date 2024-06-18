@@ -8,14 +8,6 @@
 	ul { margin-top: 0; margin-bottom: 0; }
 }
 .nachHinten { z-index: -1; }
-.Rahmen, .RahmenbreiteL, .RahmenbreiteXL, .Rahmenfarbe1, .Rahmenfarbe2, .RahmenfarbeWeiß { border: 1px solid var(--border_color, #ddd); }
-.RahmenbreiteL { border-width: 2px; }
-.RahmenbreiteXL { border-width: 5px; }
-.Rahmenfarbe1 { border-color: var(--color_1); }
-.Rahmenfarbe2 { border-color: var(--color_2); }
-.RahmenfarbeWeiß { border-color: #fff; }
-.RahmenfarbeSchwarz { border-color: #000; }
-.RahmenfarbeSchriftfarbe { border-color: var(--font_color); }
 //************************************************************* TEXT *************************************************************//
 .TextAusrichtungRechts { text-align: right; }
 .kursivGroßbuchstaben strong, 
@@ -247,10 +239,21 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 .Rahmen3 { border: 1px solid var(--color_3); }
 .Rahmen4 { border: 1px solid var(--color_4); }
 
-.RahmenOben { border-top: 1px solid var(--border_color); margin-top: var(--article_space_top, 60px); }
-.RahmenUnten { border-bottom: 1px solid var(--border_color); margin-bottom: var(--article_space_top, 60px); }
-.RahmenLinks { border-left: 1px solid var(--border_color); }
-.RahmenRechts { border-right: 1px solid var(--border_color); }
+.RahmenOben { border: 0; border-top: 1px solid var(--border_color); margin-top: var(--article_space_top, 60px); }
+.RahmenUnten { border: 0; border-bottom: 1px solid var(--border_color); margin-bottom: var(--article_space_top, 60px); }
+.RahmenLinks { border: 0; border-left: 1px solid var(--border_color); }
+.RahmenRechts { border: 0; border-right: 1px solid var(--border_color); }
+
+.Rahmen, .RahmenbreiteL, .RahmenbreiteXL, .Rahmenfarbe1, .Rahmenfarbe2, .RahmenfarbeWeiß { border: 1px solid var(--border_color, #ddd); }
+#wrapper .RahmenbreiteL { border-width: 2px; }
+#wrapper .RahmenbreiteXL { border-width: 3px; }
+#wrapper .RahmenbreiteXXL { border-width: 5px; }
+.Rahmenfarbe1 { border-color: var(--color_1); }
+.Rahmenfarbe2 { border-color: var(--color_2); }
+.RahmenfarbeWeiß { border-color: #fff; }
+.RahmenfarbeSchwarz { border-color: #000; }
+.RahmenfarbeSchriftfarbe { border-color: var(--font_color); }
+
 //************************************************************* KACHELN *************************************************************//
 #wrapper .Kacheln, 
 #wrapper .KachelnGrau,
