@@ -444,23 +444,28 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 	--XXL: 300px;
 	--XXXL: 400px;
 }
-.ÜberschriftAbstandOben0 { 
+.AbstandÜberschriftOben0 { 
 	&:is(h1, h2, h3, h4, h5, h6), :is(h1, h2, h3, h4, h5, h6) { margin-top: 0; } 
 }
 .ÜberschriftAbstandUnten0 { 
 	&:is(h1, h2, h3, h4, h5, h6), :is(h1, h2, h3, h4, h5, h6) { margin-bottom: 0; } 
+	:is(h1, h2, h3, h4, h5, h6) + * { margin-top: 0; }
 }
 .ÜberschriftAbstandUntenXXXS { 
-	&:is(h1, h2, h3, h4, h5, h6), :is(h1, h2, h3, h4, h5, h6) { margin-bottom: var(--XXXS); } 
+	&:is(h1, h2, h3, h4, h5, h6), :is(h1, h2, h3, h4, h5, h6) { margin-bottom: var(--XXXS); }
+	:is(h1, h2, h3, h4, h5, h6) + * { margin-top: 0; }
 }
 .ÜberschriftAbstandUntenXXS { 
 	&:is(h1, h2, h3, h4, h5, h6), :is(h1, h2, h3, h4, h5, h6) { margin-bottom: var(--XXS); } 
+	:is(h1, h2, h3, h4, h5, h6) + * { margin-top: 0; }
 }
 .ÜberschriftAbstandUntenXS { 
 	&:is(h1, h2, h3, h4, h5, h6), :is(h1, h2, h3, h4, h5, h6) { margin-bottom: var(--XS); } 
+	:is(h1, h2, h3, h4, h5, h6) + * { margin-top: 0; }
 }
 .ÜberschriftAbstandUntenS { 
 	&:is(h1, h2, h3, h4, h5, h6), :is(h1, h2, h3, h4, h5, h6) { margin-bottom: var(--S); } 
+	:is(h1, h2, h3, h4, h5, h6) + * { margin-top: 0; }
 }
 
 body #wrapper #container .Abstand0, .mod_article body #wrapper .AbstandText0 .rte { padding: 0px; }
