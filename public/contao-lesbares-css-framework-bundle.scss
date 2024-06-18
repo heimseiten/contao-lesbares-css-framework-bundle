@@ -244,7 +244,7 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 .RahmenLinks { border: 0; border-left: 1px solid var(--border_color); }
 .RahmenRechts { border: 0; border-right: 1px solid var(--border_color); }
 
-.Rahmen, .RahmenbreiteL, .RahmenbreiteXL, .Rahmenfarbe1, .Rahmenfarbe2, .RahmenfarbeWeiß { border: 1px solid var(--border_color, #ddd); }
+.Rahmen { border: 1px solid var(--border_color, #ddd); }
 #wrapper .RahmenbreiteL { border-width: 2px; }
 #wrapper .RahmenbreiteXL { border-width: 3px; }
 #wrapper .RahmenbreiteXXL { border-width: 5px; }
