@@ -831,6 +831,8 @@ body #wrapper #container .AbstandNegativLinksXXXL { margin-left: calc( -1 * var(
 #header .mod_navigation li.Navigationshintergrund3 > * { background: var(--color_3); border-radius: 10px; }
 #header .mod_navigation li.Navigationshintergrund4 > * { background: var(--color_4); border-radius: 10px; }
 #header .mod_navigation li.Navigationshintergrund5 > * { background: var(--color_5); border-radius: 10px; }
+//************************************************************* SCROLLING *************************************************************//
+.beimScrollenObenFixieren { position: sticky; top: 0; }
 //************************************************************* ICONS *************************************************************//
 .IcongrößeXXXS svg  { width: var(--XXXS); height: var(--XXXS); }
 .IcongrößeXXS svg  { width: var(--XXS); height: var(--XXS); }
