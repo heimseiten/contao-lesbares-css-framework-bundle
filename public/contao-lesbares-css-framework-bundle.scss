@@ -8,7 +8,7 @@
 	ul { margin-top: 0; margin-bottom: 0; }
 }
 .nachHinten { z-index: -1; }
-.imVordergrund { z-index: 9; }
+#wrapper .imVordergrund { z-index: 9; }
 //************************************************************* TEXT *************************************************************//
 .TextAusrichtungRechts { text-align: right; }
 .kursivGroßbuchstaben strong, 
@@ -833,7 +833,7 @@ body #wrapper #container .AbstandNegativLinksXXXL { margin-left: calc( -1 * var(
 #header .mod_navigation li.Navigationshintergrund4 > * { background: var(--color_4); border-radius: 10px; }
 #header .mod_navigation li.Navigationshintergrund5 > * { background: var(--color_5); border-radius: 10px; }
 //************************************************************* SCROLLING *************************************************************//
-.beimScrollenObenFixieren { position: sticky; top: 0; }
+#wrapper .beimScrollenObenFixieren { position: sticky; top: 0; }
 //************************************************************* ICONS *************************************************************//
 .IcongrößeXXXS svg  { width: var(--XXXS); height: var(--XXXS); }
 .IcongrößeXXS svg  { width: var(--XXS); height: var(--XXS); }
