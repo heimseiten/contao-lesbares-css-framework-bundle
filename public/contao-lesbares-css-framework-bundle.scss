@@ -3,6 +3,7 @@
 .verstecken { display: none; }
 .mobilTransparent { @media(max-width:1023px){ opacity: .1; } }
 .mod_article.InhaltLäuftÜberElementHinaus, .mod_article .InhaltLäuftÜberElementHinaus { overflow: visible; }
+.mod_article.InhaltBegrenzen, .mod_article .InhaltBegrenzen { overflow: hidden; }
 .zweispaltig .rte { columns: 2; gap: 80px;
 	@media(max-width:1023px){ columns: 1; gap: 0; }
 	ul { margin-top: 0; margin-bottom: 0; }
