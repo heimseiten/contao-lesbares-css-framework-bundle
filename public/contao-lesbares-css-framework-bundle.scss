@@ -115,6 +115,7 @@
 	width: calc( 100% + var(--verschieben) );
 	img { width: 100%; }
 }
+.BildVerdunkeln img { filter: brightness(0.6); }
 //************************************************************* LISTEN *************************************************************//
 .ListeAbstand0 ul { margin: 0; }
 
