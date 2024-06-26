@@ -237,7 +237,7 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 .rundeEckeObenRechts { border-top-right-radius: var(--border_radius, 10px) ; }
 .eckigeEcken { --button_border_radius: 0; --border_radius: 0; }
 
-.Rahmen0 { border: 0; }
+.Rahmen0, #wrapper .Kachel.Rahmen0 { border: 0; }
 .Rahmen1 { border: 1px solid var(--color_1); }
 .Rahmen2 { border: 1px solid var(--color_2); }
 .Rahmen3 { border: 1px solid var(--color_3); }
