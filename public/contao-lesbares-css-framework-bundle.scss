@@ -60,6 +60,30 @@
 .ÜberschriftFett :is(h1, h2, h3, h4, h5, h6),
 .ÜberschriftFett:is(h1, h2, h3, h4, h5, h6) { font-weight: var(--font_weight_strong); }
 .TextFett p { font-weight: var(--font_weight_strong); }
+
+.Überschrift1Farbe1 { h1 { color: var(--color_1); } }
+.Überschrift1Farbe2 { h1 { color: var(--color_2); } }
+.Überschrift1Farbe3 { h1 { color: var(--color_3); } }
+.Überschrift1Farbe4 { h1 { color: var(--color_4); } }
+.Überschrift1FarbeWeiß { h1 { color: #fff; } }
+
+.Überschrift2Farbe1 { h2 { color: var(--color_1); } }
+.Überschrift2Farbe2 { h2 { color: var(--color_2); } }
+.Überschrift2Farbe3 { h2 { color: var(--color_3); } }
+.Überschrift2Farbe4 { h2 { color: var(--color_4); } }
+.Überschrift2FarbeWeiß { h2 { color: #fff; } }
+
+.Überschrift3Farbe1 { h3 { color: var(--color_1); } }
+.Überschrift3Farbe2 { h3 { color: var(--color_2); } }
+.Überschrift3Farbe3 { h3 { color: var(--color_3); } }
+.Überschrift3Farbe4 { h3 { color: var(--color_4); } }
+.Überschrift3FarbeWeiß { h3 { color: #fff; } }
+
+.Überschrift4Farbe1 { h4 { color: var(--color_1); } }
+.Überschrift4Farbe2 { h4 { color: var(--color_2); } }
+.Überschrift4Farbe3 { h4 { color: var(--color_3); } }
+.Überschrift4Farbe4 { h4 { color: var(--color_4); } }
+.Überschrift4FarbeWeiß { h4 { color: #fff; } }
 //************************************************************* BILDER *************************************************************//
 .Bildrahmen img { border: 1px solid var(--border_color); }
 .Bildrahmenfarbe1 img { border: 1px solid var(--color_1); }
