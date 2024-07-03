@@ -149,12 +149,12 @@
 }
 .BildVerdunkeln img { filter: brightness(0.6); }
 
-.Bildhintergrund1 { background-color: var(--color_1); }
-.Bildhintergrund2 { background-color: var(--color_2); }
-.Bildhintergrund3 { background-color: var(--color_3); }
-.Bildhintergrund4 { background-color: var(--color_4); }
-.BildhintergrundWeiß { background-color: #fff; }
-.BildhintergrundSchwarz { background-color: #000; }
+.Bildhintergrund1 img { background-color: var(--color_1); }
+.Bildhintergrund2 img { background-color: var(--color_2); }
+.Bildhintergrund3 img { background-color: var(--color_3); }
+.Bildhintergrund4 img { background-color: var(--color_4); }
+.BildhintergrundWeiß img { background-color: #fff; }
+.BildhintergrundSchwarz img { background-color: #000; }
 
 //************************************************************* LISTEN *************************************************************//
 .ListeAbstand0 ul { margin: 0; }
