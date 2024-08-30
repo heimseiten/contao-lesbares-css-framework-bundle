@@ -800,22 +800,22 @@ body #wrapper #container .AbstandNegativLinksXXXL { margin-left: calc( -1 * var(
 	svg.icon, svg { fill: #1b2125; }
 }
 
-.fettSchriftfarbe1 strong, .kursivSchriftfarbe1 em, .Überschriftfarbe1 :is(h1, h2, h3, h4, h5, h6) { color: var(--color_1); }
+.fettSchriftfarbe1 strong, .kursivSchriftfarbe1 em, .Überschriftfarbe1 :is(h1, h2, h3, h4, h5, h6), .Überschriftfarbe1:is(h1, h2, h3, h4, h5, h6) { color: var(--color_1); }
 .Schriftfarbe1 { color: var(--color_1);
 	a, :is(h1, h2, h3, h4, h5, h6) { color: var(--color_1); }
 	svg.icon, svg { fill: var(--color_1); }
 }
-.fettSchriftfarbe2 strong, .kursivSchriftfarbe2 em, .Überschriftfarbe2 :is(h1, h2, h3, h4, h5, h6) { color: var(--color_2); }
+.fettSchriftfarbe2 strong, .kursivSchriftfarbe2 em, .Überschriftfarbe2 :is(h1, h2, h3, h4, h5, h6), .Überschriftfarbe2:is(h1, h2, h3, h4, h5, h6) { color: var(--color_2); }
 .Schriftfarbe2 { color: var(--color_2);
 	a, :is(h1, h2, h3, h4, h5, h6) { color: var(--color_2); }
 	svg.icon, svg { fill: var(--color_2); }
 }
-.fettSchriftfarbe3 strong, .kursivSchriftfarbe3 em, .Überschriftfarbe3 :is(h1, h2, h3, h4, h5, h6) { color: var(--color_3); }
+.fettSchriftfarbe3 strong, .kursivSchriftfarbe3 em, .Überschriftfarbe3 :is(h1, h2, h3, h4, h5, h6), .Überschriftfarbe3:is(h1, h2, h3, h4, h5, h6) { color: var(--color_3); }
 .Schriftfarbe3 { color: var(--color_3);
 	a, :is(h1, h2, h3, h4, h5, h6) { color: var(--color_3); }
 	svg.icon, svg { fill: var(--color_3); }
 }
-.fettSchriftfarbe4 strong, .kursivSchriftfarbe4 em, .Überschriftfarbe4 :is(h1, h2, h3, h4, h5, h6) { color: var(--color_4); }
+.fettSchriftfarbe4 strong, .kursivSchriftfarbe4 em, .Überschriftfarbe4 :is(h1, h2, h3, h4, h5, h6), .Überschriftfarbe4:is(h1, h2, h3, h4, h5, h6) { color: var(--color_4); }
 .Schriftfarbe4 { color: var(--color_4);
 	a, :is(h1, h2, h3, h4, h5, h6) { color: var(--color_4); }
 	svg.icon, svg { fill: var(--color_4); }
