@@ -20,8 +20,7 @@
     },
     "require": {
         "php": "^8.0",
-        "contao/core-bundle": "^4.13 || ^5.0",
-        "heimseiten/contao-article-list-with-css-classes-and-ids-bundle": "^1.1"
+        "contao/core-bundle": "^4.13 || ^5.0"
     },
     "require-dev": {
         "contao/manager-plugin": "^2.3.1",
