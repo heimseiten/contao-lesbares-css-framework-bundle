@@ -393,6 +393,8 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 .content-text.TextRechts .rte { margin-right: 0; }
 
 //************************************************************* HÖHE *************************************************************//
+.volleHöhe { height: 100vh; overflow-y: hidden; }
+
 .minimaleHöhe5Prozent { min-height: 5vh; min-height: 5svh; }
 .minimaleHöhe10Prozent { min-height: 10vh; min-height: 10svh; }
 .minimaleHöhe15Prozent { min-height: 15vh; min-height: 15svh; }
