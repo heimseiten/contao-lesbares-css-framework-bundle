@@ -33,10 +33,14 @@
 .fettSchriftgrößeXL strong, .kursivSchriftgrößeXL em, .SchriftgrößeXL { font-size: 1.6em; }
 .fettSchriftgrößeXXL strong, .kursivSchriftgrößeXXL em, .SchriftgrößeXXL { font-size: 2em; }
 .fettSchriftgrößeXXXL strong, .kursivSchriftgrößeXXXL em, .SchriftgrößeXXXL { font-size: 3em; }
-.fettKleinNichtFett strong, .kursivKleinNichtKursiv em { font-size: 14px; font-weight: var(--font_weight, normal); font-style: normal; }
-.fettSehrKleinNichtFett strong, .kursivSehrKleinNichtKursiv em { font-size: 12px; font-weight: var(--font_weight, normal); font-style: normal; }
-.fettGroßNichtFett strong, .kursivGroßNichtKursiv em { font-size: 18px; font-weight: var(--font_weight, normal); font-style: normal; }
-.fettSehrGroßNichtFett strong, .kursivSehrGroßNichtKursiv em { font-size: 20px; font-weight: var(--font_weight, normal); font-style: normal; }
+.fettKleinNichtFett strong { font-size: 14px; font-weight: var(--font_weight, normal); }
+.kursivKleinNichtKursiv em { font-size: 14px; font-style: normal; }
+.fettSehrKleinNichtFett strong { font-size: 12px; font-weight: var(--font_weight, normal); } 
+.kursivSehrKleinNichtKursiv em { font-size: 12px; font-style: normal; }
+.fettGroßNichtFett strong { font-size: 18px; font-weight: var(--font_weight, normal); }
+.kursivGroßNichtKursiv em { font-size: 18px; font-style: normal; }
+.fettSehrGroßNichtFett strong { font-size: 20px; font-weight: var(--font_weight, normal); }
+.kursivSehrGroßNichtKursiv em { font-size: 20px; font-style: normal; }
 .fettBlock strong { display: block; }
 .ZeilenabstandXS, .ZeilenabstandXS :is(h1,h2,h3,h4,h5,h6) { line-height: 1; }
 .ZeilenabstandS, .ZeilenabstandS :is(h1,h2,h3,h4,h5,h6) { line-height: 1.2; }
