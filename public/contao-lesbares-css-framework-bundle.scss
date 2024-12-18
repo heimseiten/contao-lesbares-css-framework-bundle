@@ -34,9 +34,13 @@
 .fettSchriftgrößeXXL strong, .kursivSchriftgrößeXXL em, .SchriftgrößeXXL { font-size: 2em; }
 .fettSchriftgrößeXXXL strong, .kursivSchriftgrößeXXXL em, .SchriftgrößeXXXL { font-size: 3em; }
 .fettKleinNichtFett strong { font-size: 14px; font-weight: var(--font_weight, normal); }
+.fettKlein strong { font-size: 14px; }
 .kursivKleinNichtKursiv em { font-size: 14px; font-style: normal; }
+.kursivKlein em { font-size: 14px; }
 .fettSehrKleinNichtFett strong { font-size: 12px; font-weight: var(--font_weight, normal); } 
+.fettSehrKlein strong { font-size: 12px; } 
 .kursivSehrKleinNichtKursiv em { font-size: 12px; font-style: normal; }
+.kursivSehrKlein em { font-size: 12px; }
 .fettGroßNichtFett strong { font-size: 18px; font-weight: var(--font_weight, normal); }
 .kursivGroßNichtKursiv em { font-size: 18px; font-style: normal; }
 .fettSehrGroßNichtFett strong { font-size: 20px; font-weight: var(--font_weight, normal); }
