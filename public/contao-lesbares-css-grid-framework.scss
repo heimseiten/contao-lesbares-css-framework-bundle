@@ -86,6 +86,9 @@ div[class^='Spalten'], div[class*=' Spalten'] {
 
 	&.InhaltVertikalZentrieren { align-items: center; }
 	&.InhaltHorizontalZentrieren { justify-content: center; }
+	&.ElementeAußen { justify-content: space-between;
+		&.Spalten2 > :nth-child(2n) { text-align: right; }
+	}
 	
 	@media(max-width:960px){  
 		& > .mobilePosition1 { grid-row: 1; }
