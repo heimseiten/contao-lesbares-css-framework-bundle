@@ -349,7 +349,7 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 .abg2 #wrapper .mod_article:nth-child(even) .Kacheln > *,
 #wrapper .mod_article.HintergrundGrau .Kacheln > * { background: #fff; }
 //************************************************************* BREITE *************************************************************//
-.mod_article .volleBreite:not(.content-table), #wrapper .volleBreite { padding-left: 0; padding-right: 0; width: 100%; }
+.mod_article .volleBreite:not(.content-table), #wrapper .volleBreite, .volleBreite, .Breite100Prozent { padding-left: 0; padding-right: 0; width: 100%; }
 .mod_article .volleBreiteMitAbstand { width: 100%; }
 .mod_article .volleBreite.content-table table { width: 100%; }
 .mod_article .volleBreite.content-image img { width: 100%; height: auto; }
