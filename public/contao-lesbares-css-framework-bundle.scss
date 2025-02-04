@@ -221,7 +221,8 @@
 .ListensymbolfarbeSchwarz li::marker, .ListensymbolfarbeSchwarz li::before { color: #000; }
 //************************************************************* LINKS *************************************************************//
 #wrapper .LinkOhneUnterstrich a {
-	text-decoration: none; 
+	text-decoration: none;
+	&:hover { text-decoration: underline; }
 	&:before { display: none; }
 }
 #wrapper .LinkMitUnterstrich a { text-decoration: underline; }
