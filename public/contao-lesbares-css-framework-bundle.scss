@@ -164,6 +164,40 @@
 .BildhintergrundWeiß img { background-color: #fff; }
 .BildhintergrundSchwarz img { background-color: #000; }
 
+#wrapper .content-text.TextErscheintAufBild {
+	position: relative;
+	align-self: start;
+	overflow: hidden;
+	@media(max-width:1023px){  
+		display: inline-block;
+		padding-bottom: 0;
+		margin-bottom: 20px;
+	}
+	& > figure { margin: 0; }
+	.rte {
+		position: absolute;
+		bottom: 0;
+		opacity: 0;
+		transform: translateY(100%);
+		background: color-mix(in srgb, var(--color_1), transparent 25%);
+		color: #fff;
+		padding: 10px 20px;
+		line-height: 1.2;
+		max-width: 100%;
+		transition: all 0.3s ease-in-out;
+		@media(max-width:1023px){
+			position: relative;
+			opacity: 1;
+			transform: translateY(0);
+			padding: 10px;
+		}
+	}
+	&:hover .rte {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
 //************************************************************* LISTEN *************************************************************//
 .ListeAbstand0 ul { margin: 0; }
 
