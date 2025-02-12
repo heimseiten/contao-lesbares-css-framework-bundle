@@ -92,6 +92,20 @@
 .Überschrift4Farbe3 { h4 { color: var(--color_3); } }
 .Überschrift4Farbe4 { h4 { color: var(--color_4); } }
 .Überschrift4FarbeWeiß { h4 { color: #fff; } }
+
+.letztesElementUnten {
+	display: flex;
+	flex-direction: column;
+	.rte {
+		display: flex;
+		flex-direction: column;
+		flex-grow: 1;
+		& > :last-child {
+			margin-top: auto;
+		}
+	}
+}
+
 //************************************************************* BILDER *************************************************************//
 .Bildrahmen img { border: 1px solid var(--border_color); }
 .Bildrahmenfarbe1 img { border: 1px solid var(--color_1); }
