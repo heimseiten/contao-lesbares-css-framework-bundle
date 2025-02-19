@@ -122,7 +122,7 @@
 .BildRechts figure { text-align: right; }
 
 .BildRund img { border-radius: var(--border_radius); }
-.BildKreis img { border-radius: 50%; }
+.BildKreis img { border-radius: 50%; aspect-ratio: 1; object-fit: cover; }
 
 .mod_article .BildAlsHintergrund,
 .mod_article .BildAlsHintergrundFixiert {
