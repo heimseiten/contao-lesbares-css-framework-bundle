@@ -144,6 +144,7 @@
 	position: absolute;
 	display: grid;
 	height: 100%;
+	&.nichtVolleHöhe { height: auto; }
 	img { height: 100%; }
 }
 
