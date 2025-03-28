@@ -144,8 +144,8 @@
 	position: absolute;
 	display: grid;
 	height: 100%;
-	&.nichtVolleHöhe { height: auto; }
-	&.halbeBreite { width: 50vw; }
+	&.BildNichtVolleHöhe { height: auto; }
+	&.BildHalbeBreite { width: 50vw; }
 	&.BildRechts { left: auto; right: 0; }
 	&.BildMitte { left: 50%; transform: translateX(-50%); }
 	img { height: 100%; }
