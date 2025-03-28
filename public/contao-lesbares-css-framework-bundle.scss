@@ -148,6 +148,10 @@
 	&.BildHalbeBreite { width: 50vw; }
 	&.BildRechts { left: auto; right: 0; }
 	&.BildMitte { left: 50%; transform: translateX(-50%); }
+	&.BildÜberRand {
+		overflow: visible;
+		figure { overflow: visible;}
+	}
 	img { height: 100%; }
 }
 
