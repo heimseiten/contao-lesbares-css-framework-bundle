@@ -950,15 +950,15 @@ body #wrapper #container .AbstandNegativLinksXXXL { margin-left: calc( -1 * var(
 //************************************************************* SCROLLING *************************************************************//
 #wrapper .beimScrollenObenFixieren { position: sticky; top: 0; }
 //************************************************************* ICONS *************************************************************//
-.IcongrößeXXXS svg  { width: var(--XXXS); height: var(--XXXS); }
-.IcongrößeXXS svg  { width: var(--XXS); height: var(--XXS); }
-.IcongrößeXS svg  { width: var(--XS); height: var(--XS); }
-.IcongrößeS svg  { width: var(--S); height: var(--S); }
-.IcongrößeM svg  { width: var(--M); height: var(--M); }
-.IcongrößeL svg  { width: var(--L); height: var(--L); }
-.IcongrößeXL svg  { width: var(--XL); height: var(--XL); }
-.IcongrößeXXL svg  { width: var(--XXL); height: var(--XXL); }
-.IcongrößeXXXL svg  { width: var(--XXXL); height: var(--XXXL); }
+#wrapper .IcongrößeXXXS svg  { width: var(--XXXS); height: var(--XXXS); }
+#wrapper .IcongrößeXXS svg  { width: var(--XXS); height: var(--XXS); }
+#wrapper .IcongrößeXS svg  { width: var(--XS); height: var(--XS); }
+#wrapper .IcongrößeS svg  { width: var(--S); height: var(--S); }
+#wrapper .IcongrößeM svg  { width: var(--M); height: var(--M); }
+#wrapper .IcongrößeL svg  { width: var(--L); height: var(--L); }
+#wrapper .IcongrößeXL svg  { width: var(--XL); height: var(--XL); }
+#wrapper .IcongrößeXXL svg  { width: var(--XXL); height: var(--XXL); }
+#wrapper .IcongrößeXXXL svg  { width: var(--XXXL); height: var(--XXXL); }
 //************************************************************* BUTTON *************************************************************//
 html body .content-text {
 	--button_border_color: var(--color_1, #000);
