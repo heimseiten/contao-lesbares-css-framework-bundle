@@ -396,17 +396,17 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 
 .abg1 #wrapper .mod_article:nth-child(odd) .Kachel,
 .abg2 #wrapper .mod_article:nth-child(even) .Kachel,
-#wrapper .mod_article.HintergrundGrau .Kachel { background: #fff; }
+#wrapper #container #main .mod_article.HintergrundGrau .Kachel { background: #fff; }
 .abg1 #wrapper .mod_article:nth-child(even) .Kachel,
 .abg2 #wrapper .mod_article:nth-child(odd) .Kachel,
-#wrapper .mod_article.HintergrundWeiß .Kachel { background: #f8f8f8; }
+#wrapper #container #main .mod_article.HintergrundWeiß .Kachel { background: #f8f8f8; }
 
 .abg1 #wrapper .mod_article:nth-child(even) .Kacheln > *,
 .abg2 #wrapper .mod_article:nth-child(odd) .Kacheln > *,
-#wrapper .mod_article.HintergrundWeiß .Kacheln > * { background: #f8f8f8; }
+#wrapper #container #main .mod_article.HintergrundWeiß .Kacheln > * { background: #f8f8f8; }
 .abg1 #wrapper .mod_article:nth-child(odd) .Kacheln > *,
 .abg2 #wrapper .mod_article:nth-child(even) .Kacheln > *,
-#wrapper .mod_article.HintergrundGrau .Kacheln > * { background: #fff; }
+#wrapper #container #main .mod_article.HintergrundGrau .Kacheln > * { background: #fff; }
 //************************************************************* BREITE *************************************************************//
 .mod_article .volleBreite:not(.content-table), #wrapper .volleBreite, .volleBreite, #wrapper .Breite100Prozent, .Breite100Prozent { 
 	padding-left: 0; padding-right: 0; width: 100%; 
