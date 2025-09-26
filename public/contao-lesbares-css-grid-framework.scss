@@ -3,6 +3,8 @@ div[class^='Spalten'], div[class*=' Spalten'] {
 	display: grid;
 	gap: 15px;
 	
+	& > * { margin-top: 0; margin-bottom: 0; }
+	
 	&.Mindestbreite0 { --Mindestbreite: 0; }
 
 	&.Spalte2Breite20Prozent { --ZweiteSpalte: calc( calc( var(--content_width, 50%) / 100 * 20 ) + var(--content_margin, 0) ); }
