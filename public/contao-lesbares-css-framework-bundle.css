@@ -206,7 +206,7 @@
 		color: #fff;
 		padding: 10px 20px;
 		line-height: 1.2;
-		max-width: 100%;
+		width: 100%;
 		transition: all 0.5s ease-in-out;
 		@media(max-width:1023px){
 			position: relative;
