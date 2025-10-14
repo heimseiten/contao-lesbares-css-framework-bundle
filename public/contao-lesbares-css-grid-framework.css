@@ -106,7 +106,7 @@ div[class^='Spalten'], div[class*=' Spalten'] {
 	.content-image figure {
 		height: 100%;
 		@media(max-width:960px){ width: 100%; }
-		img { height: 100%; object-fit: cover; 
+		img { object-fit: cover; 
 			@media(max-width:960px){ width: 100%; }
 		}
 	}
