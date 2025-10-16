@@ -18,7 +18,7 @@
 		padding: .5rem;
 	}
 }
-//************************************************************* TEXT *************************************************************//
+/************************************************************* TEXT *************************************************************/
 .TextAusrichtungRechts { text-align: right; }
 .kursivGroßbuchstaben strong, 
 .fettGroßbuchstaben strong,
@@ -107,7 +107,7 @@
 	}
 }
 
-//************************************************************* BILDER *************************************************************//
+/************************************************************* BILDER *************************************************************/
 .Bildrahmen img { border: 1px solid var(--border_color); }
 .Bildrahmenfarbe1 img { border: 1px solid var(--color_1); }
 .Bildrahmenfarbe2 img { border: 1px solid var(--color_2); }
@@ -221,7 +221,7 @@
 	}
 }
 
-//************************************************************* LISTEN *************************************************************//
+/************************************************************* LISTEN *************************************************************/
 .ListeAbstand0 ul { margin: 0; }
 
 .ListenzeilenhöheL ul li { padding-top: .2em; padding-bottom: .2em; }
@@ -277,7 +277,7 @@
 .Listensymbolfarbe4 li::marker, .Listensymbolfarbe4 li::before { color: var(--color_4); }
 .ListensymbolfarbeWeiß li::marker, .ListensymbolfarbeWeiß li::before { color: #fff; }
 .ListensymbolfarbeSchwarz li::marker, .ListensymbolfarbeSchwarz li::before { color: #000; }
-//************************************************************* LINKS *************************************************************//
+/************************************************************* LINKS *************************************************************/
 #wrapper .LinkOhneUnterstrich a {
 	text-decoration: none;
 	&:hover { text-decoration: underline; }
@@ -316,13 +316,13 @@ body .LinkfarbeSchwarz a, body .LinkfarbeSchwarz a svg, body .LinkfarbeSchwarz a
 body .LinkfarbeWeiß a, body .LinkfarbeWeiß a svg, body .LinkfarbeWeiß a svg.icon { color: #fff; fill: #fff; }
 body .LinkfarbeTextfarbe a, body .LinkfarbeTextfarbe a svg, body .LinkfarbeTextfarbe a svg.icon,
 body .LinkfarbeSchriftfarbe a, body .LinkfarbeSchriftfarbe a svg, body .LinkfarbeSchriftfarbe a svg.icon { color: var(--font_color, #444); fill: var(--font_color, #444); }
-//************************************************************* SPALTEN *************************************************************//
+/************************************************************* SPALTEN *************************************************************/
 .ElementeOben { align-items: start; }
 .vertikalMittig, .ElementeVertikalMittig { align-items: center; }
 .ElementeUnten { align-items: end; }
 .horizontalMittig { justify-content: center; }
 .ElementhöheGleich > * { height: 100%; }
-//************************************************************* FORMULARE *************************************************************//
+/************************************************************* FORMULARE *************************************************************/
 fieldset.Spaltenanzahl2,
 fieldset.Spaltenanzahl3,
 fieldset.Spaltenanzahl4,
@@ -338,7 +338,7 @@ fieldset.Spaltenanzahl5 {
 fieldset.Spaltenanzahl3 { grid-template-columns: repeat(3, 1fr); }
 fieldset.Spaltenanzahl4 { grid-template-columns: repeat(4, 1fr); }
 fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
-//************************************************************* FLÄCHEN *************************************************************//
+/************************************************************* FLÄCHEN *************************************************************/
 .rundeEcken { border-radius: var(--border_radius, 10px) ; }
 .rundeEckeUntenLinks { border-bottom-left-radius: var(--border_radius, 10px) ; }
 .rundeEckeObenLinks { border-top-left-radius: var(--border_radius, 10px) ; }
@@ -367,7 +367,7 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 .RahmenfarbeSchwarz { border-color: #000; }
 .RahmenfarbeSchriftfarbe { border-color: var(--font_color); }
 
-//************************************************************* KACHELN *************************************************************//
+/************************************************************* KACHELN *************************************************************/
 #wrapper .Kacheln, 
 #wrapper .KachelnGrau,
 #wrapper .KachelnWeiß {
@@ -407,7 +407,7 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 .abg1 #wrapper .mod_article:nth-child(odd) .Kacheln > *,
 .abg2 #wrapper .mod_article:nth-child(even) .Kacheln > *,
 #wrapper #container #main .mod_article.HintergrundGrau .Kacheln > * { background: #fff; }
-//************************************************************* BREITE *************************************************************//
+/************************************************************* BREITE *************************************************************/
 .mod_article .volleBreite:not(.content-table), #wrapper .volleBreite, .volleBreite, #wrapper .Breite100Prozent, .Breite100Prozent { 
 	padding-left: 0; padding-right: 0; width: 100%; 
 }
@@ -462,7 +462,7 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 .content-text.TextLinks .rte { margin-left: 0; }
 .content-text.TextRechts .rte { margin-right: 0; }
 
-//************************************************************* HÖHE *************************************************************//
+/************************************************************* HÖHE *************************************************************/
 .volleHöhe { height: 100vh; overflow-y: hidden; }
 
 .minimaleHöhe5Prozent { min-height: 5vh; min-height: 5svh; }
@@ -548,7 +548,7 @@ fieldset.Spaltenanzahl5 { grid-template-columns: repeat(5, 1fr); }
 .maximaleHöhe900Pixel { max-height: 900px; }
 .maximaleHöhe950Pixel { max-height: 950px; }
 .maximaleHöhe1000Pixel { max-height: 1000px; }
-//************************************************************* ABSTÄNDE *************************************************************//
+/************************************************************* ABSTÄNDE *************************************************************/
 :root {
 	--XXXXS: 5px;
 	--XXXS: 10px;
@@ -850,7 +850,7 @@ body #wrapper #container .AbstandNegativLinksXL { margin-left: calc( -1 * var(--
 body #wrapper #container .AbstandNegativLinksXXL { margin-left: calc( -1 * var(--XXL) ); @media(max-width:767px){ margin-left: 0; } }
 body #wrapper #container .AbstandNegativLinksXXXL { margin-left: calc( -1 * var(--XXXL) ); @media(max-width:767px){ margin-left: 0; } }
 
-//************************************************************* FARBEN *************************************************************//
+/************************************************************* FARBEN *************************************************************/
 .SchriftfarbeTextWeiß:not(:is(h1,h2,h3,h4,h5,h6)), .fettSchriftfarbeWeiß strong, .kursivSchriftfarbeWeiß em, .ÜberschriftfarbeWeiß :is(h1, h2, h3, h4, h5, h6) { color: #fff; }
 .SchriftfarbeWeiß { color: #fff;
 	a, :is(h1, h2, h3, h4, h5, h6) { color: #fff; }
@@ -948,9 +948,9 @@ body #wrapper #container .AbstandNegativLinksXXXL { margin-left: calc( -1 * var(
 #header .mod_navigation li.Navigationshintergrund3 > * { background: var(--color_3); border-radius: 10px; }
 #header .mod_navigation li.Navigationshintergrund4 > * { background: var(--color_4); border-radius: 10px; }
 #header .mod_navigation li.Navigationshintergrund5 > * { background: var(--color_5); border-radius: 10px; }
-//************************************************************* SCROLLING *************************************************************//
+/************************************************************* SCROLLING *************************************************************/
 #wrapper .beimScrollenObenFixieren { position: sticky; top: 0; }
-//************************************************************* ICONS *************************************************************//
+/************************************************************* ICONS *************************************************************/
 #wrapper .IcongrößeXXXS svg  { width: var(--XXXS); height: var(--XXXS); }
 #wrapper .IcongrößeXXS svg  { width: var(--XXS); height: var(--XXS); }
 #wrapper .IcongrößeXS svg  { width: var(--XS); height: var(--XS); }
@@ -960,7 +960,7 @@ body #wrapper #container .AbstandNegativLinksXXXL { margin-left: calc( -1 * var(
 #wrapper .IcongrößeXL svg  { width: var(--XL); height: var(--XL); }
 #wrapper .IcongrößeXXL svg  { width: var(--XXL); height: var(--XXL); }
 #wrapper .IcongrößeXXXL svg  { width: var(--XXXL); height: var(--XXXL); }
-//************************************************************* BUTTON *************************************************************//
+/************************************************************* BUTTON *************************************************************/
 html body .content-text {
 	--button_border_color: var(--color_1, #000);
 	--button_border_width: 1px;
@@ -1046,7 +1046,7 @@ html body .content-text {
     	}
 	}
 }
-//************************************************************* animierterUnterstrich *************************************************************//
+/************************************************************* animierterUnterstrich *************************************************************/
 body.scroll-down .animierterUnterstrich s:nth-of-type(1):after, 
 body:not(.scroll-down) .animierterUnterstrich s:nth-of-type(2):after { width: 0; }
 .animierterUnterstrich {
