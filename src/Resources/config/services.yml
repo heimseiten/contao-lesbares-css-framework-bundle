@@ -1,0 +1,12 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        bind:
+            $cssSources: '%heimseiten_contao_lesbares_css_framework.sources%'
+            $excludeCategories: '%heimseiten_contao_lesbares_css_framework.exclude_categories%'
+            $loadBuiltinCss: '%heimseiten_contao_lesbares_css_framework.builtin%'
+
+    Heimseiten\ContaoLesbaresCssFrameworkBundle\:
+        resource: '../../*'
+        exclude: '../../{DependencyInjection,Resources,HeimseitenContaoLesbaresCssFrameworkBundle.php,ContaoManager}'

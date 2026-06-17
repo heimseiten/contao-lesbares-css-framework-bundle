@@ -1,11 +1,10 @@
-div[class^='Spalten'], div[class*=' Spalten'] {
-	--Mindestbreite: 200px;
+.Spalten2, .Spalten3, .Spalten4, .Spalten5, .Spalten6 {
 	display: grid;
-	gap: 60px;
+	gap: var(--grid_gap);
 	
 	& > * { margin-top: 0; margin-bottom: 0; }
 	
-	&.Mindestbreite0 { --Mindestbreite: 0; }
+	&.Mindestbreite0 { --cell_min_width: 0; }
 
 	&.Spalte2Breite20Prozent { --ZweiteSpalte: calc( calc( var(--content_width, 50%) / 100 * 20 ) + var(--content_margin, 0) ); }
 	&.Spalte2Breite30Prozent { --ZweiteSpalte: calc( calc( var(--content_width, 50%) / 100 * 30 ) + var(--content_margin, 0) ); }
@@ -28,10 +27,10 @@ div[class^='Spalten'], div[class*=' Spalten'] {
 	&.Spalte5Breite10 { --FünfteSpalte: 10fr; } &.Spalte5Breite15 { --FünfteSpalte: 15fr; } &.Spalte5Breite20 { --FünfteSpalte: 20fr; } &.Spalte5Breite25 { --FünfteSpalte: 25fr; } &.Spalte5Breite30 { --FünfteSpalte: 30fr; } &.Spalte5Breite35 { --FünfteSpalte: 35fr; } &.Spalte5Breite40 { --FünfteSpalte: 40fr; } &.Spalte5Breite45 { --FünfteSpalte: 45fr; } &.Spalte5Breite50 { --FünfteSpalte: 50fr; } &.Spalte5Breite55 { --FünfteSpalte: 55fr; } &.Spalte5Breite60 { --FünfteSpalte: 60fr; } &.Spalte5Breite65 { --FünfteSpalte: 65fr; } &.Spalte5Breite70 { --FünfteSpalte: 70fr; } &.Spalte5Breite75 { --FünfteSpalte: 75fr; } &.Spalte5Breite80 { --FünfteSpalte: 80fr; } &.Spalte5Breite85 { --FünfteSpalte: 85fr; } &.Spalte5Breite90 { --FünfteSpalte: 90fr; } &.Spalte5Breite95 { --FünfteSpalte: 95fr; }
 	&.Spalte6Breite10 { --SechsteSpalte: 10fr; } &.Spalte6Breite15 { --SechsteSpalte: 15fr; } &.Spalte6Breite20 { --SechsteSpalte: 20fr; } &.Spalte6Breite25 { --SechsteSpalte: 25fr; } &.Spalte6Breite30 { --SechsteSpalte: 30fr; } &.Spalte6Breite35 { --SechsteSpalte: 35fr; } &.Spalte6Breite40 { --SechsteSpalte: 40fr; } &.Spalte6Breite45 { --SechsteSpalte: 45fr; } &.Spalte6Breite50 { --SechsteSpalte: 50fr; } &.Spalte6Breite55 { --SechsteSpalte: 55fr; } &.Spalte6Breite60 { --SechsteSpalte: 60fr; } &.Spalte6Breite65 { --SechsteSpalte: 65fr; } &.Spalte6Breite70 { --SechsteSpalte: 70fr; } &.Spalte6Breite75 { --SechsteSpalte: 75fr; } &.Spalte6Breite80 { --SechsteSpalte: 80fr; } &.Spalte6Breite85 { --SechsteSpalte: 85fr; } &.Spalte6Breite90 { --SechsteSpalte: 90fr; } &.Spalte6Breite95 { --SechsteSpalte: 95fr; }
 
-	&.Spalten2 { grid-template-columns: minmax(var(--Mindestbreite), var(--ErsteSpalte, 1fr) ) minmax(var(--Mindestbreite), var(--ZweiteSpalte, 1fr) ); }
-	&.Spalten3 { grid-template-columns: minmax(var(--Mindestbreite), var(--ErsteSpalte, 1fr) ) minmax(var(--Mindestbreite), var(--ZweiteSpalte, 1fr) ) minmax(var(--Mindestbreite), var(--DritteSpalte, 1fr) ); }
-	&.Spalten4 { grid-template-columns: minmax(var(--Mindestbreite), var(--ErsteSpalte, 1fr) ) minmax(var(--Mindestbreite), var(--ZweiteSpalte, 1fr) ) minmax(var(--Mindestbreite), var(--DritteSpalte, 1fr) ) minmax(var(--Mindestbreite), var(--VierteSpalte, 1fr) ); }
-	&.Spalten5 { grid-template-columns: minmax(var(--Mindestbreite), var(--ErsteSpalte, 1fr) ) minmax(var(--Mindestbreite), var(--ZweiteSpalte, 1fr) ) minmax(var(--Mindestbreite), var(--DritteSpalte, 1fr) ) minmax(var(--Mindestbreite), var(--VierteSpalte, 1fr) ) minmax(var(--Mindestbreite), var(--FünfteSpalte, 1fr) ); }
+	&.Spalten2 { grid-template-columns: minmax(var(--cell_min_width, 200px), var(--ErsteSpalte, 1fr) ) minmax(var(--cell_min_width, 200px), var(--ZweiteSpalte, 1fr) ); }
+	&.Spalten3 { grid-template-columns: minmax(var(--cell_min_width, 200px), var(--ErsteSpalte, 1fr) ) minmax(var(--cell_min_width, 200px), var(--ZweiteSpalte, 1fr) ) minmax(var(--cell_min_width, 200px), var(--DritteSpalte, 1fr) ); }
+	&.Spalten4 { grid-template-columns: minmax(var(--cell_min_width, 200px), var(--ErsteSpalte, 1fr) ) minmax(var(--cell_min_width, 200px), var(--ZweiteSpalte, 1fr) ) minmax(var(--cell_min_width, 200px), var(--DritteSpalte, 1fr) ) minmax(var(--cell_min_width, 200px), var(--VierteSpalte, 1fr) ); }
+	&.Spalten5 { grid-template-columns: minmax(var(--cell_min_width, 200px), var(--ErsteSpalte, 1fr) ) minmax(var(--cell_min_width, 200px), var(--ZweiteSpalte, 1fr) ) minmax(var(--cell_min_width, 200px), var(--DritteSpalte, 1fr) ) minmax(var(--cell_min_width, 200px), var(--VierteSpalte, 1fr) ) minmax(var(--cell_min_width, 200px), var(--FünfteSpalte, 1fr) ); }
 	&.Spalten6 { grid-template-columns: minmax(100px, var(--ErsteSpalte, 1fr) ) minmax(100px, var(--ZweiteSpalte, 1fr) ) minmax(100px, var(--DritteSpalte, 1fr) ) minmax(100px, var(--VierteSpalte, 1fr) ) minmax(100px, var(--FünfteSpalte, 1fr) ) minmax(100px, var(--SechsteSpalte, 1fr) ); }
 
 	&.Spalten2 > :is(h1, h2, h3, h4, h5, h6, p):not(.content-headline) { grid-column: 1 / 3; @media(max-width:960px){ grid-column: 1; } }
@@ -42,11 +41,23 @@ div[class^='Spalten'], div[class*=' Spalten'] {
 
 	&.Spalten2, &.Spalten3, &.Spalten4, &.Spalten5, &.Spalten6 { 
 		@media(max-width:960px){ 
-			display: block;
+			grid-template-columns: 1fr;
+			gap: 20px;
 			& > * { padding-bottom: 20px; }
 			& > div[class^='SpaltenElementBreite'], & > div[class*=' SpaltenElementBreite'] { grid-column: 1; }
 		}
 	}
+	
+	&.Rasterabstand0 { gap: 0; }
+	&.RasterabstandXXXS { gap: var(--XXXS, 10px); }
+	&.RasterabstandXXS { gap: var(--XXS, 20px); }
+	&.RasterabstandXS { gap: var(--XS, 25px); }
+	&.RasterabstandS { gap: var(--S, 40px); }
+	&.RasterabstandM { gap: var(--M, 60px); }
+	&.RasterabstandL { gap: var(--L, 100px); }
+	&.RasterabstandXL { gap: var(--XL, 200px); }
+	&.RasterabstandXXL { gap: var(--XXL, 300px); }
+	&.RasterabstandXXXL { gap: var(--XXXL, 400px); }
 	
 	&.Spaltenabstand0 { column-gap: 0; }
 	&.SpaltenabstandXXXS { column-gap: var(--XXXS, 10px); }
@@ -103,7 +114,7 @@ div[class^='Spalten'], div[class*=' Spalten'] {
 		& > .mobilePosition8 { grid-row: 8; }
 	}
 
-	.content-image figure {
+	&.BilderFüllend :is(figure, img) {
 		height: 100%;
 		@media(max-width:960px){ width: 100%; }
 		img { object-fit: cover; 
