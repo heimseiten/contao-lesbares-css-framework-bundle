@@ -8,5 +8,7 @@ services:
             $loadBuiltinCss: '%heimseiten_contao_lesbares_css_framework.builtin%'
 
     Heimseiten\ContaoLesbaresCssFrameworkBundle\:
-        resource: '../../*'
-        exclude: '../../{DependencyInjection,Resources,HeimseitenContaoLesbaresCssFrameworkBundle.php,ContaoManager}'
+        resource: '../src/'
+        exclude:
+            - '../src/HeimseitenContaoLesbaresCssFrameworkBundle.php'
+            - '../src/ContaoManager/'
