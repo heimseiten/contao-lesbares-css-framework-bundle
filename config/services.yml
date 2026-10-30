@@ -6,6 +6,8 @@ services:
             $cssSources: '%heimseiten_contao_lesbares_css_framework.sources%'
             $excludeCategories: '%heimseiten_contao_lesbares_css_framework.exclude_categories%'
             $loadBuiltinCss: '%heimseiten_contao_lesbares_css_framework.builtin%'
+            $describeSources: '%heimseiten_contao_lesbares_css_framework.describe_sources%'
+            $descriptionFiles: '%heimseiten_contao_lesbares_css_framework.descriptions%'
 
     Heimseiten\ContaoLesbaresCssFrameworkBundle\:
         resource: '../src/'

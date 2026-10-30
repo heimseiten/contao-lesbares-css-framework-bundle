@@ -29,6 +29,16 @@ class HeimseitenContaoLesbaresCssFrameworkBundle extends AbstractBundle
                     ->scalarPrototype()->end()
                     ->defaultValue([])
                 ->end()
+                ->arrayNode('descriptions')
+                    ->info('JSON files with "class": "description" pairs, shown as tooltip in the selector. Classes without a description show their CSS rule.')
+                    ->scalarPrototype()->end()
+                    ->defaultValue([])
+                ->end()
+                ->arrayNode('describe_sources')
+                    ->info('Further CSS files that are not offered as choices but define what a class does (used for the tooltips).')
+                    ->scalarPrototype()->end()
+                    ->defaultValue([])
+                ->end()
             ->end()
         ;
     }
@@ -44,6 +54,11 @@ class HeimseitenContaoLesbaresCssFrameworkBundle extends AbstractBundle
         $container->parameters()->set('heimseiten_contao_lesbares_css_framework.sources', $sources);
         $container->parameters()->set('heimseiten_contao_lesbares_css_framework.exclude_categories', $config['exclude_categories']);
         $container->parameters()->set('heimseiten_contao_lesbares_css_framework.builtin', $config['builtin']);
+        $container->parameters()->set('heimseiten_contao_lesbares_css_framework.descriptions', $config['descriptions']);
+        $container->parameters()->set(
+            'heimseiten_contao_lesbares_css_framework.describe_sources',
+            $config['builtin'] ? array_merge([$this->getPath().'/public/contao-lesbares-css-grid-framework.css'], $config['describe_sources']) : $config['describe_sources'],
+        );
 
         $container->import('../config/services.yml');
     }

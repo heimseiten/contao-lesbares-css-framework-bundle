@@ -12,12 +12,14 @@ use Contao\Input;
 use Contao\LayoutModel;
 use Contao\PageModel;
 use Contao\StringUtil;
+use Heimseiten\ContaoLesbaresCssFrameworkBundle\Parser\CssClassDescriber;
 use Heimseiten\ContaoLesbaresCssFrameworkBundle\Parser\CssClassParser;
 
 class CssClassSelectorListener
 {
     public function __construct(
         private readonly CssClassParser $parser,
+        private readonly CssClassDescriber $describer,
         private readonly bool $loadBuiltinCss = true,
     ) {
     }
@@ -55,10 +57,19 @@ class CssClassSelectorListener
     #[AsCallback(table: 'tl_article', target: 'config.onload')]
     public function addBackendScript(): void
     {
-        $script = 'bundles/heimseitencontaolesbarescssframework/backend-css-sync.js';
+        foreach (['backend-css-sync.js', 'backend-tooltips.js'] as $file) {
+            $script = 'bundles/heimseitencontaolesbarescssframework/'.$file;
 
-        if (!\in_array($script, $GLOBALS['TL_JAVASCRIPT'] ?? [], true)) {
-            $GLOBALS['TL_JAVASCRIPT'][] = $script;
+            if (!\in_array($script, $GLOBALS['TL_JAVASCRIPT'] ?? [], true)) {
+                $GLOBALS['TL_JAVASCRIPT'][] = $script;
+            }
+        }
+
+        // Tooltip texts only where the selector is shown (edit forms)
+        if (\in_array(Input::get('act'), ['edit', 'editAll', 'overrideAll'], true)) {
+            $GLOBALS['TL_MOOTOOLS']['lesbareCssKlassen'] = '<script>window.lesbareCssKlassen = '
+                .json_encode($this->describer->getDescriptions(), JSON_HEX_TAG | JSON_HEX_AMP | JSON_UNESCAPED_UNICODE)
+                .';</script>';
         }
     }
 

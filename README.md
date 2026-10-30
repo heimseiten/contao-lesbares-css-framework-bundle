@@ -34,7 +34,25 @@ heimseiten_contao_lesbares_css_framework:
     # Eigene CSS-Dateien, deren Klassen zusätzlich auswählbar werden.
     sources:
         - '%kernel.project_dir%/files/mein-theme/eigene-klassen.css'
+
+    # Tooltips im Auswahlfeld: eigene Beschreibungen als JSON ("Klasse": "Text").
+    # Klassen ohne Beschreibung zeigen ihre CSS-Regel, z. B. „CSS: { text-align: right; }“.
+    descriptions:
+        - '%kernel.project_dir%/files/mein-theme/klassen-beschreibung.json'
+
+    # CSS-Dateien, die nicht zur Auswahl stehen, aber festlegen, was eine Klasse bewirkt
+    # (für die Tooltips; das mitgelieferte Grid-Framework ist automatisch dabei).
+    describe_sources:
+        - '%kernel.project_dir%/files/mein-theme/theme.css'
 ```
+
+### Tooltips
+
+Fährt man im Auswahlfeld mit der Maus über eine Klasse, erscheint nach etwa 0,1 Sekunden,
+was sie bewirkt (der Tooltip des Browsers und der von Contao warten rund eine Sekunde).
+Er sieht aus wie der Contao-Tooltip und folgt dem hellen und dunklen Backend. Die Texte kommen
+aus `descriptions`, sonst aus der CSS-Regel der Klasse. Beschreibungen bitte nicht als
+CSS-Kommentar in eine `sources`-Datei schreiben: jeder Kommentar dort wird zur Kategorie.
 
 ### Eigene Klassen definieren
 
